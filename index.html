@@ -11,12 +11,11 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <style type="text/css">
-div.float-start {width:200px;height:200px;padding:10px;}
 img.icon {width:25px;height:25px;margin:}
 </style>
 </head>
 <body>
-<div class="container-fiuld bg-light text-dark clearfix">
+<div class="container-fiuld bg-light text-dark">
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
   <ul class="navbar-nav">
     <li class="nav-item"><a class="nav-link" href="http://www.baidu.com">百度</a></li>
@@ -73,22 +72,20 @@ img.icon {width:25px;height:25px;margin:}
   <li class="list-group-item"><a href="https://www.bilibili.com/" data-bs-toggle="tooltip" title="哔哩哔哩"><img class="icon" src="https://www.bilibili.com/favicon.ico"></a></li>
 </ul>
 <p></p>
-<button class="btn btn-outline-success" onclick="getElementById('getTime').innerHTML=Date()">现在的时间是?</button>
 <button class="btn btn-outline-success" onclick="$('div:first').attr({'style':'background:url(./images/pixiv/氷桜の剣客.jpg);'})">来点S图</button>
 <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
 <script>
   function changeTheme(){
     var theme = $("div:first").attr("class");
-    var light_theme = "container-fiuld bg-light text-dark clearfix"
+    var light_theme = "container-fiuld bg-light text-dark"
     if (theme == light_theme) {
-      $("div:first").attr({'class':'container-fiuld bg-dark text-light clearfix'});
+      $("div:first").attr({'class':'container-fiuld bg-dark text-light'});
     }
     else {
-      $("div:first").attr({'class':'container-fiuld bg-light text-dark clearfix'});
+      $("div:first").attr({'class':'container-fiuld bg-light text-dark'});
     };
   }
 </script>
-<p id="getTime"></p>
 <script>
 // 初始化提示框
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
