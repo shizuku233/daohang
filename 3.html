@@ -122,12 +122,8 @@ img.icon {width:25px;height:25px;}
     var base_url = $("#select1 option:selected").val();
     var alpha = $("#select2 option:selected").val();
     var title = $("input").val();
-    if (base_url == "https://yun.zdfx.org/home/galgame/") {
-      var url = base_url + alpha + "/" + title;
-    }
-    else {
-        var url = base_url + alpha + "/" + title + "/";
-    }
+    var url = base_url + alpha + "/" + title + "/";
+    $("#url").text(url);
     window.open(url)
   }
   function changeTheme() {
@@ -143,6 +139,7 @@ img.icon {width:25px;height:25px;}
     };
   }
 </script>
+<p id="url"></p>
 <p id="getTime"></p>
 <img id="color" src="">
 <script>
