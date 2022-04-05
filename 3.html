@@ -113,6 +113,7 @@ img.icon {width:25px;height:25px;}
   <input type="text" class="form-control" placeholder="标题" aria-label="标题" aria-describedby="basic-addon1">
   <button class="btn btn-outline-secondary" onclick="openurl()">打开链接</button>
 </div>
+<a id="url"></a>
 <button class="btn btn-outline-success" onclick="getElementById('getTime').innerHTML=Date()">现在的时间是?</button>
 <button class="btn btn-outline-danger" onclick="$('div:first').attr({'style':'background:url(./images/pixiv/氷桜の剣客.jpg);'})">切换背景</button>
 <button class="btn btn-outline-success" onclick="$('#color').attr({'src':'./images/pixiv/氷桜の剣客.jpg'})">来点S图</button>
@@ -123,8 +124,12 @@ img.icon {width:25px;height:25px;}
     var alpha = $("#select2 option:selected").val();
     var title = $("input").val();
     var url = base_url + alpha + "/" + title + "/";
-    $("#url").text(url);
-    window.open(url)
+    if (url == "https://yun.zdfx.org/home/galgame/") {
+        $("#url").text(url);
+    }
+    else {
+      window.open(url);
+    }
   }
   function changeTheme() {
     var flag = $("div:first").attr("class");
@@ -139,7 +144,6 @@ img.icon {width:25px;height:25px;}
     };
   }
 </script>
-<p id="url"></p>
 <p id="getTime"></p>
 <img id="color" src="">
 <script>
