@@ -125,7 +125,7 @@ img.icon {width:25px;height:25px;}
     var title = $("input").val();
     var url = base_url + alpha + "/" + title + "/";
     if (base_url == "https://yun.zdfx.org/home/galgame/") {
-        $("#url").text(url);
+        $("#url").href = url;
     }
     else {
       window.open(url);
