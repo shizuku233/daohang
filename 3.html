@@ -111,7 +111,7 @@ img.icon {width:25px;height:25px;}
   <option value="數字符號">數字符號</option>
 </select>
   <input type="text" class="form-control" placeholder="标题" aria-label="标题" aria-describedby="basic-addon1">
-  <button class="btn btn-outline-success" onclick="openurl()">打开链接</button>
+  <button class="btn btn-outline-secondary" onclick="openurl()">打开链接</button>
 </div>
 <button class="btn btn-outline-success" onclick="getElementById('getTime').innerHTML=Date()">现在的时间是?</button>
 <button class="btn btn-outline-danger" onclick="$('div:first').attr({'style':'background:url(./images/pixiv/氷桜の剣客.jpg);'})">切换背景</button>
@@ -122,7 +122,12 @@ img.icon {width:25px;height:25px;}
     var base_url = $("#select1 option:selected").val();
     var alpha = $("#select2 option:selected").val();
     var title = $("input").val();
-    var url = base_url + alpha + "/" + title + "/";
+    if (base_url == "https://yun.zdfx.org/home/galgame/") {
+      var url = base_url + alpha + "/" + title;
+    }
+    else {
+        var url = base_url + alpha + "/" + title + "/";
+    }
     window.open(url)
   }
   function changeTheme() {
