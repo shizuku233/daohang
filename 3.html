@@ -124,7 +124,7 @@ img.icon {width:25px;height:25px;}
     var alpha = $("#select2 option:selected").val();
     var title = $("input").val();
     var url = base_url + alpha + "/" + title + "/";
-    window.open(url);
+    window.open(url, "_self");
   }
   function changeTheme() {
     var flag = $("div:first").attr("class");
