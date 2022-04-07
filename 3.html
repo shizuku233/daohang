@@ -22,6 +22,15 @@ img.icon {width:25px;height:25px;}
     <li class="nav-item"><a class="nav-link active" href="./3.html" target="_self">3</a></li>
   </ul>
 </nav>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">Navbar</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" id="search" placeholder="请输入关键词">
+      <button class="btn btn-outline-success" onclick="Search()">搜索</button>
+    </form>
+  </div>
+</nav>
 <p></p>
 <div class="container-fluid">
   <div class="row">
@@ -111,7 +120,7 @@ img.icon {width:25px;height:25px;}
   <option value="數字符號">數字符號</option>
   <option value="假名">假名</option>
 </select>
-  <input type="text" class="form-control" placeholder="标题" aria-label="标题" aria-describedby="basic-addon1">
+  <input type="text" id="title" class="form-control" placeholder="标题" aria-label="标题" aria-describedby="basic-addon1">
   <button class="btn btn-outline-secondary" onclick="openurl()">打开链接</button>
 </div>
 <button class="btn btn-outline-success" onclick="getElementById('getTime').innerHTML=Date()">现在的时间是?</button>
@@ -119,10 +128,15 @@ img.icon {width:25px;height:25px;}
 <button class="btn btn-outline-success" onclick="$('#color').attr({'src':'./images/pixiv/氷桜の剣客.jpg'})">来点S图</button>
 <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
 <script>
+  function Search() {
+    var keyword = $("#search").val();
+    console.log(keyword);
+    window.open("https://www.baidu.com/s?wd=" + keyword);
+  }
   function openurl() {
     var base_url = $("#select1 option:selected").val();
     var alpha = $("#select2 option:selected").val();
-    var title = $("input").val();
+    var title = $("#title").val();
     var url = base_url + alpha + "/" + title + "/";
     window.open(url, "_self");
   }
