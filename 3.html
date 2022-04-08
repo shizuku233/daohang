@@ -16,11 +16,11 @@ img.icon {width:25px;height:25px;}
 <body>
 <div class="container-fiuld bg-light text-dark">
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary bg-opacity-25">
-  <ul class="navbar-nav">
-    <li class="nav-item"><a class="nav-link" href="./index.html" target="_self">1</a></li>
-    <li class="nav-item"><a class="nav-link" href="./2.html" target="_self">2</a></li>
-    <li class="nav-item"><a class="nav-link active" href="./3.html" target="_self">3</a></li>
-  </ul>
+  <div class="navbar-nav">
+    <a class="nav-link" href="./index.html" target="_self">Page 1</a>
+    <a class="nav-link"  href="./2.html" target="_self">Page 1</a>
+    <a class="nav-link active" href="./3.html" target="_self">Page 3</a>
+  </div>
   <form class="input-group" style="position:absolute;right:0px;width:400px;" action="https://www.baidu.com/baidu">
     <input type="text" name="word" class="form-control" placeholder="请输入关键词">
     <button type="submit" class="btn btn-outline-primary">百度搜索</button>
@@ -118,6 +118,7 @@ img.icon {width:25px;height:25px;}
   <input type="text" id="title" class="form-control" placeholder="标题" aria-label="标题" aria-describedby="basic-addon1">
   <button class="btn btn-outline-secondary" onclick="openurl()">打开链接</button>
 </div>
+<button class="btn btn-outline-success" onclick="getElementById('getTime').innerHTML=Date()">现在的时间是?</button>
 <button class="btn btn-outline-danger" onclick="$('div:first').attr({'style':'background:url(./images/pixiv/氷桜の剣客.jpg);'})">切换背景</button>
 <button class="btn btn-outline-success" onclick="$('#color').attr({'src':'./images/pixiv/氷桜の剣客.jpg'})">来点S图</button>
 <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
@@ -142,6 +143,7 @@ img.icon {width:25px;height:25px;}
     };
   }
 </script>
+<p id="getTime"></p>
 <img id="color" src="">
 <script>
 // 初始化提示框
