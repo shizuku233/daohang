@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,21 +15,16 @@ img.icon {width:25px;height:25px;}
 </head>
 <body>
 <div class="container-fiuld bg-light text-dark">
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
   <ul class="navbar-nav">
     <li class="nav-item"><a class="nav-link" href="./index.html" target="_self">1</a></li>
     <li class="nav-item"><a class="nav-link" href="./2.html" target="_self">2</a></li>
     <li class="nav-item"><a class="nav-link active" href="./3.html" target="_self">3</a></li>
   </ul>
-</nav>
-<nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand">Navbar</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" id="search" placeholder="请输入关键词">
-      <button class="btn btn-outline-success" onclick="Search()">搜索</button>
-    </form>
-  </div>
+  <form class="input-group" style="position:absolute;right:0px;width:400px;" action="http://www.baidu.com/baidu">
+    <input type="text" name="word" class="form-control" placeholder="请输入关键词">
+    <button type="submit" class="btn btn-outline-primary">百度搜索</button>
+  </form>
 </nav>
 <p></p>
 <div class="container-fluid">
@@ -128,10 +123,6 @@ img.icon {width:25px;height:25px;}
 <button class="btn btn-outline-success" onclick="$('#color').attr({'src':'./images/pixiv/氷桜の剣客.jpg'})">来点S图</button>
 <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
 <script>
-  function Search() {
-    var keyword = $("#search").val();
-    window.open("https://www.baidu.com/s?wd=" + keyword);
-  }
   function openurl() {
     var base_url = $("#select1 option:selected").val();
     var alpha = $("#select2 option:selected").val();
