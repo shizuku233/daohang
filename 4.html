@@ -127,11 +127,10 @@
 <script>
   var light_theme = window.matchMedia('(prefers-color-scheme: light)').matches;
    if (light_theme) {
-     $("body").attr({"class": "bg-white"})
+     document.getElementsByTagName("body")[0].classList.toggle("bg-black");
+     document.getElementsByTagName("div")[0].classList.remove("bg-dark", "text-light");
+     document.getElementsByTagName("div")[0].classList.add("bg-light", "text-dark");
    }
-   else {
-     $("body").attr({"class": "bg-black"})
-   };
   function openurl() {
     var base_url = $("#select1 option:selected").val();
     var alpha = $("#select2 option:selected").val();
