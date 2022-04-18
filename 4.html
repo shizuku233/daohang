@@ -138,7 +138,7 @@
   }
   function changeTheme() {
     document.getElementsByTagName("body")[0].classList.toggle("bg-black");
-    var isDarkTheme = document.getElementsByTagName("div")[0].classList.contains("bg-dark");
+    var isDarkTheme = document.querySelector("div").classList.contains("bg-dark");
     if (isDarkTheme) {
       document.querySelector("div").classList.remove("bg-dark", "text-light");
       document.querySelector("div").classList.add("bg-light", "text-dark");
