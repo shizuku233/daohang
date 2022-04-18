@@ -127,9 +127,7 @@
 <script>
   var light_theme = window.matchMedia('(prefers-color-scheme: light)').matches;
    if (light_theme) {
-     document.getElementsByTagName("body")[0].classList.toggle("bg-black");
-     document.getElementsByTagName("div")[0].classList.remove("bg-dark", "text-light");
-     document.getElementsByTagName("div")[0].classList.add("bg-light", "text-dark");
+     changeTheme();
    }
   function openurl() {
     var base_url = $("#select1 option:selected").val();
