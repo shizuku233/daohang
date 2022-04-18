@@ -140,16 +140,16 @@
     document.getElementsByTagName("body")[0].classList.toggle("bg-black");
     var isDarkTheme = document.getElementsByTagName("div")[0].classList.contains("bg-dark");
     if (isDarkTheme) {
-      document.getElementsByTagName("div")[0].classList.remove("bg-dark", "text-light");
-      document.getElementsByTagName("div")[0].classList.add("bg-light", "text-dark");
+      document.querySelector("div").classList.remove("bg-dark", "text-light");
+      document.querySelector("div").classList.add("bg-light", "text-dark");
       document.querySelectorAll("div.col").forEach(function(item) {
         item.classList.remove("bg-white");
         item.classList.add("bg-black");
       });
     }
     else {
-      document.getElementsByTagName("div")[0].classList.remove("bg-light", "text-dark");
-      document.getElementsByTagName("div")[0].classList.add("bg-dark", "text-light");
+      document.querySelector("div").classList.remove("bg-light", "text-dark");
+      document.querySelector("div").classList.add("bg-dark", "text-light");
       document.querySelectorAll("div.col").forEach(function(item) {
         item.classList.remove("bg-black");
         item.classList.add("bg-white");
