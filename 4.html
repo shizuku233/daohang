@@ -140,15 +140,15 @@
     window.open(url);
   }
   function changeTheme() {
-    var flag = $("div:first").attr("class");
-    var light_theme = "container-fiuld bg-light text-dark"
-    if (flag == light_theme) {
-      $("div:first").attr({'class':'container-fiuld bg-dark text-light'});
-      $("li[class='list-group-item']").attr({'class':'list-group-item list-group-item-dark'});
+    document.getElementsByTagName("body")[0].classList.toggle("bg-black");
+    var isDarkTheme = document.getElementsByTagName("div")[0].classList.contains("bg-dark");
+    if (isDarkTheme) {
+      document.getElementsByTagName("div")[0].classList.remove("bg-dark", "text-light");
+      document.getElementsByTagName("div")[0].classList.add("bg-light", "text-dark");
     }
     else {
-      $("div:first").attr({'class':'container-fiuld bg-light text-dark'});
-      $("li[class='list-group-item list-group-item-dark']").attr({'class':'list-group-item'});
+      document.getElementsByTagName("div")[0].classList.remove("bg-light", "text-dark");
+      document.getElementsByTagName("div")[0].classList.add("bg-dark", "text-light");
     };
   }
 </script>
