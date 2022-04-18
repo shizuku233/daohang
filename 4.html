@@ -125,8 +125,8 @@
   <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
 </div>
 <script>
-  var light_theme = window.matchMedia('(prefers-color-scheme: light)').matches;
-   if (light_theme) {
+  var isLightTheme = window.matchMedia('(prefers-color-scheme: light)').matches;
+   if (isLightTheme) {
      changeTheme();
    }
   function openurl() {
