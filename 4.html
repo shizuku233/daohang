@@ -137,7 +137,7 @@
     window.open(url);
   }
   function changeTheme() {
-    document.getElementsByTagName("body")[0].classList.toggle("bg-black");
+    document.querySelector("body").classList.toggle("bg-black");
     var isDarkTheme = document.querySelector("div").classList.contains("bg-dark");
     if (isDarkTheme) {
       document.querySelector("div").classList.remove("bg-dark", "text-light");
