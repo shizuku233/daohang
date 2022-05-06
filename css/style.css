@@ -14,7 +14,6 @@
 .nav_site_bar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 0.06rem;
 }
 .nav_site_bar > span {
@@ -24,7 +23,7 @@
     border-radius: 40em;
     width: 124px;
     height: 36px;
-    margin-top: 5px;
+    margin: 5px;
     padding: 0 6px;
     display: flex;
     align-items: center;
@@ -46,6 +45,7 @@
     color: rgba(0,0,0,.85);
     transform: translateY();
     transition: .2s;
+    white-space: nowrap;
 }
 .nav_site_bar > span > a:link {
     color: Black;
