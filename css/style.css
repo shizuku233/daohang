@@ -1,6 +1,6 @@
 .nav_site {
     box-sizing: border-box;
-    margin: 0.81rem 0 0 0;
+    margin: 15px 0;
     background: inherit;
     transition: transform .4s;
     transition-timing-function: cubic-bezier(.33,0,.67,1);
@@ -17,7 +17,6 @@
     margin-top: 0.06rem;
 }
 .nav_site_bar > span {
-    box-sizing: border-box;
     color: rgba(0,0,0,.85);
     background: rgba(240,240,240,1);
     border-radius: 18px;
@@ -42,7 +41,7 @@
     height: ;
     font-size: ;
     line-height: ;
-    color: rgba(0,0,0,.85);
+    color: ;
     transform: translateY();
     transition: .2s;
     white-space: nowrap;
