@@ -1,3 +1,55 @@
+.white {
+  background: White;
+  transition: 1s;
+}
+.white body {
+  background: White;
+  transition: 1s;
+}
+.dark {
+  background-color: Black;
+  transition: 1s;
+}
+.dark body {
+  background-color: Black;
+  transition: 1s;
+}
+.dark body > div {
+    color: #f8f9fa;
+    background: #212529;
+    transition: 1s;
+}
+.dark .nav-1 {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #212529;
+  transition: 1s;
+}
+.dark .nav_site_title {
+  color: rgba(255, 255, 255, 0.85);
+}
+.dark .nav_site_bar > span {
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.08);
+}
+.dark .nav_site_bar > span > span {
+  color: rgba(255, 255, 255, 0.85);
+}
+.dark .nav_site_bar > span > a:link {
+  color: White;
+  text-decoration: none;
+}
+.dark .nav_site_bar > span > a:visited {
+  color: White;
+  text-decoration: none;
+}
+.dark .nav_site_bar > span > a:hover {
+    color: DodgerBlue;
+    text-decoration: none;
+}
+.dark .nav_site_bar > span > a:active {
+    color: Blue;
+    text-decoration: none;
+}
 body > div {
     color: #212529;
     background: #f8f9fa;
