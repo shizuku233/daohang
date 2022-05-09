@@ -27,7 +27,13 @@
   background-color: Black;
   transition: 1s;
 }
+.dark body > div {
+    color: #f8f9fa;
+    background: #212529;
+    transition: 1s;
+}
 .dark .nav-1 {
+  color: rgba(255, 255, 255, 0.85);
   background-color: #212529;
   transition: 1s;
 }
@@ -76,7 +82,7 @@
 </script>
 </head>
 <body>
-<div class="container bg-light text-dark">
+<div class="container">
 <nav class="navbar navbar-expand navbar-primary bg-primary bg-opacity-25">
   <div class="container navbar-nav">
     <a class="nav-link" href="./index.html" target="_self">返回首页</a>
@@ -315,7 +321,7 @@
 <script>
   var isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (isDarkTheme) {
-    changeTheme();
+    //changeTheme();
   }
   function openurl() {
     var base_url = $("#select1 option:selected").val();
@@ -329,17 +335,9 @@
     if (isDarkTheme) {
       document.querySelector("div").classList.remove("bg-dark", "text-light");
       document.querySelector("div").classList.add("bg-light", "text-dark");
-      document.querySelectorAll("div.col").forEach(function(item) {
-        item.classList.remove("bg-black");
-        item.classList.add("bg-white");
-      });
     } else {
       document.querySelector("div").classList.remove("bg-light", "text-dark");
       document.querySelector("div").classList.add("bg-dark", "text-light");
-      document.querySelectorAll("div.col").forEach(function(item) {
-        item.classList.remove("bg-white");
-        item.classList.add("bg-black");
-      });
     };
   }
 </script>
