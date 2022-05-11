@@ -42,12 +42,41 @@
   <div class="container navbar-nav">
     <a class="nav-link" href="./index.html" target="_self">返回首页</a>
   </div>
-  <form class="input-group" action="https://www.baidu.com/baidu">
-    <input type="text" name="word" class="form-control" placeholder="请输入关键词">
-    <button type="submit" class="btn btn-outline-primary">百度搜索</button>
+  <form class="input-group" action="https://www.baidu.com/s">
+    <input type="text" name="wd" class="form-control" placeholder="请输入关键词">
+    <button type="submit" class="btn btn-outline-primary">百度一下</button>
   </form>
 </nav>
 <p></p>
+<form class="input-group" id="search" action="https://vndb.org/v">
+  <label class="input-group-text" for="s">站点选择</label>
+  <select class="form-select" id="s" onchange="setSite()">
+    <option>2DFan</option>
+    <option selected>百度</option>
+    <option>Bangumi</option>
+    <option>Google</option>
+    <option>VNDB</option>
+  </select>
+  <input type="text" name="sq" class="form-control" placeholder="请输入关键词">
+  <button type="submit" class="btn btn-outline-secondary">搜索</button>
+</form>
+<script>
+  setSite();
+  function setSite() {
+    const SITE = {
+    "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
+    百度: {action: "https://www.baidu.com/s", name: "wd", method: ""},
+    Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
+    Google: {action: "https://www.google.com/search", name: "q", method: ""},
+    VNDB: {action: "https://vndb.org/v", name: "sq", method: ""},
+    };
+    var s = document.querySelector("#s");
+    var site = s.options[s.selectedIndex].value;
+    document.querySelector("#search").setAttribute("action", SITE[site].action);
+    document.querySelector("#search").setAttribute("method", SITE[site].method);
+    document.querySelector("#search > input").setAttribute("name", SITE[site].name);
+  }
+</script>
 <div class="nav-1">
   <div class="nav_site">
     <div class="nav_site_title">机场</div>
