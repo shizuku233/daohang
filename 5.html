@@ -27,7 +27,7 @@
   };
   function openurl() {
     var url = "";
-    document.querySelectorAll("div[class='input-group'] select).forEach(function (item) {
+    document.querySelectorAll("div[class='input-group'] select").forEach(function (item) {
       url += item.options[item.selectedIndex].value;
     });
     var title = document.querySelector("#title").value;
