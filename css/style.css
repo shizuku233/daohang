@@ -1,59 +1,11 @@
-.white {
+body {
   background: White;
   transition: 1s;
-}
-.white body {
-  background: White;
-  transition: 1s;
-}
-.dark {
-  background-color: Black;
-  transition: 1s;
-}
-.dark body {
-  background-color: Black;
-  transition: 1s;
-}
-.dark body > div {
-    color: #f8f9fa;
-    background: #212529;
-    transition: 1s;
-}
-.dark .nav-1 {
-  color: rgba(255, 255, 255, 0.85);
-  background-color: #212529;
-  transition: 1s;
-}
-.dark .nav_site_title {
-  color: rgba(255, 255, 255, 0.85);
-}
-.dark .nav_site_bar > span {
-  color: rgba(255, 255, 255, 0.85);
-  background: rgba(255, 255, 255, 0.08);
-}
-.dark .nav_site_bar > span > span {
-  color: rgba(255, 255, 255, 0.85);
-}
-.dark .nav_site_bar > span > a:link {
-  color: White;
-  text-decoration: none;
-}
-.dark .nav_site_bar > span > a:visited {
-  color: White;
-  text-decoration: none;
-}
-.dark .nav_site_bar > span > a:hover {
-    color: DodgerBlue;
-    text-decoration: none;
-}
-.dark .nav_site_bar > span > a:active {
-    color: Blue;
-    text-decoration: none;
 }
 body > div {
     color: #212529;
     background: #f8f9fa;
-    transition: 1s;
+    transition: color, background 1s;
 }
 .nav-1 {
     color: Black;
@@ -79,7 +31,7 @@ body > div {
     flex-wrap: wrap;
     margin-top: 0.06rem;
 }
-.nav_site_bar > span {
+.nav_site_bar span {
     color: rgba(0,0,0,.85);
     background: rgba(0,0,0,.04);
     border-radius: 18px;
@@ -91,32 +43,67 @@ body > div {
     align-items: center;
     transition: transform .2s;
 }
-.nav_site_bar > span > img {
+.nav_site_bar span:active{
+    transform: scale(.90)
+}
+.nav_site_bar img {
     width: 1.5em;
     height: 1.5em;
     background-size: 100% 100%;
     border-radius: 12px;
 }
-.nav_site_bar > span > a {
+.nav_site_bar a {
     flex: 1;
     text-align: center;
+    text-decoration: none;
     transform: translateY();
     transition: .2s;
     white-space: nowrap;
 }
-.nav_site_bar > span > a:link {
+.nav_site_bar a:link, .nav_site_bar a:visited {
     color: Black;
+}
+.nav_site_bar a:hover {
+    color: DeepSkyBlue;
+}
+.nav_site_bar a:active {
+    color: DodgerBlue;
+}
+.dark body {
+    background-color: Black;
+}
+.dark body > div {
+    color: #f8f9fa;
+    background: #212529;
+}
+.dark .nav-1 {
+    color: rgba(255, 255, 255, 0.85);
+    background-color: #212529;
+    transition: 1s;
+}
+.dark .nav_site_title {
+    color: rgba(255, 255, 255, 0.85);
+}
+.dark .nav_site_bar > span {
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.08);
+}
+.dark .nav_site_bar > span > span {
+    color: rgba(255, 255, 255, 0.85);
+}
+.dark .nav_site_bar > span > a:link {
+    color: White;
     text-decoration: none;
 }
-.nav_site_bar > span > a:visited {
-    color: Black;
+.dark .nav_site_bar > span > a:visited {
+    color: White;
     text-decoration: none;
 }
-.nav_site_bar > span > a:hover {
+.dark .nav_site_bar > span > a:hover {
     color: DodgerBlue;
     text-decoration: none;
 }
-.nav_site_bar > span > a:active {
+.dark .nav_site_bar > span > a:active {
     color: Blue;
     text-decoration: none;
 }
