@@ -18,7 +18,6 @@ body > div {
     margin: 15px 0;
     background: inherit;
     transition: transform .4s;
-    transition-timing-function: cubic-bezier(.33,0,.67,1);
 }
 .nav_site_title {
     font-size: 20px;
