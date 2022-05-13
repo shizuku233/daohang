@@ -7,17 +7,8 @@ body > div {
     background: #f8f9fa;
     transition: color, background 1s;
 }
-.nav-1 {
-    color: Black;
-    display: block;
-    background: #f8f9fa;
-    transition: 1s;
-}
 .nav_site {
-    box-sizing: border-box;
-    margin: 15px 0;
-    background: inherit;
-    transition: transform .4s;
+    margin: 1em 0;
 }
 .nav_site_title {
     font-size: 20px;
@@ -28,7 +19,6 @@ body > div {
 .nav_site_bar {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0.06rem;
 }
 .nav_site_bar span {
     color: rgba(0,0,0,.85);
@@ -48,18 +38,19 @@ body > div {
 .nav_site_bar img {
     width: 1.5em;
     height: 1.5em;
-    background-size: 100% 100%;
     border-radius: 12px;
 }
 .nav_site_bar a {
     flex: 1;
     text-align: center;
     text-decoration: none;
-    transform: translateY();
     transition: .2s;
     white-space: nowrap;
 }
-.nav_site_bar a:link, .nav_site_bar a:visited {
+.nav_site_bar a:link {
+    color: Black;
+}
+.nav_site_bar a:visited {
     color: Black;
 }
 .nav_site_bar a:hover {
@@ -75,11 +66,6 @@ body > div {
     color: #f8f9fa;
     background: #212529;
 }
-.dark .nav-1 {
-    color: rgba(255, 255, 255, 0.85);
-    background-color: #212529;
-    transition: 1s;
-}
 .dark .nav_site_title {
     color: rgba(255, 255, 255, 0.85);
 }
@@ -87,22 +73,15 @@ body > div {
     color: rgba(255, 255, 255, 0.85);
     background: rgba(255, 255, 255, 0.08);
 }
-.dark .nav_site_bar > span > span {
-    color: rgba(255, 255, 255, 0.85);
-}
-.dark .nav_site_bar > span > a:link {
+.dark .nav_site_bar a:link {
     color: White;
-    text-decoration: none;
 }
-.dark .nav_site_bar > span > a:visited {
+.dark .nav_site_bar a:visited {
     color: White;
-    text-decoration: none;
 }
-.dark .nav_site_bar > span > a:hover {
+.dark .nav_site_bar a:hover {
+    color: DeepSkyBlue;
+}
+.dark .nav_site_bar a:active {
     color: DodgerBlue;
-    text-decoration: none;
-}
-.dark .nav_site_bar > span > a:active {
-    color: Blue;
-    text-decoration: none;
 }
