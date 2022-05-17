@@ -50,7 +50,7 @@
   </form>
 </nav>
 <p></p>
-<form class="input-group" id="search" action="https://vndb.org/v">
+<form class="input-group" id="search" action="https://www.baidu.com/s">
   <label class="input-group-text" for="s">站点选择</label>
   <select class="form-select" id="s" onchange="setSite()">
     <option>2DFan</option>
@@ -60,11 +60,10 @@
     <option>MyGalgame</option>
     <option>VNDB</option>
   </select>
-  <input type="text" name="sq" class="form-control" placeholder="请输入关键词">
+  <input type="text" name="wd" class="form-control" placeholder="请输入关键词">
   <button type="submit" class="btn btn-outline-secondary"><i class="bi bi-search"></i></button>
 </form>
 <script>
-  setSite();
   function setSite() {
     const SITE = {
       "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
@@ -76,9 +75,9 @@
     };
     var s = document.querySelector("#s");
     var site = s.options[s.selectedIndex].value;
-    document.querySelector("#search").setAttribute("action", SITE[site].action);
-    document.querySelector("#search").setAttribute("method", SITE[site].method);
-    document.querySelector("#search > input").setAttribute("name", SITE[site].name);
+    s.nextElementSibling.setAttribute("name", SITE[site].name);
+    s.nextElementSibling.setAttribute("method", SITE[site].method);
+    s.parentNode.setAttribute("action", SITE[site].action);
   }
 </script>
 <div>
