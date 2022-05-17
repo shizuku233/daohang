@@ -5,7 +5,7 @@ body {
 body > div {
     color: #212529;
     background: #f8f9fa;
-    transition: color, background 1s;
+    transition: background 1s;
 }
 .nav_site {
     margin: 1em 0;
@@ -20,7 +20,7 @@ body > div {
     display: flex;
     flex-wrap: wrap;
 }
-.nav_site_bar span {
+.nav_site_bar > span {
     color: rgba(0,0,0,.85);
     background: rgba(0,0,0,.04);
     border-radius: 18px;
@@ -32,13 +32,13 @@ body > div {
     align-items: center;
     transition: transform .2s;
 }
-.nav_site_bar span:active{
+.nav_site_bar > span:active{
     transform: scale(.90)
 }
 .nav_site_bar img {
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 12px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.75rem;
 }
 .nav_site_bar a {
     flex: 1;
