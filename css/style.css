@@ -59,6 +59,9 @@ body > div {
 .nav_site_bar a:active {
     color: dodgerblue;
 }
+.input-group > input, .input-group > label, .input-group > select {
+    transition: 1s;
+}
 .dark body {
     background-color: Black;
 }
@@ -85,7 +88,7 @@ body > div {
 .dark .nav_site_bar a:active {
     color: dodgerblue;
 }
-.dark .input-group > input, .dark .input-group > label, .dark .input-group > select {
+.dark .input-group > input, .dark .input-group > label {
     background: #212529;
     border: 1px solid #0d6efd;
     color: white;
