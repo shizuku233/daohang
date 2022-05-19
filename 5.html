@@ -24,8 +24,8 @@
     } else {
       document.documentElement.classList.remove('light');
       document.documentElement.classList.add('dark');
-    };
-  };
+    }
+  }
   function openurl() {
     var url = "";
     document.querySelectorAll("div[class='input-group mb-3'] select").forEach(function (item) {
@@ -61,7 +61,7 @@
     <option>VNDB</option>
   </select>
   <input type="text" name="wd" class="form-control" placeholder="请输入关键词">
-  <button type="submit" class="btn btn-outline-secondary"><i class="bi bi-search"></i></button>
+  <button type="submit" class="btn btn-outline-primary"><i class="bi bi-search"></i></button>
 </form>
 <script>
   function setSite() {
@@ -80,6 +80,39 @@
     s.parentNode.setAttribute("action", SITE[site].action);
   }
 </script>
+<p></p>
+<div class="input-group mb-3">
+  <label class="input-group-text" for="select1">站点选择</label>
+  <select class="form-select" id="select1">
+    <option value="https://yun.zdfx.org/home/galgame/">OneDrive</option>
+    <option value="https://pan.zdfx.org/">直连</option>
+  </select>
+  <label class="input-group-text" for="select2">字母选择</label>
+  <select class="form-select" id="select2">
+    <option value="AB">AB</option>
+    <option value="CD">CD</option>
+    <option value="EFG">EFG</option>
+    <option value="HI">HI</option>
+    <option value="JK">JK</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="N">N</option>
+    <option value="OPQ">OPQ</option>
+    <option value="R">R</option>
+    <option value="S">S</option>
+    <option value="T">T</option>
+    <option value="UVW">UVW</option>
+    <option value="X">X</option>
+    <option value="Y">Y</option>
+    <option value="Z">Z</option>
+    <option value="CD">CD</option>
+    <option value="數字符號">數字符號</option>
+    <option value="假名">假名</option>
+  </select>
+  <label class="input-group-text" for="title">游戏标题</label>
+  <input type="text" id="title" class="form-control" placeholder="请输入标题" aria-label="标题" aria-describedby="basic-addon1">
+  <button class="btn btn-outline-primary" onclick="openurl()">打开链接</button>
+</div>
 <div>
   <div class="nav_site">
     <div class="nav_site_title">机场</div>
@@ -288,38 +321,6 @@
 </div>
 <p></p>
 <p>可能用到的符号：／</p>
-<div class="input-group mb-3">
-  <label class="input-group-text" for="select1">站点选择</label>
-  <select class="form-select" id="select1">
-    <option value="https://yun.zdfx.org/home/galgame/">OneDrive</option>
-    <option value="https://pan.zdfx.org/">直连</option>
-  </select>
-  <label class="input-group-text" for="select2">字母选择</label>
-  <select class="form-select" id="select2">
-    <option value="AB">AB</option>
-    <option value="CD">CD</option>
-    <option value="EFG">EFG</option>
-    <option value="HI">HI</option>
-    <option value="JK">JK</option>
-    <option value="L">L</option>
-    <option value="M">M</option>
-    <option value="N">N</option>
-    <option value="OPQ">OPQ</option>
-    <option value="R">R</option>
-    <option value="S">S</option>
-    <option value="T">T</option>
-    <option value="UVW">UVW</option>
-    <option value="X">X</option>
-    <option value="Y">Y</option>
-    <option value="Z">Z</option>
-    <option value="CD">CD</option>
-    <option value="數字符號">數字符號</option>
-    <option value="假名">假名</option>
-  </select>
-  <label class="input-group-text" for="title">游戏标题</label>
-  <input type="text" id="title" class="form-control" placeholder="请输入标题" aria-label="标题" aria-describedby="basic-addon1">
-  <button class="btn btn-outline-secondary" onclick="openurl()">打开链接</button>
-</div>
 <div class="btn-group" role="group">
   <button class="btn btn-outline-success" onclick="document.querySelector('body').setAttribute('style', 'background:url(./images/pixiv/氷桜の剣客.jpg);background-size:cover;')">切换背景</button>
   <button class="btn btn-outline-success" onclick="document.querySelector('#color').setAttribute('src', './images/pixiv/氷桜の剣客.jpg')">来点S图</button>
