@@ -1,5 +1,5 @@
 body {
-  background: White;
+  background: white;
   transition: 1s;
 }
 body > div {
@@ -11,7 +11,7 @@ body > div {
     margin: 1em 0;
 }
 .nav_site_title {
-    font-size: 20px;
+    font-size: 1.25rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -41,23 +41,23 @@ body > div {
     border-radius: 0.75rem;
 }
 .nav_site_bar a {
-    flex: 1;
+    flex: auto;
     text-align: center;
     text-decoration: none;
     transition: .2s;
     white-space: nowrap;
 }
 .nav_site_bar a:link {
-    color: Black;
+    color: black;
 }
 .nav_site_bar a:visited {
-    color: Black;
+    color: black;
 }
 .nav_site_bar a:hover {
-    color: DeepSkyBlue;
+    color: deepskyblue;
 }
 .nav_site_bar a:active {
-    color: DodgerBlue;
+    color: dodgerblue;
 }
 .dark body {
     background-color: Black;
@@ -67,21 +67,26 @@ body > div {
     background: #212529;
 }
 .dark .nav_site_title {
-    color: rgba(255, 255, 255, 0.85);
+    color: white;
 }
 .dark .nav_site_bar > span {
     color: rgba(255, 255, 255, 0.85);
     background: rgba(255, 255, 255, 0.08);
 }
 .dark .nav_site_bar a:link {
-    color: White;
+    color: white;
 }
 .dark .nav_site_bar a:visited {
-    color: White;
+    color: white;
 }
 .dark .nav_site_bar a:hover {
-    color: DeepSkyBlue;
+    color: deepskyblue;
 }
 .dark .nav_site_bar a:active {
-    color: DodgerBlue;
+    color: dodgerblue;
+}
+.dark .input-group > input, .dark .input-group > label, .dark .input-group > select {
+    background: #212529;
+    border: 1px solid #0d6efd;
+    color: white;
 }
