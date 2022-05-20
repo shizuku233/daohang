@@ -12,9 +12,6 @@ body > div {
 }
 .nav_site_title {
     font-size: 1.25rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .nav_site_bar {
     display: flex;
@@ -63,17 +60,16 @@ body > div {
     transition: 1s;
 }
 .dark body {
-    background-color: Black;
+    background-color: black;
 }
 .dark body > div {
-    color: #f8f9fa;
+    color: white;
     background: #212529;
 }
 .dark .nav_site_title {
     color: white;
 }
 .dark .nav_site_bar > span {
-    color: rgba(255, 255, 255, 0.85);
     background: rgba(255, 255, 255, 0.08);
 }
 .dark .nav_site_bar a:link {
