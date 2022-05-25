@@ -1,7 +1,0 @@
-a:not([class]) {
-    text-decoration: none;
-}
-
-a:not([class]):hover {
-    text-decoration: underline;
-}
