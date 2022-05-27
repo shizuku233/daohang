@@ -1,11 +1,11 @@
 body {
   background: white;
-  transition: 1s;
+  transition: .6s;
 }
 body > div {
     color: #212529;
     background: #f8f9fa;
-    transition: background 1s;
+    transition: background .6s;
 }
 .nav_site {
     margin: 1em 0;
