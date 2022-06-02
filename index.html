@@ -26,15 +26,6 @@
       document.documentElement.classList.add("dark");
     }
   }
-  function openurl() {
-    var url = "";
-    document.querySelectorAll("div[class='input-group mb-3'] select").forEach(function (item) {
-      url += item.options[item.selectedIndex].value;
-    });
-    var title = document.querySelector("#title").value;
-    url += "/" + title + "/";
-    window.open(url);
-  }
 </script>
 </head>
 <body>
@@ -81,13 +72,13 @@
 </script>
 <p></p>
 <div class="input-group mb-3">
-  <label class="input-group-text" for="select1">站点选择</label>
-  <select class="form-select" id="select1">
+  <label class="input-group-text" for="site">站点选择</label>
+  <select class="form-select" id="site">
     <option value="https://yun.zdfx.org/home/galgame/">OneDrive</option>
     <option value="https://pan.zdfx.org/">直连</option>
   </select>
-  <label class="input-group-text" for="select2">字母选择</label>
-  <select class="form-select" id="select2">
+  <label class="input-group-text" for="alpha">字母选择</label>
+  <select class="form-select" id="alpha">
     <option value="AB">AB</option>
     <option value="CD">CD</option>
     <option value="EFG">EFG</option>
@@ -112,6 +103,17 @@
   <input type="text" id="title" class="form-control" placeholder="请输入标题" aria-label="标题" aria-describedby="basic-addon1">
   <button class="btn btn-outline-primary" onclick="openurl()">打开链接</button>
 </div>
+<script>
+  function openurl() {
+    var site = document.querySelector("#site");
+    site = site.options[site.selectedIndex].value;
+    var alpha = document.querySelector("#alpha");
+    alpha = alpha.options[alpha.selectedIndex].value;
+    var title = document.querySelector("#title").value;
+    var url = site + alpha + "/" + title + "/"
+    window.open(url);
+  }
+</script>
 <div>
   <div class="nav_site">
     <div class="nav_site_title">搞机</div>
