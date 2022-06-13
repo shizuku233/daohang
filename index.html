@@ -123,6 +123,11 @@
     window.open(url);
   }
 </script>
+<div class="btn-group" role="group" style="position: sticky; top: 0; left: 100%;">
+  <button class="btn btn-outline-success" onclick="document.querySelector('body').setAttribute('style', 'background:url(./images/pixiv/氷桜の剣客.jpg);background-size:cover;')">切换背景</button>
+  <button class="btn btn-outline-success" onclick="document.querySelector('#color').setAttribute('src', './images/pixiv/氷桜の剣客.jpg')">来点S图</button>
+  <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
+</div>
 <div>
   <div class="nav_site">
     <div class="nav_site_title">搞机</div>
@@ -413,12 +418,6 @@
       </span>
     </div>
   </div>
-</div>
-<p></p>
-<div class="btn-group" role="group">
-  <button class="btn btn-outline-success" onclick="document.querySelector('body').setAttribute('style', 'background:url(./images/pixiv/氷桜の剣客.jpg);background-size:cover;')">切换背景</button>
-  <button class="btn btn-outline-success" onclick="document.querySelector('#color').setAttribute('src', './images/pixiv/氷桜の剣客.jpg')">来点S图</button>
-  <button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
 </div>
 <img id="color" src="">
 <script>
