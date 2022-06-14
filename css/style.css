@@ -81,3 +81,24 @@ body > div {
 .dark .nav_site_bar a:active {
     color: dodgerblue;
 }
+#changeTheme {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.25rem 0;
+    position: sticky;
+    top: 0;
+    left: 100%;
+    text-align: center;
+    transition: .6s;
+}
+#changeTheme:hover {
+    background: rgba(0, 0, 0, 0.10);
+}
+.dark #changeTheme {
+    background: rgba(255, 255, 255, 0.10);
+}
+.dark #changeTheme:hover{
+    background: rgba(255, 255, 255, 0.20);
+}
