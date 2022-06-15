@@ -79,7 +79,7 @@ body > div {
     transition: color .2s, transform .2s, background .6s;
 }
 #changeTheme:hover {
-    color: dodgerblue;
+    color: goldenrod;
 }
 #changeTheme:active {
     background: rgba(0, 0, 0, .10);
