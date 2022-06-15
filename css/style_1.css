@@ -18,7 +18,7 @@ body > div {
     flex-wrap: wrap;
 }
 .nav_site_bar > a {
-    background: rgba(0, 0, 0, .08);
+    background: rgba(0, 0, 0, .05);
     border-radius: 18px;
     color: black;
     display: flex;
@@ -33,8 +33,8 @@ body > div {
     color: dodgerblue;
 }
 .nav_site_bar > a:active {
-    background: rgba(0, 0, 0, .16);
-    transform: scale(.90)
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
 }
 .nav_site_bar > a > img {
     border-radius: 0.75rem;
@@ -44,6 +44,7 @@ body > div {
 .nav_site_bar > a > span {
     flex: auto;
     text-align: center;
+    white-space: nowrap;
 }
 .dark body {
     background-color: black;
@@ -75,20 +76,21 @@ body > div {
     top: 0;
     left: 100%;
     text-align: center;
-    transition: .6s;
+    transition: color .2s, transform .2s, background .6s;
 }
 #changeTheme:hover {
-    background: rgba(0, 0, 0, .10);
+    color: dodgerblue;
 }
 #changeTheme:active {
-    background: rgba(0, 0, 0, .15);;
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
 }
 .dark #changeTheme {
-    background: rgba(255, 255, 255, .10);
+    background: rgba(255, 255, 255, .08);
 }
 .dark #changeTheme:hover {
-    background: rgba(255, 255, 255, .20);
+    color: dodgerblue;
 }
 .dark #changeTheme:active {
-    background: rgba(255, 255, 255, .30);
+    background: rgba(255, 255, 255, .16);
 }
