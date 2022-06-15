@@ -1,85 +1,454 @@
 <!DOCTYPE html>
-<html>
+<html class="light">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>导航</title>
-<base href="https://shizuku233.github.io/daohang/" target="_blank">
-<link rel="icon" href="./images/icon.png">
-<!--<link rel="stylesheet" type="text/css" href="./css/css_2.css">-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<style type="text/css">
-div.float-start {width:200px;height:200px;padding:10px;}
-img.icon {width:25px;height:25px;margin:}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>导航</title>
+  <base href="https://shizuku233.github.io/daohang/" target="_blank">
+  <link rel="icon" href="./images/icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="C:\Users\0\Documents\GitHub\daohang\css\style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
+    if (themeMedia.matches) {
+      changeTheme();
+    }
+    themeMedia.addEventListener("change", (e) => {
+      if (e.matches) {
+        document.documentElement.classList.remove("light");
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("light");
+      }
+    });
+    function changeTheme() {
+      var isDark = document.querySelector(".dark");
+      if (isDark) {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("light");
+      } else {
+        document.documentElement.classList.remove("light");
+        document.documentElement.classList.add("dark");
+      }
+    }
+</script>
 </head>
 <body>
-<div class="container-fiuld bg-light text-dark clearfix">
-<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
-  <ul class="navbar-nav">
-    <li class="nav-item"><a class="nav-link" href="./index.html" target="_self">1</a></li>
-    <li class="nav-item"><a class="nav-link active" href="./2.html" target="_self">2</a></li>
-    <li class="nav-item"><a class="nav-link" href="./3.html" target="_self">3</a></li>
-  </ul>
+<div class="container">
+<nav class="navbar navbar-expand" style="position: sticky; top: 0; left: 100%;">
+  <div class="navbar-nav">
+    <a class="nav-link" href="./index.html" target="_self">1</a>
+    <a class="nav-link" href="./2.html" target="_self">2</a>
+    <a class="nav-link" href="./3.html" target="_self">3</a>
+    <a class="nav-link" href="./4.html" target="_self">4</a>
+    <a class="nav-link" href="./5.html" target="_self">5</a>
+  </div>
+  <div id="changeTheme" onclick="changeTheme();a()">
+  <i class="bi bi-sun"></i>
+  <script>
+    a();
+    function a() {
+      if (document.querySelector(".dark")) {
+        document.querySelector("#changeTheme > i").classList.remove("bi-sun");
+        document.querySelector("#changeTheme > i").classList.add("bi-moon");
+      } else {
+        document.querySelector("#changeTheme > i").classList.remove("bi-moon");
+        document.querySelector("#changeTheme > i").classList.add("bi-sun");
+      }
+    }
+  </script>
+</div>
 </nav>
 <p></p>
+<form class="input-group" id="search" action="https://www.baidu.com/s">
+  <label class="input-group-text" for="s">站点选择</label>
+  <select class="form-select" id="s" onchange="setSite()">
+    <option>2DFan</option>
+    <option selected>百度</option>
+    <option>Bangumi</option>
+    <option>Google</option>
+    <option>MyGalgame</option>
+    <option>VNDB</option>
+  </select>
+  <input type="text" name="wd" class="form-control" placeholder="请输入关键词">
+  <button type="submit" class="btn btn-outline-primary"><i class="bi bi-search"></i></button>
+</form>
 <script>
-  function changeTheme(){
-    var theme = $("div:first").attr("class");
-    var light_theme = "container-fiuld bg-light text-dark clearfix"
-    if (theme == light_theme) {
-      $("div:first").attr({'class':'container-fiuld bg-dark text-light clearfix'});
-    }
-    else {
-      $("div:first").attr({'class':'container-fiuld bg-light text-dark clearfix'});
+  function setSite() {
+    const SITE = {
+      "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
+      百度: {action: "https://www.baidu.com/s", name: "wd", method: ""},
+      Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
+      Google: {action: "https://www.google.com/search", name: "q", method: ""},
+      MyGalgame: {action: "https://www.okloli.com", name: "s", method: ""},
+      VNDB: {action: "https://vndb.org/v", name: "sq", method: ""},
     };
+    var s = document.querySelector("#s");
+    var site = s.options[s.selectedIndex].value;
+    s.nextElementSibling.setAttribute("name", SITE[site].name);
+    s.nextElementSibling.setAttribute("method", SITE[site].method);
+    s.parentNode.setAttribute("action", SITE[site].action);
   }
 </script>
-<div class="float-start bg-primary bg-opacity-25">
-  <p class="text-primary text-center">搜索引擎</p>
-  <a href="http://www.baidu.com" data-bs-toggle="tooltip" title="百度"><img class="icon" src="https://www.baidu.com/favicon.ico"></a>
-  <a href="https://www.google.com/" data-bs-toggle="tooltip" title="Google"><img class="icon" src="https://www.google.com.hk/favicon.ico"></a>
+<p></p>
+<div class="input-group mb-3">
+  <label class="input-group-text" for="site">站点选择</label>
+  <select class="form-select" id="site">
+    <option value="https://yun.zdfx.org/home/galgame/">OneDrive</option>
+    <option value="https://pan.zdfx.org/">直连</option>
+  </select>
+  <label class="input-group-text" for="alpha">字母选择</label>
+  <select class="form-select" id="alpha">
+    <option value="AB">AB</option>
+    <option value="CD">CD</option>
+    <option value="EFG">EFG</option>
+    <option value="HI">HI</option>
+    <option value="JK">JK</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="N">N</option>
+    <option value="OPQ">OPQ</option>
+    <option value="R">R</option>
+    <option value="S">S</option>
+    <option value="T">T</option>
+    <option value="UVW">UVW</option>
+    <option value="X">X</option>
+    <option value="Y">Y</option>
+    <option value="Z">Z</option>
+    <option value="CD">CD</option>
+    <option value="數字符號">數字符號</option>
+    <option value="假名">假名</option>
+  </select>
+  <label class="input-group-text" for="title">游戏标题</label>
+  <input type="text" id="title" class="form-control" placeholder="请输入标题">
+  <button class="btn btn-outline-primary" onclick="openurl()">打开链接</button>
 </div>
-<div class="float-start bg-warning bg-opacity-25">
-  <p class="text-warning text-center">ACG论坛</p>
-  <a href="https://galge.fun/" data-bs-toggle="tooltip" title="2DFan"><img class="icon" src="https://galge.fun/favicon.ico"></a>
-  <a href="https://bangumi.tv/" data-bs-toggle="tooltip" title="Bangumi"><img class="icon" src="https://bangumi.tv/img/favicon.ico"></a>
-  <a href="https://seiya-saiga.com/" data-bs-toggle="tooltip" title="誠也の部屋"><img class="icon" src="https://seiya-saiga.com/image/favicon.ico"></a>
-  <a href="https://bbs.9shenmi.com/" data-bs-toggle="tooltip" title="绯月"><img class="icon" src="https://bbs.9shenmi.com/favicon.ico"></a>
-  <a href="https://bbs.mikocon.com/" data-bs-toggle="tooltip" title="Mikocon"><img class="icon" src="https://bbs.mikocon.com/favicon.ico"></a>
-  <a href="https://www.okloli.com/" data-bs-toggle="tooltip" title="MyGalgame"><img class="icon" src="https://www.okloli.com/favicon.ico"></a>
-  <a href="https://www.snow-plus.net/" data-bs-toggle="tooltip" title="南+"><img class="icon" src="https://www.snow-plus.net/favicon.ico"></a>
-  <a href="https://vndb.org/" data-bs-toggle="tooltip" title="VNDB"><img class="icon" src="https://vndb.org/favicon.ico"></a>
-  <a href="https://bbs.zdfx.net/" data-bs-toggle="tooltip" title="终点"><img class="icon" src="https://bbs.zdfx.net/img/zdfx.svg"></a>
+<script>
+  function openurl() {
+    var site = document.querySelector("#site");
+    site = site.options[site.selectedIndex].value;
+    var alpha = document.querySelector("#alpha");
+    alpha = alpha.options[alpha.selectedIndex].value;
+    var title = document.querySelector("#title").value;
+    var url = site + alpha + "/" + title + "/"
+    window.open(url);
+  }
+</script>
+<div>
+  <div class="x">
+    <a href="https://dwnld.aicp-rom.com/">
+      <img src="https://download.havoc-os.com/app/assets/images/logo.svg">
+      <span>AICP</span>
+    </a>
+    <a href="https://dwnld.aicp-rom.com/">
+      <img src="https://dwnld.aicp-rom.com/imgs/favicons/favicon.ico">
+      <span>gfhfghgffh</span>
+    </a>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">搞机</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://dwnld.aicp-rom.com/imgs/favicons/favicon.ico">
+        <a href="https://dwnld.aicp-rom.com/">AICP</a>
+      </span>
+      <span>
+        <img src="https://arrowos.net/img/logo.png">
+        <a href="https://arrowos.net/">ArrowOS</a>
+      </span>
+      <span>
+        <img src="https://get.carbonrom.org/assets/favicon/favicon.ico">
+        <a href="https://get.carbonrom.org/">CarbonROM</a>
+      </span>
+      <span>
+        <img src="./images/icons/crdroid.ico">
+        <a href="https://crdroid.net/">crdroid</a>
+      </span>
+      <span>
+        <img src="https://download.havoc-os.com/app/assets/images/logo.svg">
+        <a href="https://download.havoc-os.com/">Havoc-OS</a>
+      </span>
+      <span>
+        <img src="https://download.lineageos.org/static/favicons/favicon.ico">
+        <a href="https://download.lineageos.org/">LineageOS</a>
+      </span>
+      <span>
+        <img src="https://download.mokeedev.com/download-assets/images/favicon/favicon.ico">
+        <a href="https://download.mokeedev.com/">Mokee</a>
+      </span>
+      <span>
+        <img src="./images/icons/pixelexperience.png">
+        <a href="https://download.pixelexperience.org/">pixelexperience</a>
+      </span>
+    </div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://orangefox.download/favicon.ico">
+        <a href="https://orangefox.download/">OrangeFox</a>
+      </span>
+      <span>
+        <img src="https://twrp.me/favicon.ico">
+        <a href="https://twrp.me/">TWRP</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">机场</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://3.akkcloud1.com/favicon.ico">
+        <a href="https://3.akkcloud1.com/">Akkcloud</a>
+      </span>
+      <span>
+        <img src="https://dukou.dev/logo.ico">
+        <a href="https://dukou.dev/">Dukou</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">教程</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://static.runoob.com/images/favicon.ico">
+        <a href="https://www.runoob.com/">菜鸟教程</a>
+      </span>
+      <span>
+        <img src="https://www.w3school.com.cn/ui2019/logo-32-red.png">
+        <a href="https://www.w3school.com.cn/">W3School</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">论坛</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://galge.fun/favicon.ico">
+        <a href="https://galge.fun/">2DFan</a>
+      </span>
+      <span>
+        <img src="https://bangumi.tv/img/favicon.ico">
+        <a href="https://bangumi.tv/">Bangumi</a>
+      </span>
+      <span>
+        <img src="https://seiya-saiga.com/image/favicon.ico">
+        <a href="https://seiya-saiga.com/">誠也の部屋</a>
+      </span>
+      <span>
+        <img src="https://bbs.9shenmi.com/favicon.ico">
+        <a href="https://bbs.9shenmi.com/">绯月</a>
+      </span>
+      <span>
+        <img src="https://www.sayhuahuo.com/favicon.ico">
+        <a href="https://www.sayhuahuo.com/">花火学园</a>
+      </span>
+      <span>
+        <img src="https://www.hacg.cat/favicon.ico">
+        <a href="https://www.hacg.cat/">琉璃神社</a>
+      </span>
+      <span>
+        <img src="./images/icons/漫音社.ico">
+        <a href="http://www.acgjc.com/">漫音社</a>
+      </span>
+      <span>
+        <img src="https://bbs.mikocon.com/favicon.ico">
+        <a href="https://bbs.mikocon.com/">Mikocon</a>
+      </span>
+      <span>
+        <img src="https://www.okloli.com/favicon.ico">
+        <a href="https://www.okloli.com/">MyGalgame</a>
+      </span>
+      <span>
+        <img src="https://www.east-plus.net/favicon.ico">
+        <a href="https://www.east-plus.net/">南+</a>
+      </span>
+      <span>
+        <img src="./images/icons/绅士天堂.ico">
+        <a href="https://www.aigalgame.com/">绅士天堂</a>
+      </span>
+      <span>
+        <img src="https://www.tiangal.com/wp-content/uploads/2022/04/2022042217411468.png">
+        <a href="https://www.tiangal.com/">天遊二次元</a>
+      </span>
+      <span>
+        <img src="https://vndb.org/favicon.ico">
+        <a href="https://vndb.org/">VNDB</a>
+      </span>
+      <span>
+        <img src="https://www.yygal.com/static/images/icon.jpg">
+        <a href="https://www.yygal.com/">XXGalgame</a>
+      </span>
+      <span>
+        <img src="https://www.ymgal.com/favicon.ico">
+        <a href="https://www.ymgal.com/">月幕Galgame</a>
+      </span>
+      <span>
+        <img class="icon" src="https://bbs.zdfx.net/img/zdfx.svg">
+        <a href="https://bbs.zdfx.net/">终点</a>
+      </span>
+    </div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://www.423down.com/wp-content/themes/D7/img/favicon.ico">
+        <a href="https://www.423down.com/">423Down</a>
+      </span>
+      <span>
+        <img src="https://greasyfork.org/packs/media/images/blacklogo16-5421a97c75656cecbe2befcec0778a96.png">
+        <a href="https://greasyfork.org/">Greasy Fork</a>
+      </span>
+      <span>
+        <img src="https://next.itellyou.cn/favicon.ico">
+        <a href="https://next.itellyou.cn/">ITELLYOU</a>
+      </span>
+      <span>
+        <img src="https://forum.mobilism.org/favicon.ico">
+        <a href="https://forum.mobilism.org/">Mobilism</a>
+      </span>
+      <span>
+        <img src="https://rsload.net/favicon.ico">
+        <a href="https://rsload.net/">rsload</a>
+      </span>
+      <span>
+        <img src="https://forum.xda-developers.com/data/assets/logo/favicon-32x32.png">
+        <a href="https://forum.xda-developers.com/">XDA</a>
+      </span>
+    </div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://cj.expreview.com/favicon.ico">
+        <a href="https://www.expreview.com/">超能网</a>
+      </span>
+      <span>
+        <img src="https://static.lancdn.com/landian/v4.0.1/images/favicon.png">
+        <a href="https://www.landiannews.com/">蓝点网</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">商城</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico">
+        <a href="https://store.epicgames.com/">EPIC</a>
+      </span>
+      <span>
+        <img src="https://www.dlsite.com/images/web/common/favicon.ico">
+        <a href="https://www.dlsite.com/">DLsite</a>
+      </span>
+      <span>
+        <img src="https://www.jd.com/favicon.ico">
+        <a href="https://www.jd.com/">京东</a>
+      </span>
+      <span>
+        <img src="https://www.taobao.com/favicon.ico">
+        <a href="https://www.taobao.com/">淘宝</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">社交</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://tb3.bdstatic.com/public/icon/favicon-v2.ico">
+        <a href="https://tieba.baidu.com/">百度贴吧</a>
+      </span>
+      <span>
+        <img src="https://abs.twimg.com/favicons/twitter.2.ico">
+        <a href="https://twitter.com/">Twitter</a>
+      </span>
+      <span>
+        <img src="https://weibo.com/favicon.ico">
+        <a href="https://weibo.com/">微博</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">搜索</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://www.baidu.com/favicon.ico">
+        <a href="https://www.baidu.com/">百度</a>
+      </span>
+      <span>
+        <img src="https://www.google.com/favicon.ico">
+        <a href="https://www.google.com/">Google</a>
+      </span>
+    </div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://www.ggbases.com/favicon.ico">
+        <a href="https://www.ggbases.com/">GGBases</a>
+      </span>
+      <span>
+        <img src="https://nyaa.si/static/favicon.png">
+        <a href="https://nyaa.si/">Nyaa</a>
+      </span>
+      <span>
+        <img src="https://sukebei.nyaa.si/static/favicon.png">
+        <a href="https://sukebei.nyaa.si/">Sukebei</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">网盘</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://www.123pan.com/static/favicon.ico">
+        <a href="https://www.123pan.com/">123云盘</a>
+      </span>
+      <span>
+        <img src="https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico">
+        <a href="https://www.aliyundrive.com/">阿里云盘</a>
+      </span>
+      <span>
+        <img src="https://nd-static.bdstatic.com/m-static/v20-main/favicon-main.ico">
+        <a href="https://pan.baidu.com/">百度网盘</a>
+      </span>
+      <span>
+        <img src="https://pc.woozooo.com/favicon.ico">
+        <a href="https://pc.woozooo.com/">蓝奏云</a>
+      </span>
+    </div>
+  </div>
+  <div class="nav_site">
+    <div class="nav_site_title">影音</div>
+    <div class="nav_site_bar">
+      <span>
+        <img src="https://cdn.aixifan.com/ico/favicon.ico">
+        <a href="https://www.acfun.cn/">AcFun</a>
+      </span>
+      <span>
+        <img src="https://www.agemys.com/favicon.ico">
+        <a href="https://www.agemys.com/">AGE动漫</a>
+      </span>
+      <span>
+        <img src="https://www.asmr.one/statics/icons/favicon.ico">
+        <a href="https://www.asmr.one/">ASMR Online</a>
+      </span>
+      <span>
+        <img src="https://www.bilibili.com/favicon.ico">
+        <a href="https://www.bilibili.com/">哔哩哔哩</a>
+      </span>
+      <span>
+        <img src="https://www.pixiv.net/favicon.ico">
+        <a href="https://www.pixiv.net/">Pixiv</a>
+      </span>
+      <span>
+        <img src="https://s1.music.126.net/style/favicon.ico">
+        <a href="https://music.163.com/">网易云音乐</a>
+      </span>
+    </div>
+  </div>
 </div>
-<div class="float-start bg-success bg-opacity-25">
-  <p class="text-success text-center">磁力</p>
-  <a href="https://nyaa.si/" data-bs-toggle="tooltip" title="Nyaa"><img class="icon" src="https://nyaa.si/static/favicon.png"></a>
-  <a href="https://sukebei.nyaa.si/" data-bs-toggle="tooltip" title="Sukebei"><img class="icon" src="https://sukebei.nyaa.si/static/favicon.png"></a>
+<div class="btn-group" role="group">
+  <button class="btn btn-outline-success" onclick="document.querySelector('body').setAttribute('style', 'background:url(./images/pixiv/氷桜の剣客.jpg);background-size:cover;')">切换背景</button>
+  <button class="btn btn-outline-success" onclick="document.querySelector('#color').setAttribute('src', './images/pixiv/氷桜の剣客.jpg')">来点S图</button>
 </div>
-<div class="float-start bg-danger bg-opacity-25">
-  <p class="text-danger text-center">机场</p>
-  <a href="https://2.akkcloud1.com/" data-bs-toggle="tooltip" title="Akkcloud"><img class="icon" src="https://2.akkcloud1.com/favicon.ico"></a>
-  <a href="https://dukou.dev/" data-bs-toggle="tooltip" title="Dukou"><img class="icon" src="https://dukou.dev/logo.ico"></a>
-</div>
-<div class="float-start bg-info bg-opacity-25">
-  <p class="text-info text-center">漫画</p>
-  <a href="https://www.pixiv.net/" data-bs-toggle="tooltip" title="Pixiv"><img class="icon" src="https://www.pixiv.net/favicon.ico"></a>
-</div>
-<div class="float-start bg-secondary bg-opacity-25">
-  <p class="text-secondary text-center">商城</p>
-  <a href="https://store.epicgames.com/" data-bs-toggle="tooltip" title="EPIC"><img class="icon" src="https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico"></a>
-  <a href="https://www.jd.com/" data-bs-toggle="tooltip" title="京东"><img class="icon" src="https://www.jd.com/favicon.ico"></a>
-</div>
-<div class="float-start bg-primary bg-opacity-25">
-  <p class="text-primary text-center">视频</p>
-  <a href="https://www.agemys.com/" data-bs-toggle="tooltip" title="AGE动漫"><img class="icon" src="https://www.agemys.com/favicon.ico"></a>
-  <a href="https://www.bilibili.com/" data-bs-toggle="tooltip" title="哔哩哔哩"><img class="icon" src="https://www.bilibili.com/favicon.ico"></a>
-</div>
-<button class="btn btn-outline-success" onclick="$('div:first').attr({'style':'background:url(./images/pixiv/氷桜の剣客.jpg);'})">来点S图</button>
-<button class="btn btn-outline-success" onclick="changeTheme()">切换主题</button>
+<img id="color" src="">
 <script>
 // 初始化提示框
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
