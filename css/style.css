@@ -18,8 +18,8 @@ body > div {
     flex-wrap: wrap;
 }
 .nav_site_bar > span {
-    color: rgba(0,0,0,.85);
-    background: rgba(0,0,0,.04);
+    color: rgba(0, 0, 0, .85);
+    background: rgba(0, 0, 0, .05);
     border-radius: 18px;
     width: 124px;
     height: 36px;
@@ -67,7 +67,7 @@ body > div {
     color: white;
 }
 .dark .nav_site_bar > span {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, .08);
 }
 .dark .nav_site_bar a:link {
     color: white;
@@ -82,7 +82,7 @@ body > div {
     color: dodgerblue;
 }
 #changeTheme {
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, .05);
     border-radius: 1rem;
     width: 2rem;
     height: 2rem;
@@ -94,11 +94,17 @@ body > div {
     transition: .6s;
 }
 #changeTheme:hover {
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, .10);
+}
+#changeTheme:active {
+    background: rgba(0, 0, 0, .15);;
 }
 .dark #changeTheme {
-    background: rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, .10);
 }
-.dark #changeTheme:hover{
-    background: rgba(255, 255, 255, 0.20);
+.dark #changeTheme:hover {
+    background: rgba(255, 255, 255, .20);
+}
+.dark #changeTheme:active {
+    background: rgba(255, 255, 255, .30);
 }
