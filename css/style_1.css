@@ -17,44 +17,33 @@ body > div {
     display: flex;
     flex-wrap: wrap;
 }
-.nav_site_bar > span {
-    color: rgba(0, 0, 0, .85);
-    background: rgba(0, 0, 0, .05);
+.nav_site_bar > a {
+    background: rgba(0, 0, 0, .08);
     border-radius: 18px;
-    width: 124px;
+    color: black;
+    display: flex;
+    width: 8rem;
     height: 36px;
     margin: 4px;
     padding: 6px;
-    display: flex;
-    align-items: center;
-    transition: transform .2s;
+    text-decoration: none;
+    transition: color .2s, transform .2s, background .6s;
 }
-.nav_site_bar > span:active{
+.nav_site_bar > a:hover {
+    color: dodgerblue;
+}
+.nav_site_bar > a:active {
+    background: rgba(0, 0, 0, .16);
     transform: scale(.90)
 }
-.nav_site_bar img {
+.nav_site_bar > a > img {
+    border-radius: 0.75rem;
     width: 1.5rem;
     height: 1.5rem;
-    border-radius: 0.75rem;
 }
-.nav_site_bar a {
+.nav_site_bar > a > span {
     flex: auto;
     text-align: center;
-    text-decoration: none;
-    transition: .2s;
-    white-space: nowrap;
-}
-.nav_site_bar a:link {
-    color: black;
-}
-.nav_site_bar a:visited {
-    color: black;
-}
-.nav_site_bar a:hover {
-    color: deepskyblue;
-}
-.nav_site_bar a:active {
-    color: dodgerblue;
 }
 .dark body {
     background-color: black;
@@ -66,20 +55,15 @@ body > div {
 .dark .nav_site_title {
     color: white;
 }
-.dark .nav_site_bar > span {
+.dark .nav_site_bar > a {
     background: rgba(255, 255, 255, .08);
-}
-.dark .nav_site_bar a:link {
     color: white;
 }
-.dark .nav_site_bar a:visited {
-    color: white;
-}
-.dark .nav_site_bar a:hover {
-    color: deepskyblue;
-}
-.dark .nav_site_bar a:active {
+.dark .nav_site_bar > a:hover {
     color: dodgerblue;
+}
+.dark .nav_site_bar > a:active {
+    background: rgba(255, 255, 255, .16);
 }
 #changeTheme {
     background: rgba(0, 0, 0, .05);
@@ -107,48 +91,4 @@ body > div {
 }
 .dark #changeTheme:active {
     background: rgba(255, 255, 255, .30);
-}
-.x {
-    display: flex;
-}
-.x > a {
-    background: rgba(255, 255, 255, .08);
-    border-radius: 1rem;
-    display: flex;
-    width: 8rem;
-    height: 2rem;
-    margin: 4px;
-    padding: 4px;
-    text-decoration: none;
-}
-.x > a > img {
-    border-radius: 0.75rem;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-.x > a > span {
-    flex: auto;
-    text-align: center;
-}
-.x {
-    display: flex;
-}
-.x > a {
-    background: rgba(255, 255, 255, .08);
-    border-radius: 1rem;
-    display: flex;
-    width: 8rem;
-    height: 2rem;
-    margin: 4px;
-    padding: 4px;
-    text-decoration: none;
-}
-.x > a > img {
-    border-radius: 0.75rem;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-.x > a > span {
-    flex: auto;
-    text-align: center;
 }
