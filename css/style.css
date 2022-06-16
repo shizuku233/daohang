@@ -19,13 +19,13 @@ body > div {
 }
 .nav_site_bar > a {
     background: rgba(0, 0, 0, .05);
-    border-radius: 18px;
+    border-radius: 1.25rem;
     color: black;
     display: flex;
     width: 8rem;
-    height: 36px;
-    margin: 4px;
-    padding: 6px;
+    height: 2.5rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
     text-decoration: none;
     transition: color .2s, transform .2s, background .6s;
 }
@@ -68,12 +68,11 @@ body > div {
 }
 #changeTheme {
     background: rgba(0, 0, 0, .05);
-    border-radius: 1rem;
-    width: 2rem;
-    height: 2rem;
-    padding: 0.25rem 0;
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
     position: sticky;
-    top: 0;
     left: 100%;
     text-align: center;
     transition: color .2s, transform .2s, background .6s;
