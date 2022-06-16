@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/style_1.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./JavaScript/sites.js"></script>
   <script>
     var themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
     if (themeMedia.matches) {
@@ -46,12 +47,13 @@
     <a class="nav-link" href="./3.html" target="_self">3</a>
     <a class="nav-link" href="./4.html" target="_self">4</a>
     <a class="nav-link" href="./5.html" target="_self">5</a>
+    <a class="nav-link" href="./6.html" target="_self">6</a>
   </div>
-  <div id="changeTheme" onclick="changeTheme();a()">
+  <div id="changeTheme" onclick="changeTheme();b()">
   <i class="bi bi-sun"></i>
   <script>
-    a();
-    function a() {
+    b();
+    function b() {
       if (document.querySelector(".dark")) {
         document.querySelector("#changeTheme > i").classList.remove("bi-sun");
         document.querySelector("#changeTheme > i").classList.add("bi-moon");
@@ -138,7 +140,7 @@
     window.open(url);
   }
 </script>
-<div>
+<div style="display: none">
   <div class="nav_site">
     <div class="nav_site_title">搞机</div>
     <div class="nav_site_bar">
@@ -418,7 +420,7 @@
         <img src="https://www.asmr.one/statics/icons/favicon.ico">
         <span>ASMR Online</span>
       </a>
-      <a href="hhttps://www.bilibili.com/">
+      <a href="https://www.bilibili.com/">
         <img src="https://www.bilibili.com/favicon.ico">
         <span>哔哩哔哩</span>
       </a>
@@ -433,6 +435,38 @@
     </div>
   </div>
 </div>
+<div id="x"></div>
+<script>
+  console.log(sites);
+  for (let category in sites) {
+    console.log("site:" + category);
+    var nav_site = document.createElement("div");
+    var nav_site_title = document.createElement("div");
+    nav_site_title.setAttribute("class", "nav_site_title");
+    nav_site_title.appendChild(document.createTextNode(category));
+    nav_site.setAttribute("class", "nav_site");
+    nav_site.appendChild(nav_site_title);
+    document.querySelector("#x").appendChild(nav_site);
+    for (let site_bar of sites[category]) {
+      var nav_site_bar = document.createElement("div");
+      nav_site_bar.setAttribute("class", "nav_site_bar");
+      nav_site.appendChild(nav_site_bar);
+      console.log("site_bar:" + site_bar);
+      for (let item of site_bar) {
+        var a = document.createElement("a");
+        a.setAttribute("href", item.href);
+        var img = document.createElement("img");
+        img.setAttribute("src", item.icon);
+        var span = document.createElement("span");
+        span.appendChild(document.createTextNode(item.name));
+        a.appendChild(img);
+        a.appendChild(span);
+        nav_site_bar.appendChild(a);
+        console.log(item);
+      }
+    }
+  }
+</script>
 <div class="btn-group" role="group">
   <button class="btn btn-outline-success" onclick="document.querySelector('body').setAttribute('style', 'background:url(./images/pixiv/氷桜の剣客.jpg);background-size:cover;')">切换背景</button>
   <button class="btn btn-outline-success" onclick="document.querySelector('#color').setAttribute('src', './images/pixiv/氷桜の剣客.jpg')">来点S图</button>
