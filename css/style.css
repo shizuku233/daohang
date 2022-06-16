@@ -17,44 +17,34 @@ body > div {
     display: flex;
     flex-wrap: wrap;
 }
-.nav_site_bar > span {
-    color: rgba(0, 0, 0, .85);
+.nav_site_bar > a {
     background: rgba(0, 0, 0, .05);
     border-radius: 18px;
-    width: 124px;
+    color: black;
+    display: flex;
+    width: 8rem;
     height: 36px;
     margin: 4px;
     padding: 6px;
-    display: flex;
-    align-items: center;
-    transition: transform .2s;
+    text-decoration: none;
+    transition: color .2s, transform .2s, background .6s;
 }
-.nav_site_bar > span:active{
-    transform: scale(.90)
+.nav_site_bar > a:hover {
+    color: dodgerblue;
 }
-.nav_site_bar img {
+.nav_site_bar > a:active {
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
+}
+.nav_site_bar > a > img {
+    border-radius: 0.75rem;
     width: 1.5rem;
     height: 1.5rem;
-    border-radius: 0.75rem;
 }
-.nav_site_bar a {
+.nav_site_bar > a > span {
     flex: auto;
     text-align: center;
-    text-decoration: none;
-    transition: .2s;
     white-space: nowrap;
-}
-.nav_site_bar a:link {
-    color: black;
-}
-.nav_site_bar a:visited {
-    color: black;
-}
-.nav_site_bar a:hover {
-    color: deepskyblue;
-}
-.nav_site_bar a:active {
-    color: dodgerblue;
 }
 .dark body {
     background-color: black;
@@ -66,20 +56,15 @@ body > div {
 .dark .nav_site_title {
     color: white;
 }
-.dark .nav_site_bar > span {
+.dark .nav_site_bar > a {
     background: rgba(255, 255, 255, .08);
-}
-.dark .nav_site_bar a:link {
     color: white;
 }
-.dark .nav_site_bar a:visited {
-    color: white;
-}
-.dark .nav_site_bar a:hover {
-    color: deepskyblue;
-}
-.dark .nav_site_bar a:active {
+.dark .nav_site_bar > a:hover {
     color: dodgerblue;
+}
+.dark .nav_site_bar > a:active {
+    background: rgba(255, 255, 255, .16);
 }
 #changeTheme {
     background: rgba(0, 0, 0, .05);
@@ -91,20 +76,21 @@ body > div {
     top: 0;
     left: 100%;
     text-align: center;
-    transition: .6s;
+    transition: color .2s, transform .2s, background .6s;
 }
 #changeTheme:hover {
-    background: rgba(0, 0, 0, .10);
+    color: goldenrod;
 }
 #changeTheme:active {
-    background: rgba(0, 0, 0, .15);;
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
 }
 .dark #changeTheme {
-    background: rgba(255, 255, 255, .10);
+    background: rgba(255, 255, 255, .08);
 }
 .dark #changeTheme:hover {
-    background: rgba(255, 255, 255, .20);
+    color: dodgerblue;
 }
 .dark #changeTheme:active {
-    background: rgba(255, 255, 255, .30);
+    background: rgba(255, 255, 255, .16);
 }
