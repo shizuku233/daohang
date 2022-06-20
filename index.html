@@ -49,20 +49,20 @@
     <a class="nav-link" href="./6.html" target="_self">6</a>
   </div>
   <div id="changeTheme" onclick="changeTheme();b()">
-  <i class="bi bi-sun"></i>
-  <script>
-    b();
-    function b() {
-      if (document.querySelector(".dark")) {
-        document.querySelector("#changeTheme > i").classList.remove("bi-sun");
-        document.querySelector("#changeTheme > i").classList.add("bi-moon");
-      } else {
-        document.querySelector("#changeTheme > i").classList.remove("bi-moon");
-        document.querySelector("#changeTheme > i").classList.add("bi-sun");
+    <i class="bi bi-sun"></i>
+    <script>
+      b();
+      function b() {
+        if (document.querySelector(".dark")) {
+          document.querySelector("#changeTheme > i").classList.remove("bi-sun");
+          document.querySelector("#changeTheme > i").classList.add("bi-moon");
+        } else {
+          document.querySelector("#changeTheme > i").classList.remove("bi-moon");
+          document.querySelector("#changeTheme > i").classList.add("bi-sun");
+        }
       }
-    }
-  </script>
-</div>
+    </script>
+  </div>
 </nav>
 <p></p>
 <form class="input-group" id="search" action="https://www.baidu.com/s">
