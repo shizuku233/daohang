@@ -146,7 +146,7 @@
     var nav_site = document.createElement("div");
     var nav_site_title = document.createElement("div");
     nav_site_title.setAttribute("class", "nav_site_title");
-    nav_site_title.appendChild(document.createTextNode(category));
+    nav_site_title.innerHTML = category;
     nav_site.setAttribute("class", "nav_site");
     nav_site.appendChild(nav_site_title);
     document.querySelector("body > div > div:nth-child(8)").appendChild(nav_site);
@@ -157,12 +157,13 @@
       for (let item of site_bar) {
         var a = document.createElement("a");
         a.setAttribute("href", item.href);
-        var img = document.createElement("img");
-        img.setAttribute("src", item.icon);
-        var span = document.createElement("span");
-        span.appendChild(document.createTextNode(item.name));
-        a.appendChild(img);
-        a.appendChild(span);
+        a.innerHTML = "<img src='" + item.icon + "'><span>" + item.name + "</span>"
+        //var img = document.createElement("img");
+        //img.setAttribute("src", item.icon);
+        //var span = document.createElement("span");
+        //span.appendChild(document.createTextNode(item.name));
+        //a.appendChild(img);
+        //a.appendChild(span);
         nav_site_bar.appendChild(a);
       }
     }
