@@ -218,7 +218,7 @@ var sites = {
             "href": "https://nyaa.si/",
             "icon": "https://nyaa.si/static/favicon.png",
             "title": "Nyaa",
-        }], {
+        }, {
             "href": "https://sukebei.nyaa.si/",
             "icon": "https://sukebei.nyaa.si/static/favicon.png",
             "title": "Sukebei",
