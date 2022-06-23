@@ -210,6 +210,19 @@ var sites = {
             "icon": "https://www.google.com/favicon.ico",
             "title": "Google",
         }],
+        [{
+            "href": "https://www.ggbases.com/",
+            "icon": "https://www.ggbases.com/favicon.ico",
+            "title": "GGBases",
+        }, {
+            "href": "https://nyaa.si/",
+            "icon": "https://nyaa.si/static/favicon.png",
+            "title": "Nyaa",
+        }], {
+            "href": "https://sukebei.nyaa.si/",
+            "icon": "https://sukebei.nyaa.si/static/favicon.png",
+            "title": "Sukebei",
+        }],
     ],
     "网盘": [
         [{
