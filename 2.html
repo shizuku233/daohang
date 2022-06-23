@@ -155,16 +155,17 @@
       nav_site_bar.setAttribute("class", "nav_site_bar");
       nav_site.appendChild(nav_site_bar);
       for (let item of site_bar) {
-        var a = document.createElement("a");
-        a.setAttribute("href", item.href);
-        a.innerHTML = "<img src='" + item.icon + "'><span>" + item.name + "</span>"
+        nav_site_bar.innerHTML += "<a href='" + item.href + "'><img src='" + item.icon + "'><span>" + item.title + "</span></a>"
+        //var a = document.createElement("a");
+        //a.setAttribute("href", item.href);
+        //a.innerHTML = "<img src='" + item.icon + "'><span>" + item.name + "</span>"
         //var img = document.createElement("img");
         //img.setAttribute("src", item.icon);
         //var span = document.createElement("span");
         //span.appendChild(document.createTextNode(item.name));
         //a.appendChild(img);
         //a.appendChild(span);
-        nav_site_bar.appendChild(a);
+        //nav_site_bar.appendChild(a);
       }
     }
   }
