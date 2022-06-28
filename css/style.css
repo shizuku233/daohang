@@ -43,8 +43,8 @@ body > div {
 }
 .nav_site_bar > a > span {
     flex: auto;
+    overflow: visible;
     text-align: center;
-    white-space: nowrap;
 }
 .dark body {
     background-color: black;
