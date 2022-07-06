@@ -7,7 +7,7 @@ body > div {
     transition: background .6s;
 }
 .nav_site {
-    margin: 1em 0;
+    margin: 1rem 0;
 }
 .nav_site_title {
     font-size: 1.25rem;
