@@ -5,7 +5,7 @@ body {
     background: white;
 }
 body > div {
-    background: #f8f8f8;
+    background: blueviolet;
     color: black;
     margin: auto;
     width: 1440px;
