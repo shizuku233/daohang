@@ -1,0 +1,18 @@
+body {
+    background: white;
+}
+body > div {
+    background: #f8f8f8;
+    color: black;
+    margin: auto;
+    width: 1440px;
+}
+.nav {
+    background: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav > div {
+    width: 30rem;
+    height: auto;
+}
