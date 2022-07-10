@@ -7,13 +7,39 @@
   <base href="https://shizuku233.github.io/daohang/" target="_blank">
   <link rel="icon" href="./images/icon.png">
   <link rel="stylesheet" type="text/css" href="./css/7.css">
-  <!--<link rel="stylesheet" type="text/css" href="C:\Users\0\Documents\GitHub\daohang\css\7.css">-->
+  <!--<link rel="stylesheet" type="text/css" href="C:\Users\xjm\Desktop\daohang\css\7.css">-->
+   <script>
+    var themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
+    if (themeMedia.matches) {
+      changeTheme();
+    }
+    themeMedia.addEventListener("change", (e) => {
+      if (e.matches) {
+        document.documentElement.classList.remove("light");
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("light");
+      }
+    });
+    function changeTheme() {
+      var isDark = document.querySelector(".dark");
+      if (isDark) {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("light");
+      } else {
+        document.documentElement.classList.remove("light");
+        document.documentElement.classList.add("dark");
+      }
+    }
+</script>
 </head>
 <body>
-<div>
-  <nav>
+<nav>
     <a href="#">回到首页</a>
-  </nav>
+</nav>
+<div>
+
   <div>
     <div>导航</div>
 
