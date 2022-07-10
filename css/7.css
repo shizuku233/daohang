@@ -7,6 +7,18 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: aquamarine;
+}
+
+nav > a {
+    color: white;
+}
+
 body > div {
     background: antiquewhite;
     color: black;
@@ -17,6 +29,7 @@ body > div {
 
 @media (min-width: 1440px) {
     body > div {
+        background: cadetblue;
         width: 1440px;
     }
 }
