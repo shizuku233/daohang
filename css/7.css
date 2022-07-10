@@ -5,6 +5,11 @@
 body {
     background: white;
     margin: auto;
+    transition: background .6s;
+}
+
+.dark body {
+    background: black;
 }
 
 a {
@@ -12,10 +17,21 @@ a {
 }
 
 nav {
-    background: aquamarine;
+    background: rgba(250, 250, 250);
+    height: 1080px;
+    margin: auto;
+    padding: 0 0.5rem;
+}
+
+.dark nav {
+    background: rgba(30, 30, 30);
 }
 
 nav > a {
+    color: black;
+}
+
+.dark nav > a {
     color: white;
 }
 
@@ -24,12 +40,16 @@ body > div {
     color: black;
     margin: auto;
     padding: 0 0.5rem;
-    width: auto;
 }
 
 @media (min-width: 1440px) {
+    nav {
+        width: 1440px;
+    }
+
     body > div {
         background: cadetblue;
+        color: white;
         width: 1440px;
     }
 }
