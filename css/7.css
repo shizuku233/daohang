@@ -1,20 +1,32 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background: white;
+    margin: auto;
 }
+
 body > div {
-    background: blueviolet;
+    background: antiquewhite;
     color: black;
     margin: auto;
-    width: 1440px;
+    padding: 0 0.5rem;
+    width: auto;
 }
+
+@media (min-width: 1440px) {
+    body > div {
+        width: 1440px;
+    }
+}
+
 .nav {
     background: aqua;
     display: flex;
     flex-wrap: wrap;
 }
+
 .nav > div {
     width: 30rem;
     height: auto;
