@@ -26,6 +26,7 @@ a:hover {
 .dark a {
     color: white;
 }
+
 nav {
     background: rgba(0, 0, 0, .04);
     display: flex;
@@ -43,6 +44,7 @@ nav > a {
 nav > a:active {
     background: rgba(0, 0, 0, .04);
 }
+
 .dark nav {
     background: rgba(30, 30, 30);
 }
@@ -71,9 +73,10 @@ body > div {
     }
 }
 
-.nav-active {
-    background: rgba(0, 0, 0, .08);
+.active {
+    color: red;
 }
+
 .nav {
     background: aqua;
     display: flex;
