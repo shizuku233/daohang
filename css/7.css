@@ -5,7 +5,7 @@
 body {
     background: white;
     margin: auto;
-    transition: background .6s;
+    transition: background .5s;
 }
 
 .dark body {
@@ -13,16 +13,32 @@ body {
 }
 
 a {
+    color: white;
     text-decoration: none;
+    transition: .2s;
+    white-space: nowrap;
+}
+
+a:hover {
+    color: dodgerblue;
 }
 
 nav {
-    background: rgba(250, 250, 250);
-    height: 1080px;
+    background: rgba(0, 0, 0, .04);
+    display: flex;
+    height: 2.5rem;
     margin: auto;
-    padding: 0 0.5rem;
+    position: sticky;
+    top: 0;
 }
 
+nav > a {
+    padding: 0.5rem;
+}
+
+nav > a:active {
+    background: rgba(0, 0, 0, .04);
+}
 .dark nav {
     background: rgba(30, 30, 30);
 }
@@ -38,6 +54,7 @@ nav > a {
 body > div {
     background: antiquewhite;
     color: black;
+    height: 2560px;
     margin: auto;
     padding: 0 0.5rem;
 }
@@ -54,6 +71,9 @@ body > div {
     }
 }
 
+.nav-active {
+    background: rgba(0, 0, 0, .08);
+}
 .nav {
     background: aqua;
     display: flex;
