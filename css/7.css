@@ -26,13 +26,14 @@ a:hover {
 nav {
     background: rgba(0, 0, 0, .04);
     display: flex;
-    height: 2.5rem;
+    flex-wrap: wrap;
     margin: auto;
     position: sticky;
     top: 0;
 }
 
 nav > a {
+    height: 2.5rem;
     padding: 0.5rem;
 }
 
