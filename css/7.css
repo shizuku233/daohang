@@ -8,10 +8,6 @@ body {
     transition: background .5s;
 }
 
-.dark body {
-    background: black;
-}
-
 a {
     -webkit-tap-highlight-color: transparent;
     color: black;
@@ -24,8 +20,18 @@ a:hover {
     color: dodgerblue;
 }
 
-.dark a {
+button, select, input {
+    color: black;
+    background: transparent;
+    font-size: 1rem;
+}
+
+.dark button, .dark select, .dark input {
     color: white;
+}
+
+.dark option {
+    background: black;
 }
 
 nav {
@@ -46,18 +52,8 @@ nav > a:active {
     background: rgba(0, 0, 0, .04);
 }
 
-.dark nav {
-    background: rgba(30, 30, 30);
-}
-
-.dark nav > a {
-    color: white;
-}
-
 body > div {
     background: antiquewhite;
-    color: black;
-    height: 1080px;
     margin: auto;
     padding: 0 .5rem;
     transition: .5s;
@@ -69,7 +65,7 @@ body > div {
     }
 
     body > div {
-        background: rgba(0, 0, 0, .04);
+        background: rgba(0, 0, 0, .05);
         width: 1440px;
     }
 }
@@ -78,12 +74,46 @@ body > div {
     color: red;
 }
 
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.input-group > * {
+    border: 1px solid coral;
+    margin-left: -1px;
+    padding: 0.5rem;
+    transition: box-shadow .2s;
+    white-space: nowrap;
+}
+
+.input-group > select, .input-group > input {
+    flex: auto;
+}
+
+.input-group > :focus {
+    border-color: orchid;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(218 112 214 / 25%);
+    z-index: 1;
+}
+
+.input-group > :first-child {
+    border: 1px solid coral;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group > :last-child {
+    border-radius: 0 .25rem .25rem 0;
+}
+
 .nav-site-bar {
     display: flex;
     flex-wrap: wrap;
 }
 
-.nav-site-bar > span{
+.nav-site-bar > span {
     width: 100%;
     flex: auto;
     text-align: center;
@@ -105,6 +135,7 @@ body > div {
     transform: scale(.90);
 }
 
+
 .nav-site-bar > a > img {
     border-radius: 0.75rem;
     width: 1.5rem;
@@ -115,4 +146,44 @@ body > div {
     flex: auto;
     text-align: center;
     white-space: nowrap;
+}
+
+.dark {
+    color: white;
+}
+
+.dark body {
+    background: black;
+}
+
+.dark a {
+    color: white;
+}
+
+.dark a:hover {
+    color: dodgerblue;
+}
+
+.dark nav {
+    background: rgba(255, 255, 255, .1);
+}
+
+.dark nav > a:active {
+    background: rgba(255, 255, 255, .1);
+}
+
+.dark body > div {
+    background: rgba(255, 255, 255, .1);
+}
+
+.dark .active {
+    color: red;
+}
+
+.dark .nav-site-bar > a {
+    background: rgba(255, 255, 255, .1);
+}
+
+.dark .nav-site-bar > a:active {
+    background: rgba(255, 255, 255, .1);
 }
