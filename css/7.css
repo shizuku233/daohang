@@ -26,14 +26,6 @@ button, select, input {
     font-size: 1rem;
 }
 
-.dark button, .dark select, .dark input {
-    color: white;
-}
-
-.dark option {
-    background: black;
-}
-
 nav {
     background: rgba(0, 0, 0, .04);
     display: flex;
@@ -101,6 +93,7 @@ body > div {
 .input-group > :first-child {
     border: 1px solid coral;
     border-radius: 0.25rem 0 0 0.25rem;
+    margin: 0;
 }
 
 .input-group > :last-child {
@@ -173,6 +166,14 @@ body > div {
 
 .dark body > div {
     background: rgba(255, 255, 255, .1);
+}
+
+.dark button, .dark select, .dark input {
+    color: white;
+}
+
+.dark option {
+    background: black;
 }
 
 .dark .active {
