@@ -77,7 +77,6 @@ body > div {
 .input-group {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .input-group > * {
