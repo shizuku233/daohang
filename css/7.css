@@ -47,7 +47,7 @@ nav > a:active {
 body > div {
     background: antiquewhite;
     margin: auto;
-    padding: 0 .5rem;
+    padding: .5rem;
     transition: .5s;
 }
 
@@ -69,6 +69,7 @@ body > div {
 .input-group {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 0 .5rem;
 }
 
 .input-group > * {
