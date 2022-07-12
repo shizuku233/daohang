@@ -87,3 +87,33 @@ body > div {
     width: 30rem;
     height: auto;
 }
+
+.nav-site-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-site-bar > a {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 1.25rem;
+    color: black;
+    display: flex;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: color .2s, transform .2s, background .6s;
+}
+
+.nav-site-bar > a > img {
+    border-radius: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-site-bar > a > span {
+    flex: auto;
+    text-align: center;
+    white-space: nowrap;
+}
