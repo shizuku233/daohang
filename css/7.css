@@ -56,9 +56,8 @@ nav > a:active {
 body > div {
     background: antiquewhite;
     color: black;
-    height: 2560px;
+    height: 1080px;
     margin: auto;
-    padding: 0 0.5rem;
     transition: .5s;
 }
 
@@ -88,20 +87,48 @@ body > div {
     height: auto;
 }
 
+.nav-site {
+    background: rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.nav-site > b {
+    width: 100%;
+    flex: auto;
+    text-align: center;
+}
+
 .nav-site-bar {
+    background: rgba(255, 0, 255, .2);
     display: flex;
     flex-wrap: wrap;
+    padding: .5rem;
+    width: 480px;
+}
+
+.nav-site-bar > span{
+    width: 100%;
+    flex: auto;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    .nav-site-bar {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .nav-site-bar > a {
     background: rgba(0, 0, 0, .05);
-    border-radius: 1.25rem;
-    color: black;
+    color: blueviolet;
     display: flex;
-    width: 8rem;
-    height: 2.5rem;
-    margin: 0.25rem;
-    padding: 0.5rem;
+    width: 25%;
+    height: 1.5rem;
     text-decoration: none;
     transition: color .2s, transform .2s, background .6s;
 }
