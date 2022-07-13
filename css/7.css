@@ -20,16 +20,22 @@ a:hover {
     color: dodgerblue;
 }
 
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 button, input, select{
     background: transparent;
     border: 1px solid hotpink;
     border-radius: .25rem;
     color: black;
     font-size: 1rem;
+    padding: .5rem;
     transition: background .5s, box-shadow .2s;
 }
 
 button:hover {
+    background: hotpink;
     cursor: pointer;
 }
 
