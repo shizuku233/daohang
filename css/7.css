@@ -22,6 +22,8 @@ a:hover {
 
 button, input, select{
     background: transparent;
+    border: 1px solid hotpink;
+    border-radius: .25rem;
     color: black;
     font-size: 1rem;
     transition: background .5s, box-shadow .2s;
@@ -81,6 +83,7 @@ body > div {
 
 .input-group > * {
     border: 1px solid gold;
+    border-radius: 0;
     margin-left: -1px;
     padding: .5rem;
     white-space: nowrap;
