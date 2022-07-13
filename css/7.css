@@ -37,7 +37,7 @@ nav {
 
 nav > a {
     height: 2.5rem;
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
 nav > a:active {
@@ -70,7 +70,7 @@ body > div {
 .input-group > * {
     border: 1px solid coral;
     margin-left: -1px;
-    padding: 0.5rem;
+    padding: .5rem;
     transition: box-shadow .2s;
     white-space: nowrap;
 }
@@ -82,13 +82,13 @@ body > div {
 .input-group > :focus {
     border-color: orchid;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(218, 112, 214, .25);
+    box-shadow: 0 0 0 .25rem rgb(218, 112, 214, .25);
     z-index: 1;
 }
 
 .input-group > :first-child {
     border: 1px solid coral;
-    border-radius: 0.25rem 0 0 0.25rem;
+    border-radius: .25rem 0 0 .25rem;
     margin: 0;
 }
 
@@ -113,8 +113,8 @@ body > div {
     display: flex;
     width: 10rem;
     height: 2.5rem;
-    margin: 0.25rem;
-    padding: 0.5rem;
+    margin: .25rem;
+    padding: .5rem;
     transition: color .2s, transform .2s, background .5s;
 }
 
@@ -125,7 +125,7 @@ body > div {
 
 
 .nav-site-bar > a > img {
-    border-radius: 0.75rem;
+    border-radius: .75rem;
     width: 1.5rem;
     height: 1.5rem;
 }
