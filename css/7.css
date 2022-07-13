@@ -27,7 +27,7 @@ button, select, input {
 }
 
 nav {
-    background: rgba(0, 0, 0, .04);
+    background: rgba(0, 0, 0, .02);
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -45,19 +45,14 @@ nav > a:active {
 }
 
 body > div {
-    background: antiquewhite;
+    background: rgba(0, 0, 0, .02);
     margin: auto;
     padding: .5rem;
     transition: .5s;
 }
 
 @media (min-width: 1440px) {
-    nav {
-        width: 1440px;
-    }
-
-    body > div {
-        background: rgba(0, 0, 0, .05);
+    nav, body > div{
         width: 1440px;
     }
 }
@@ -87,7 +82,7 @@ body > div {
 .input-group > :focus {
     border-color: orchid;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(218 112 214 / 25%);
+    box-shadow: 0 0 0 0.25rem rgb(218, 112, 214, .25);
     z-index: 1;
 }
 
