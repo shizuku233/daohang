@@ -48,13 +48,13 @@
 <div>
   <form class="input-group" id="search" action="https://www.baidu.com/s">
     <label for="s">站点选择</label>
-    <select id="s" onchange="setSite()">
-      <option>2DFan</option>
-      <option selected>百度</option>
-      <option>Bangumi</option>
-      <option>Google</option>
-      <option>MyGalgame</option>
-      <option>VNDB</option>
+    <select id="s" onchange="setSearchForm()">
+      <option value="2DFan">2DFan</option>
+      <option value="百度" selected>百度</option>
+      <option value="Bangumi">Bangumi</option>
+      <option value="Google">Google</option>
+      <option value="MyGalgame">MyGalgame</option>
+      <option value="VNDB">VNDB</option>
     </select>
     <input type="text" name="wd" placeholder="请输入关键词">
     <button type="submit">搜索</button>
