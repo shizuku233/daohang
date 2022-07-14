@@ -141,10 +141,16 @@ body > div {
     flex-wrap: wrap;
 }
 
-.nav-site-bar > span {
+.nav-site-bar > b, .nav-site-bar > h2 {
     width: 100%;
-    flex: auto;
     text-align: center;
+}
+
+.nav-site-bar > span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: .5rem 0;
+    width: 100%;
 }
 
 .nav-site-bar > a {
