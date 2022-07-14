@@ -90,6 +90,7 @@ body > div {
 .input-group > * {
     border: 1px solid gold;
     border-radius: 0;
+    height: 2.5rem;
     margin-left: -1px;
     padding: .5rem;
     white-space: nowrap;
