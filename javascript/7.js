@@ -1,4 +1,4 @@
-function setSite() {
+function setSearchForm() {
     const SITE = {
         "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
         "百度": {action: "https://www.baidu.com/s", name: "wd", method: ""},
