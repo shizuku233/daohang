@@ -8,6 +8,19 @@ body {
     transition: background .5s;
 }
 
+body > div {
+    background: rgba(0, 0, 0, .02);
+    margin: auto;
+    padding: .5rem;
+    transition: .5s;
+}
+
+@media (min-width: 1440px) {
+    nav, body > div {
+        width: 1440px;
+    }
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -87,19 +100,6 @@ nav > span {
 nav > span:hover {
     background-color: gold;
     cursor: pointer;
-}
-
-body > div {
-    background: rgba(0, 0, 0, .02);
-    margin: auto;
-    padding: .5rem;
-    transition: .5s;
-}
-
-@media (min-width: 1440px) {
-    nav, body > div {
-        width: 1440px;
-    }
 }
 
 .active {
@@ -198,7 +198,7 @@ body > div {
 }
 
 .dark body > div {
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .08);
 }
 
 .dark button, .dark input, .dark select {
@@ -211,7 +211,7 @@ body > div {
 }
 
 .dark nav {
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .08);
 }
 
 .dark nav > a:active {
