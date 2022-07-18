@@ -185,16 +185,20 @@ body > div {
     color: white;
 }
 
-.dark body {
-    background: black;
-}
-
 .dark a {
     color: white;
 }
 
 .dark a:hover {
     color: dodgerblue;
+}
+
+.dark body {
+    background: black;
+}
+
+.dark body > div {
+    background: rgba(255, 255, 255, .1);
 }
 
 .dark button, .dark input, .dark select {
@@ -220,10 +224,6 @@ body > div {
 
 .dark nav > span:hover {
     background-color: gold;
-}
-
-.dark body > div {
-    background: rgba(255, 255, 255, .1);
 }
 
 .dark option {
