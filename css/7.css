@@ -254,23 +254,33 @@ nav > span:hover {
 }
 
 .dropdown {
-    position: relative;
-}
-
-.dropdown > img {
-    border-radius: 1.25rem;
+    display: inline-block;
     height: 2.5rem;
-    padding: 0.5rem;
+    position: relative;
     width: 2.5rem;
 }
 
+.dropdown > img {
+    border-radius: 0.75rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+    width: 1.5rem;
+}
+
 .dropdown-item {
+    background: mistyrose;
+    border-radius: 1.25rem;
     display: none;
     position: absolute;
+    width: 2.5rem;
 }
 
 .dropdown-item > img {
+    border-radius: 0.75rem;
     display: block;
+    height: 1.5rem;
+    margin: 0.5rem;
+    width: 1.5rem;
 }
 
 .dropdown:hover .dropdown-item {
