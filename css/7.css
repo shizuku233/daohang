@@ -241,3 +241,38 @@ nav > span:hover {
 .dark .nav-site-bar > a:active {
     background: rgba(255, 255, 255, .1);
 }
+
+#se {
+    background: rgba(0, 0, 0, .08);
+    border-radius: 1.25rem;
+    display: flex;
+    height: 2.5rem;
+}
+
+#se > input {
+    border: 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > img {
+    border-radius: 1.25rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    width: 2.5rem;
+}
+
+.dropdown-item {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-item > img {
+    display: block;
+}
+
+.dropdown:hover .dropdown-item {
+    display: block;
+}
