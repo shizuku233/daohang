@@ -23,3 +23,26 @@ function openurl() {
     var url = site + alpha + "/" + title + "/"
     window.open(url);
 }
+
+const FORMSET = {
+        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
+        "百度": {action: "https://www.baidu.com/s", name: "wd", method: ""},
+        "Bangumi": {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
+        "Google": {action: "https://www.google.com/search", name: "q", method: ""},
+        "MyGalgame": {action: "https://www.okloli.com", name: "s", method: ""},
+        "VNDB": {action: "https://vndb.org/v", name: "sq", method: ""},
+    };
+
+window.onload = function () {
+    let searchForm = document.querySelector("#se");
+    document.querySelectorAll("#se > div > div > span").forEach(function (span) {
+        span.addEventListener("click", function () {
+            let img = span.querySelector("img");
+            let name = span.querySelector("span").textContent;
+            document.querySelector("#se > div > img").src = img.src;
+            searchForm.setAttribute("action", FORMSET[name].action);
+            searchForm.setAttribute("method", FORMSET[name].method);
+            searchForm.querySelector("input").name = FORMSET[name].name;
+        })
+    })
+}
