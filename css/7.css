@@ -239,7 +239,7 @@ nav > span:hover {
 }
 
 #se {
-    background: rgba(0, 0, 0, .08);
+    background: rgba(0, 0, 0, .04);
     border-radius: 1.25rem;
     display: flex;
     flex-wrap: wrap;
