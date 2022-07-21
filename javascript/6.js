@@ -25,13 +25,14 @@ function openurl() {
 }
 
 const FORMSET = {
-        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
-        "百度": {action: "https://www.baidu.com/s", name: "wd", method: ""},
-        "Bangumi": {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
-        "Google": {action: "https://www.google.com/search", name: "q", method: ""},
-        "MyGalgame": {action: "https://www.okloli.com", name: "s", method: ""},
-        "VNDB": {action: "https://vndb.org/v", name: "sq", method: ""},
-    };
+    "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
+    "百度": {action: "https://www.baidu.com/s", name: "wd", method: ""},
+    "Bangumi": {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
+    "必应": {action: "https://www.bing.com/search", name: "q", method: ""},
+    "Google": {action: "https://www.google.com/search", name: "q", method: ""},
+    "MyGalgame": {action: "https://www.okloli.com", name: "s", method: ""},
+    "VNDB": {action: "https://vndb.org/v", name: "sq", method: ""},
+};
 
 window.onload = function () {
     let searchForm = document.querySelector("#search");
