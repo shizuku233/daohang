@@ -149,7 +149,6 @@ nav > span:hover {
     display: none;
     padding: .5rem 0 0 .5rem;
     position: absolute;
-    transition: 0.5s;
 }
 
 .dropdown-menu > span {
@@ -159,7 +158,7 @@ nav > span:hover {
     height: 2.5rem;
     padding: 7px;
     margin: 0 .5rem .5rem 0;
-    transition: background 0.5s;
+    transition: background .5s;
     width: 9rem;
 }
 
@@ -169,7 +168,7 @@ nav > span:hover {
 }
 
 .dropdown-menu > span > img {
-    border-radius: 0.75rem;
+    border-radius: .75rem;
     display: block;
     height: 1.5rem;
     width: 1.5rem;
@@ -237,7 +236,7 @@ nav > span:hover {
 
 .nav-site-bar > a:active {
     background: rgba(0, 0, 0, .08);
-    transform: scale(.90);
+    transform: scale(.9);
 }
 
 
