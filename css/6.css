@@ -26,15 +26,14 @@ a {
     text-decoration: none;
     transition: color .2s, transform .2s, background .5s;
     white-space: nowrap;
+}
+
+a, button {
     -webkit-tap-highlight-color: transparent;
 }
 
 a:hover {
     color: dodgerblue;
-}
-
-button {
-    -webkit-tap-highlight-color: transparent;
 }
 
 button, input, select {
@@ -238,7 +237,7 @@ nav > span:hover {
     background: rgba(255, 255, 255, .1);
 }
 
-#se {
+#search-1 {
     background: rgba(0, 0, 0, .04);
     border-radius: 1.25rem;
     display: flex;
@@ -247,12 +246,12 @@ nav > span:hover {
     max-width: 720px;
 }
 
-#se > input {
+#search-1 > input {
     border: 0;
     flex: auto;
 }
 
-#se > button {
+#search-1 > button {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'> <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/></svg>");
     background-position: center;
     background-repeat: no-repeat;
@@ -280,20 +279,21 @@ nav > span:hover {
 
 .dropdown-menu {
     background: white;
-    border: 1px solid yellowgreen;
     border-radius: .5rem;
-    box-shadow: 0 0 5px .25rem rgba(154 250 54 / .25);
+    box-shadow: 0 0 8px .25rem rgba(0 0 0 / .08);
     display: none;
+    padding: .5rem 0 0 .5rem;
     position: absolute;
     transition: 0.5s;
 }
 
 .dropdown-menu > span {
     border: 1px solid aqua;
+    border-radius: 1.25rem;
     display: flex;
     height: 2.5rem;
     padding: 7px;
-    margin: 0.25rem;
+    margin: 0 .5rem .5rem 0;
     transition: background 0.5s;
     width: 8rem;
 }
