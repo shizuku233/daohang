@@ -35,15 +35,15 @@ const FORMSET = {
 };
 
 window.onload = function () {
-    let searchForm = document.querySelector("#search");
-    searchForm.querySelectorAll(".dropdown-menu > span").forEach(function (span) {
+    let search = document.querySelector("#search");
+    search.querySelectorAll(".dropdown-menu > span").forEach(function (span) {
         span.addEventListener("click", function () {
             let img = span.querySelector("img");
             let name = span.querySelector("span").textContent;
-            searchForm.setAttribute("action", FORMSET[name].action);
-            searchForm.setAttribute("method", FORMSET[name].method);
-            searchForm.querySelector("div > img").src = img.src;
-            searchForm.querySelector("input").name = FORMSET[name].name;
+            search.setAttribute("action", FORMSET[name].action);
+            search.setAttribute("method", FORMSET[name].method);
+            search.querySelector("div > img").src = img.src;
+            search.querySelector("input").name = FORMSET[name].name;
         })
     })
 }
