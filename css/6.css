@@ -38,34 +38,35 @@ a:hover {
 
 button, input, select {
     background: transparent;
-    border: 1px solid hotpink;
+    border: 1px solid gold;
     border-radius: .25rem;
     color: black;
     font-size: 1rem;
     height: 2.5rem;
     padding: .5rem;
-    transition: background .5s, box-shadow .2s;
+    transition: background .5s, border .5s, box-shadow .2s;
 }
 
 button:hover {
-    background: hotpink;
+    background: gold;
     cursor: pointer;
 }
 
 button:focus, input:focus, select:focus {
     border-color: black;
-    box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .25);
+    box-shadow: 0 0 0 .25rem rgba(0 0 0 / .25);
     outline: 0;
     z-index: 1;
 }
 
 nav {
-    background: rgba(0, 0, 0, .02);
+    background: rgba(0 0 0 / .02);
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     position: sticky;
     top: 0;
+    transition: background .5s;
 }
 
 nav > a {
@@ -74,7 +75,7 @@ nav > a {
 }
 
 nav > a:active {
-    background: rgba(0, 0, 0, .04);
+    background: rgba(0 0 0 / .04);
 }
 
 nav > button {
@@ -103,138 +104,6 @@ nav > span:hover {
 
 .active {
     color: red;
-}
-
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 .5rem;
-}
-
-.input-group > * {
-    border: 1px solid gold;
-    border-radius: 0;
-    margin-left: -1px;
-    padding: .5rem;
-    white-space: nowrap;
-}
-
-.input-group > input, .input-group > select {
-    flex: auto;
-}
-
-.input-group > button:hover {
-    background: gold;
-}
-
-.input-group > :first-child {
-    border-radius: .25rem 0 0 .25rem;
-}
-
-.input-group > :last-child {
-    border-radius: 0 .25rem .25rem 0;
-}
-
-.nav-site-bar {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nav-site-bar > span {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin: .5rem 0;
-    width: 100%;
-}
-
-.nav-site-bar > a {
-    background: rgba(0, 0, 0, .04);
-    border-radius: 1.25rem;
-    display: flex;
-    width: 10rem;
-    height: 2.5rem;
-    margin: .25rem;
-    padding: .5rem;
-}
-
-.nav-site-bar > a:active {
-    background: rgba(0, 0, 0, .08);
-    transform: scale(.90);
-}
-
-
-.nav-site-bar > a > img {
-    border-radius: .75rem;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.nav-site-bar > a > span {
-    flex: auto;
-    line-height: 1.5rem;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.dark {
-    color: white;
-}
-
-.dark a {
-    color: white;
-}
-
-.dark a:hover {
-    color: dodgerblue;
-}
-
-.dark body {
-    background: black;
-}
-
-.dark body > div {
-    background: rgba(255, 255, 255, .08);
-}
-
-.dark button, .dark input, .dark select {
-    color: white;
-}
-
-.dark button:focus, .dark input:focus, .dark select:focus {
-    border-color: white;
-    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
-}
-
-.dark nav {
-    background: rgba(255, 255, 255, .08);
-}
-
-.dark nav > a:active {
-    background: rgba(255, 255, 255, .1);
-}
-
-.dark nav > span {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'> <path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z'/></svg>");
-}
-
-.dark nav > span:hover {
-    background-color: gold;
-}
-
-.dark option {
-    background: black;
-}
-
-.dark .active {
-    color: red;
-}
-
-.dark .nav-site-bar > a {
-    background: rgba(255, 255, 255, .1);
-}
-
-.dark .nav-site-bar > a:active {
-    background: rgba(255, 255, 255, .1);
 }
 
 #search {
@@ -313,6 +182,158 @@ nav > span:hover {
 }
 
 .dropdown:hover > .dropdown-menu {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.input-group {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 0 .5rem;
+}
+
+.input-group > * {
+    border: 1px solid gold;
+    border-radius: 0;
+    margin-left: -1px;
+    padding: .5rem;
+    transition: border .5s;
+    white-space: nowrap;
+}
+
+.input-group > input, .input-group > select {
+    flex: auto;
+}
+
+.input-group > :first-child {
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.input-group > :last-child {
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.nav-site-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-site-bar > span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: .5rem 0;
+    width: 100%;
+}
+
+.nav-site-bar > a {
+    background: rgba(0, 0, 0, .04);
+    border-radius: 1.25rem;
+    display: flex;
+    width: 10rem;
+    height: 2.5rem;
+    margin: .25rem;
+    padding: .5rem;
+}
+
+.nav-site-bar > a:active {
+    background: rgba(0, 0, 0, .08);
+    transform: scale(.90);
+}
+
+
+.nav-site-bar > a > img {
+    border-radius: .75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-site-bar > a > span {
+    flex: auto;
+    line-height: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.dark {
+    color: white;
+}
+
+.dark a {
+    color: white;
+}
+
+.dark a:hover {
+    color: dodgerblue;
+}
+
+.dark body {
+    background: black;
+}
+
+.dark body > div {
+    background: rgba(255 255 255 / .08);
+}
+
+.dark button, .dark input, .dark select {
+    border-color: hotpink;
+    color: white;
+}
+
+.dark button:hover {
+    background: hotpink;
+}
+
+.dark button:focus, .dark input:focus, .dark select:focus {
+    border-color: white;
+    box-shadow: 0 0 0 .25rem rgba(255 255 255 / .25);
+}
+
+.dark nav {
+    background: rgba(255 255 255 / .08);
+}
+
+.dark nav > span {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'> <path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z'/></svg>");
+    border-color: hotpink;
+}
+
+.dark nav > span:hover {
+    background-color: hotpink;
+}
+
+.dark option {
+    background: black;
+}
+
+.dark .active {
+    color: red;
+}
+
+.dark #search {
+    background: rgba(255 255 255 / .08);
+}
+
+.dark #search > button {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' viewBox='0 0 16 16'> <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/></svg>");
+}
+
+.dark .dropdown-menu {
+    background: rgba(20 20 20);
+    box-shadow: 0 0 8px .25rem rgba(255 255 255 / .08);
+}
+
+.dark .dropdown-menu > span {
+    border: 1px solid indianred;
+}
+
+.dark .dropdown-menu > span:hover {
+    background: indianred;
+}
+
+.dark .input-group > * {
+    border-color: hotpink;
+}
+
+.dark .nav-site-bar > a {
+    background: rgba(255 255 255 / .08);
 }
