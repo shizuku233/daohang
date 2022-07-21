@@ -6,8 +6,8 @@
   <title>导航</title>
   <base href="https://shizuku233.github.io/daohang/" target="_blank">
   <link rel="icon" href="images/icon.png">
-  <link rel="stylesheet" type="text/css" href="css/7.css">
-  <script src="javascript/7.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/6.css">
+  <script src="javascript/6.js"></script>
   <script>
     var themeMedia = window.matchMedia("(prefers-color-scheme: dark)");
     if (themeMedia.matches) {
@@ -41,12 +41,11 @@
   <a href="./3.html" target="_self">Page 3</a>
   <a href="./4.html" target="_self">Page 4</a>
   <a href="./5.html" target="_self">Page 5</a>
-  <a href="./6.html" target="_self">Page 6</a>
-  <a href="./7.html" target="_self" class="active">Page 7</a>
+  <a href="./6.html" target="_self" class="active">Page 6</a>
   <span onclick="changeTheme()"></span>
 </nav>
 <div>
-  <form id="se" action="https://www.baidu.com/s">
+  <form id="search" action="https://www.baidu.com/s">
     <div class="dropdown">
       <img src="https://www.baidu.com/favicon.ico">
       <div class="dropdown-menu">
@@ -61,6 +60,10 @@
         <span>
           <img src="https://bangumi.tv/img/favicon.ico">
           <span>Bangumi</span>
+        </span>
+        <span>
+          <img src="https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico">
+          <span>必应</span>
         </span>
         <span>
           <img src="https://www.google.com/favicon.ico">
@@ -79,7 +82,7 @@
     <input type="text" name="wd" placeholder="请输入关键词">
     <button type="submit"></button>
   </form>
-  <form class="input-group" id="search" action="https://www.baidu.com/s">
+  <form class="input-group" action="https://www.baidu.com/s">
     <label for="s">站点选择</label>
     <select id="s" onchange="setSearchForm()">
       <option value="2DFan">2DFan</option>
