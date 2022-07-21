@@ -34,14 +34,14 @@ const FORMSET = {
     };
 
 window.onload = function () {
-    let searchForm = document.querySelector("#se");
-    document.querySelectorAll("#se > div > div > span").forEach(function (span) {
+    let searchForm = document.querySelector("#search-1");
+    document.querySelectorAll("#search-1 > div > div > span").forEach(function (span) {
         span.addEventListener("click", function () {
             let img = span.querySelector("img");
             let name = span.querySelector("span").textContent;
-            document.querySelector("#se > div > img").src = img.src;
             searchForm.setAttribute("action", FORMSET[name].action);
             searchForm.setAttribute("method", FORMSET[name].method);
+            searchForm.querySelector("div > img").src = img.src;
             searchForm.querySelector("input").name = FORMSET[name].name;
         })
     })
