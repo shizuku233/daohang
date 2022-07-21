@@ -291,7 +291,7 @@ nav > span:hover {
     padding: 7px;
     margin: 0 .5rem .5rem 0;
     transition: background 0.5s;
-    width: 8rem;
+    width: 9rem;
 }
 
 .dropdown-menu > span:hover {
@@ -315,10 +315,4 @@ nav > span:hover {
 .dropdown:hover > .dropdown-menu {
     display: flex;
     flex-wrap: wrap;
-}
-
-.dropdown:focus ~ div {
-    display: block;
-    position: relative;
-    top: 2rem;
 }
