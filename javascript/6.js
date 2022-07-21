@@ -34,8 +34,8 @@ const FORMSET = {
     };
 
 window.onload = function () {
-    let searchForm = document.querySelector("#search-1");
-    document.querySelectorAll("#search-1 > div > div > span").forEach(function (span) {
+    let searchForm = document.querySelector("#search");
+    searchForm.querySelectorAll(".dropdown-menu > span").forEach(function (span) {
         span.addEventListener("click", function () {
             let img = span.querySelector("img");
             let name = span.querySelector("span").textContent;
