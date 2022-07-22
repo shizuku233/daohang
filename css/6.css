@@ -11,14 +11,9 @@ body {
 body > div {
     background: rgba(0 0 0 / .02);
     margin: auto;
+    max-width: 1440px;
     padding: .5rem;
     transition: .5s;
-}
-
-@media (min-width: 1440px) {
-    nav, body > div {
-        width: 1440px;
-    }
 }
 
 a {
@@ -65,6 +60,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    max-width: 1440px;
     position: sticky;
     top: 0;
     transition: background .5s;
