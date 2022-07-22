@@ -118,6 +118,7 @@ nav > span:hover {
 
 #search > input {
     border: 0;
+    border-radius: 1.25rem;
     flex: auto;
 }
 
@@ -198,7 +199,6 @@ nav > span:hover {
     border-radius: 0;
     margin-left: -1px;
     padding: .5rem;
-    transition: border .5s;
     white-space: nowrap;
 }
 
