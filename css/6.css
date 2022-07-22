@@ -149,9 +149,12 @@ nav > span:hover {
     background: rgba(255 255 255 / .25);
     border-radius: .5rem;
     box-shadow: 0 0 8px .25rem rgba(0 0 0 / .08);
-    display: none;
+    display: grid;
+    opacity: 0;
     padding: .5rem 0 0 .5rem;
     position: absolute;
+    transition: .5s;
+    visibility: hidden;
 }
 
 .dropdown-menu > span {
@@ -186,6 +189,8 @@ nav > span:hover {
 .dropdown:hover > .dropdown-menu {
     display: grid;
     flex-wrap: wrap;
+    opacity: 1;
+    visibility: visible;
 }
 
 .input-group {
