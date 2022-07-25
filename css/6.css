@@ -189,7 +189,6 @@ nav > button:hover {
 }
 
 .dropdown:hover > .dropdown-menu {
-    display: ;
     opacity: 1;
     visibility: visible;
 }
@@ -338,11 +337,11 @@ nav > button:hover {
     box-shadow: 0 0 8px .25rem rgba(255 255 255 / .08);
 }
 
-.dark .dropdown-menu > span {
+.dark .dropdown-menu > div > div {
     border: 1px solid indianred;
 }
 
-.dark .dropdown-menu > span:hover {
+.dark .dropdown-menu > div > div:hover {
     background: indianred;
 }
 
