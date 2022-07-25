@@ -107,18 +107,10 @@ nav > button:hover {
     transition: .2s;
 }
 
-#search:focus-within {
-    box-shadow: 0 0 0 .25rem rgba(0 0 0 / .25);
-}
-
 #search > input {
     border: initial;
-    border-radius: 1.25rem;
+    border-radius: initial;
     flex: auto;
-}
-
-#search > input:focus, #search > button:focus {
-    box-shadow: initial;
 }
 
 #search > button {
@@ -199,15 +191,20 @@ nav > button:hover {
 }
 
 .input-group > * {
-    border: 1px solid gold;
-    border-radius: 0;
-    margin-left: -1px;
+    background: rgba(0 0 0 / .04);
+    border: initial;
+    border-radius: initial;
+    line-height: 1.5rem;
     padding: .5rem;
     white-space: nowrap;
 }
 
 .input-group > input, .input-group > select {
     flex: auto;
+}
+
+.input-group > label {
+    background: rgba(0 0 0 / .12);
 }
 
 .input-group > :first-child {
@@ -340,7 +337,11 @@ nav > button:hover {
 }
 
 .dark .input-group > * {
-    border-color: hotpink;
+    background: rgba(255 255 255 / .08);
+}
+
+.dark .input-group > label {
+    background: rgba(255 255 255 / .16);
 }
 
 .dark .nav-site-bar > a {
