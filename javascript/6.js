@@ -26,6 +26,20 @@ const FORMSET = {
     }
 };
 
+function getHotkeyword(value) {
+    $.ajax({
+        type: "GET",
+        url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+        async: true,
+        data: {wd: value},
+        dataType: "jsonp",
+        jsonp: "cb",
+        success: function (res) {
+
+        }
+    })
+}
+
 window.onload = function () {
     let search = document.querySelector("#search");
     let dropdownMenu = "";
@@ -47,6 +61,29 @@ window.onload = function () {
                 search.querySelector("div > img").src = FORMSET[category][name].image;
                 search.querySelector("input").name = FORMSET[category][name].name;
             })
+        })
+    })
+    let input = search.querySelector("input");
+    input.addEventListener("input", function () {
+        let value = input.value;
+        $.ajax({
+            type: "GET",
+            url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+            async: true,
+            data: {wd: value},
+            dataType: "jsonp",
+            jsonp: "cb",
+            success: function (res) {
+                console.log(res.s)
+                let div = ""
+                for (let s of res.s) {
+                    div += "<span>" + s + "</span>"
+                    search.nextElementSibling.innerHTML = div;
+                }
+            },
+            error: function (res) {
+                console.log(res)
+            }
         })
     })
 }
