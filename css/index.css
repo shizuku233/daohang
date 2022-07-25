@@ -23,12 +23,12 @@ a {
     white-space: nowrap;
 }
 
-a, button, span {
-    -webkit-tap-highlight-color: transparent;
-}
-
 a:hover {
     color: dodgerblue;
+}
+
+a, button, span {
+    -webkit-tap-highlight-color: transparent;
 }
 
 button, input, select {
