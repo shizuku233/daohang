@@ -1,0 +1,115 @@
+body {
+    background: white;
+    transition: .6s;
+}
+
+body > div {
+    background: #f8f9fa;
+    transition: background .6s;
+}
+
+.nav_site {
+    margin: 1rem 0;
+}
+
+.nav_site_title {
+    font-size: 1.25rem;
+}
+
+.nav_site_bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_site_bar > a {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 1.25rem;
+    color: black;
+    display: flex;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: color .2s, transform .2s, background .6s;
+}
+
+.nav_site_bar > a:hover {
+    color: dodgerblue;
+}
+
+.nav_site_bar > a:active {
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
+}
+
+.nav_site_bar > a > img {
+    border-radius: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav_site_bar > a > span {
+    flex: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.dark body {
+    background-color: black;
+}
+
+.dark body > div {
+    color: white;
+    background: #212529;
+}
+
+.dark .nav_site_title {
+    color: white;
+}
+
+.dark .nav_site_bar > a {
+    background: rgba(255, 255, 255, .08);
+    color: white;
+}
+
+.dark .nav_site_bar > a:hover {
+    color: dodgerblue;
+}
+
+.dark .nav_site_bar > a:active {
+    background: rgba(255, 255, 255, .16);
+}
+
+#changeTheme {
+    background: rgba(0, 0, 0, .05);
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    position: sticky;
+    left: 100%;
+    text-align: center;
+    transition: color .2s, transform .2s, background .6s;
+}
+
+#changeTheme:hover {
+    color: goldenrod;
+}
+
+#changeTheme:active {
+    background: rgba(0, 0, 0, .10);
+    transform: scale(.90);
+}
+
+.dark #changeTheme {
+    background: rgba(255, 255, 255, .08);
+}
+
+.dark #changeTheme:hover {
+    color: dodgerblue;
+}
+
+.dark #changeTheme:active {
+    background: rgba(255, 255, 255, .16);
+}
