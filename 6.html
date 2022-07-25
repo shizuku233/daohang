@@ -42,7 +42,7 @@
   <a href="./4.html" target="_self">Page 4</a>
   <a href="./5.html" target="_self">Page 5</a>
   <a href="./6.html" target="_self" class="active">Page 6</a>
-  <span onclick="changeTheme()"></span>
+  <button onclick="changeTheme()"></button>
 </nav>
 <div>
   <form id="search" action="https://www.baidu.com/s">
@@ -81,19 +81,6 @@
     </div>
     <input type="text" name="wd" placeholder="请输入关键词">
     <button type="submit"></button>
-  </form>
-  <form class="input-group" action="https://www.baidu.com/s">
-    <label for="s">站点选择</label>
-    <select id="s" onchange="setSearchForm()">
-      <option value="2DFan">2DFan</option>
-      <option value="百度" selected>百度</option>
-      <option value="Bangumi">Bangumi</option>
-      <option value="Google">Google</option>
-      <option value="MyGalgame">MyGalgame</option>
-      <option value="VNDB">VNDB</option>
-    </select>
-    <input type="text" name="wd" placeholder="请输入关键词">
-    <button type="submit">搜索</button>
   </form>
   <div class="input-group">
     <label for="site">站点选择</label>
