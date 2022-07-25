@@ -123,6 +123,11 @@ nav > button:hover {
     width: 2.5rem;
 }
 
+#search ~ div {
+    margin: auto;
+    max-width: 720px;
+}
+
 .dropdown {
 
 }
