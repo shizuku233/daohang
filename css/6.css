@@ -140,7 +140,8 @@ nav > button:hover {
     background: rgba(255 255 255 / .25);
     border-radius: .5rem;
     box-shadow: 0 0 8px .25rem rgba(0 0 0 / .08);
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     opacity: 0;
     padding: .5rem 0 0 .5rem;
     position: absolute;
@@ -148,7 +149,18 @@ nav > button:hover {
     visibility: hidden;
 }
 
-.dropdown-menu > span {
+.dropdown-menu > div {
+    display: flex;
+    flex-flow: column;
+}
+
+.dropdown-menu > div > span {
+    line-height: 1.5rem;
+    margin: 0 .5rem .5rem 0;
+    text-align: center;
+}
+
+.dropdown-menu > div > div {
     border: 1px solid aqua;
     border-radius: 1.25rem;
     display: flex;
@@ -159,27 +171,25 @@ nav > button:hover {
     width: 9rem;
 }
 
-.dropdown-menu > span:hover {
+.dropdown-menu > div > div:hover {
     background: aqua;
     cursor: pointer;
 }
 
-.dropdown-menu > span > img {
+.dropdown-menu > div > div > img {
     border-radius: .75rem;
-    display: block;
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.dropdown-menu > span > span {
+.dropdown-menu > div > div > span {
     flex: auto;
     line-height: 1.5rem;
     text-align: center;
 }
 
 .dropdown:hover > .dropdown-menu {
-    display: grid;
-    flex-wrap: wrap;
+    display: ;
     opacity: 1;
     visibility: visible;
 }
