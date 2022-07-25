@@ -31,6 +31,7 @@ const FORMSET = {
     "必应": {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
     "Google": {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
     "MyGalgame": {action: "https://www.okloli.com", name: "s", method: "", image: "https://www.okloli.com/favicon.ico"},
+    "Sukebei": {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
     "VNDB": {action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
 };
 
