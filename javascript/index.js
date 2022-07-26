@@ -11,35 +11,29 @@ function openurl() {
 const FORMSET = {
     搜索: {
         百度: {action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
-        必应: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
-        Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
-        搜狗: {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"}
+        必应: {
+            action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"
+        },
+        Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"
+        },
+        搜狗: {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"
+        }
     },
     磁力: {
         Nyaa: {action: "https://nyaa.si/", name: "q", method: "", image: "https://nyaa.si/static/favicon.png"},
-        Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
+        Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"
+        },
     },
     游戏: {
-        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: "", image: "https://galge.fun/favicon.ico"},
-        Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
-        MyGalgame: {action: "https://www.okloli.com", name: "s", method: "", image: "https://www.okloli.com/favicon.ico"},
+        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: "", image: "https://galge.fun/favicon.ico"
+        },
+        Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"
+        },
+        MyGalgame: {action: "https://www.okloli.com", name: "s", method: "", image: "https://www.okloli.com/favicon.ico"
+        },
         VNDB: {action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
     }
 };
-
-function getHotkeyword(value) {
-    $.ajax({
-        type: "GET",
-        url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
-        async: true,
-        data: {wd: value},
-        dataType: "jsonp",
-        jsonp: "cb",
-        success: function (res) {
-
-        }
-    })
-}
 
 window.onload = function () {
     let search = document.querySelector("#search");
@@ -79,7 +73,7 @@ window.onload = function () {
             dataType: "jsonp",
             jsonp: "cb",
             success: function (res) {
-                let div = ""
+                let div = "";
                 for (let s of res.s) {
                     div += "<li>" + s + "</li>"
                     search.querySelector("span > div").innerHTML = div;
@@ -91,6 +85,17 @@ window.onload = function () {
                     })
                 })
             },
+            error: function (res) {
+                console.log(res)
+            }
         })
+    })
+    input.addEventListener("blur", function () {
+        setTimeout(function () {
+            search.querySelector("span > div").style.display = "none";
+        }, 200)
+    })
+    input.addEventListener("focus", function () {
+        search.querySelector("span > div").style.display = "";
     })
 }
