@@ -67,6 +67,10 @@ window.onload = function () {
     let input = search.querySelector("input");
     input.addEventListener("input", function () {
         let value = input.value;
+        if (!value) {
+            value = " ";
+            search.querySelector("span > div").innerHTML = "";
+        }
         $.ajax({
             type: "GET",
             url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
@@ -75,16 +79,18 @@ window.onload = function () {
             dataType: "jsonp",
             jsonp: "cb",
             success: function (res) {
-                console.log(res.s)
                 let div = ""
                 for (let s of res.s) {
                     div += "<li>" + s + "</li>"
                     search.querySelector("span > div").innerHTML = div;
                 }
+                search.querySelectorAll("span > div > li").forEach(function (li) {
+                    li.addEventListener("click", function () {
+                        input.value = li.textContent;
+                        search.submit();
+                    })
+                })
             },
-            error: function (res) {
-                console.log(res)
-            }
         })
     })
 }
