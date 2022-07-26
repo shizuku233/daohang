@@ -123,13 +123,13 @@ nav > button:hover {
     border-radius: .5rem;
     box-shadow: 0 0 8px .25rem rgba(0 0 0 / .08);
     position: absolute;
-    transition: .5s;
 }
 
 #search > span > div > li {
     line-height: 1.5rem;
     list-style-type: none;
     padding: .5rem;
+
 }
 
 #search > span > div > li:hover {
