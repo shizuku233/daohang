@@ -107,10 +107,34 @@ nav > button:hover {
     transition: .2s;
 }
 
-#search > input {
+#search > span {
+    flex: auto;
+}
+
+#search > span > input {
     border: initial;
     border-radius: initial;
-    flex: auto;
+    width: 100%;
+}
+
+#search > span > div {
+    backdrop-filter: blur(4px);
+    background: rgba(255 255 255 / .25);
+    border-radius: .5rem;
+    box-shadow: 0 0 8px .25rem rgba(0 0 0 / .08);
+    position: absolute;
+    width: 640px;
+    transition: .5s;
+}
+
+#search > span > div > li {
+    line-height: 1.5rem;
+    list-style-type: none;
+    padding: .5rem;
+}
+
+#search > span > div > li:hover {
+    background: rgba(0 0 0 / .04);
 }
 
 #search > button {
@@ -121,11 +145,6 @@ nav > button:hover {
     border-radius: 1.25rem;
     height: 2.5rem;
     width: 2.5rem;
-}
-
-#search ~ div {
-    margin: auto;
-    max-width: 720px;
 }
 
 .dropdown {
@@ -152,6 +171,7 @@ nav > button:hover {
     position: absolute;
     transition: .5s;
     visibility: hidden;
+    z-index: 1;
 }
 
 .dropdown-menu > div {
