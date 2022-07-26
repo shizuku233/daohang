@@ -78,8 +78,8 @@ window.onload = function () {
                 console.log(res.s)
                 let div = ""
                 for (let s of res.s) {
-                    div += "<span>" + s + "</span>"
-                    search.nextElementSibling.innerHTML = div;
+                    div += "<li>" + s + "</li>"
+                    search.querySelector("span > div").innerHTML = div;
                 }
             },
             error: function (res) {
