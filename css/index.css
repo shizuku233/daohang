@@ -129,7 +129,7 @@ nav > button:hover {
     line-height: 1.5rem;
     list-style-type: none;
     padding: .5rem;
-
+    transition: background .5s;
 }
 
 #search > span > div > li:hover {
