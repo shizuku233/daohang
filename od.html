@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>冲就对了</title>
+    <link rel="icon" href="images/icon-od.ico">
+    <link rel="stylesheet" href="css/od.css">
+    <script>
+        function changeTheme() {
+            document.documentElement.classList.toggle("dark")
+        }
+
+        let themeMedia = window.matchMedia("(prefers-color-scheme: dark)")
+        if (themeMedia.matches) {
+            changeTheme()
+        }
+        themeMedia.addEventListener("change", function (e) {
+            if (e.matches) {
+                document.documentElement.classList.add("dark")
+            } else {
+                document.documentElement.classList.remove("dark")
+            }
+        })
+    </script>
+</head>
+<body>
+<nav></nav>
+<section></section>
+<script src="js/od.js"></script>
+</body>
+</html>
