@@ -77,6 +77,7 @@ const NAVSITE = {
         {href: "https://bbs.mihoyo.com/", image: "https://img-static.mihoyo.com/favicon.ico", title: "米游社"},
         {href: "https://www.ttloli.com/", image: "https://www.ttloli.com/favicon.ico", title: "MyGalgame"},
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
+        {href: "https://post.qingjuacg.top/", image: "https://post.qingjuacg.top/img/fluid.png", title: "青桔网"},
         {href: "https://www.aigalgame.com/", image: "images/icons/绅士天堂.ico", title: "绅士天堂"},
         {href: "https://www.shinnku.com/", image: "https://www.shinnku.com/favicon.ico", title: "失落小站"},
         {href: "https://www.tiangal.com/", image: "https://www.tiangal.com/wp-content/uploads/2022/04/2022042217411468.png", title: "天遊二次元"},
