@@ -70,6 +70,7 @@ const NAVSITE = {
         {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.lzacg.net/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
+        {href: "https://blog.reimu.net/", image: "https://blog.reimu.net/wp-content/uploads/2016/02/cropped-logo-32x32.png", title: "灵梦御所"},
         {href: "https://www.hacg.lv/", image: "https://www.hacg.lv/favicon.ico", title: "琉璃神社"},
         {href: "http://www.acgjc.com/", image: "images/icons/漫音社.ico", title: "漫音社"},
         {href: "https://bbs.mikocon.com/", image: "https://bbs.mikocon.com/favicon.ico", title: "Mikocon"},
