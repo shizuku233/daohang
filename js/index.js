@@ -31,7 +31,7 @@ const NAVSITE = {
         {href: "https://pixysos.com/", image: "https://pixysos.com/static/images/favicon.png", title: "PixysOS"},
         {href: "https://dl.project404.xyz/", image: "https://dl.project404.xyz/images/favicon.svg", title: "Project 404"},
         {href: "https://projectarcana-aosp.netlify.app/", image: "https://projectarcana-aosp.netlify.app/logo-transparent.png", title: "Project Arcana"},
-        {href: "https://projectelixiros.com/", image: "https://projectelixiros.com/assets/images/Elixir_logo2.png", title: "Project Elixir"},
+        {href: "https://projectelixiros.com/", image: "https://projectelixiros.com/assets/images/elixir-newlogo.png", title: "Project Elixir"},
         {href: "https://sourceforge.net/projects/projectsakura/files/", image: "https://a.fsdn.com/allura/p/projectsakura/icon?w=90", title: "Project Sakura"},
         {href: "https://sourceforge.net/projects/superioros/files/", image: "https://a.fsdn.com/allura/p/superioros/icon?w=90", title: "Superior OS"},
         {href: "https://syberiaos.com/", image: "https://syberiaos.com/favicon.ico", title: "Syberia OS"},
@@ -53,6 +53,7 @@ const NAVSITE = {
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://dukou.io/", image: "https://dukou.io/logo.ico", title: "Dukou"},
         {href: "https://www.efcloud.bio/", image: "https://www.efcloud.bio/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://front.spaport.cc/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
         {href: "https://www.runoob.com/", image: "https://static.runoob.com/images/favicon.ico", title: "菜鸟教程"},
