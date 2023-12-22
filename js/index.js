@@ -1,7 +1,12 @@
 const NAVSITE = {
     "导航": [
         {href: "https://www.acgbus.com/", image: "https://www.acgbus.com/favicon.ico", title: "ACG巴士"},
+        {href: "https://www.acgbox.link/", image: "https://www.acgbox.link/wp-content/uploads/logo/86742914_p0.png", title: "ACG盒子"},
+        {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
+        {href: "https://acgnav.cn/", image: "https://acgnav.cn/assets/images/favicon.png", title: "导航姬"},
         {href: "https://www.acg123.co/", image: "https://www.acg123.co/favicon.ico", title: "二刺螈导航"},
+        {href: "https://www.moe-box.com/", image: "http://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
+        {href: "https://myacg.online/", image: "https://img.zjgsuzjx.top/img/images/2021/05/31/a7da6f8d4a1ff0c8a8a87094d198d368.th.jpg", title: "MyACG"},
         {href: "https://v2fd.com/", image: "https://v2fd.com/favicon-32x32.png", title: "V2FD"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
     ],
@@ -66,7 +71,7 @@ const NAVSITE = {
         {href: "https://bangumi.tv/", image: "https://bangumi.tv/img/favicon.ico", title: "Bangumi"},
         {href: "https://seiya-saiga.com/", image: "https://seiya-saiga.com/image/favicon.ico", title: "誠也の部屋"},
         {href: "https://sakustar.com/", image: "https://img.m.cn.cname4593.yjs-cdn.com/2022/07/20220729091230535.png", title: "稻荷ACG"},
-        {href: "https://erogamescape.dyndns.org/", image: "https://erogamescape.dyndns.org/favicon.ico", title: "ErogameScape"},
+        // {href: "https://erogamescape.dyndns.org/", image: "https://erogamescape.dyndns.org/favicon.ico", title: "ErogameScape"},
         {href: "https://bbs.kfpromax.com/", image: "https://bbs.kfpromax.com/favicon.ico", title: "绯月"},
         {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
