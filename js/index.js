@@ -177,6 +177,7 @@ const FORM = {
         "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"}
     },
     "磁力": {
+        GGBases: {action: "https://www.ggbases.com/search.so", name: "title", method: "", image: "https://www.ggbases.com/favicon.ico"},
         Nyaa: {action: "https://nyaa.si/", name: "q", method: "", image: "https://nyaa.si/static/favicon.png"},
         Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
     },
