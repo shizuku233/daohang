@@ -8,10 +8,12 @@
 // @match        https://bbs.kfpromax.com/kf_growup.php
 // @match        https://bbs.zdfx.net/*
 // @match        https://2dfan.org/*
+// @match        https://ggb.dlgal.com/*
 // @match        https://kouknymj-my.sharepoint.com/*
 // @match        https://seiya-saiga.com/*
 // @match        https://sukebei.nyaa.si/*
 // @match        https://www.blue-plus.net/*
+// @match        https://www.ggbases.com/*
 // @match        https://www.lzacg.net/*
 // @match        https://www.sayhuahuo.xyz/dsu_paulsign-sign.html
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
@@ -180,6 +182,16 @@ if (origin === "https://bbs.kfpromax.com") {
     if (href !== "javascript:;") {
         $.get(href)
     }
+}
+
+//GGBases去广告
+if (origin === "https://www.ggbases.com") {
+    document.querySelector(".ad").remove()
+}
+if (origin === "https://ggb.dlgal.com") {
+    document.querySelectorAll("center").forEach((center) => {
+        center.remove()
+    })
 }
 
 // 花火学园自动签到
