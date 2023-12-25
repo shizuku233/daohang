@@ -97,6 +97,7 @@ const NAVSITE = {
         {href: "http://sagaoz.net/foolmaker/", image: "http://sagaoz.net/favicon.ico", title: "愚者の館"},
         {href: "https://www.ymgal.games/", image: "https://www.ymgal.games/favicon.ico", title: "月幕Galgame"},
         // {href: "https://bbs.zdfx.net/", image: "https://bbs.zdfx.net/img/zdfx.svg", title: "终点"},
+        {href: "https://bbs.drdian.net/", image: "https://bbs.drdian.net/img/zdfx.svg", title: "终点"},
     ],
     "no-3": [
         {href: "https://www.423down.com/", image: "https://www.423down.com/wp-content/themes/D7/img/favicon.ico", title: "423Down"},
