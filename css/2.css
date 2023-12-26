@@ -76,14 +76,12 @@ nav > a {
 }
 
 nav > button {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'><path d='M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z'/></svg>");
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid gold;
     border-radius: 1.25rem;
     height: 2.5rem;
     position: absolute;
-    right: 0.5rem;
     width: 2.5rem;
 }
 
@@ -91,15 +89,21 @@ nav > button:hover {
     background-color: gold;
 }
 
+nav > button:nth-of-type(1) {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'><path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z'/></svg>");
+    right: 3.5rem;
+}
+
+nav > button:nth-of-type(2) {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'><path d='M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z'/></svg>");
+    right: 0.5rem;
+}
+
 header, section {
     background: rgba(0 0 0 / .02);
     margin: auto;
     max-width: 1440px;
     transition:color .2s, background .5s;
-}
-
-header {
-    padding: 0 .5rem;
 }
 
 section {
@@ -258,7 +262,8 @@ section {
 .input-group {
     display: flex;
     flex-wrap: wrap;
-    /*margin: 0 0 .5rem;*/
+    max-width: 720px;
+    margin: auto;
 }
 
 .input-group > * {
@@ -280,26 +285,31 @@ section {
 }
 
 .input-group > :first-child {
-    border-radius: .25rem 0 0 .25rem;
+    border-radius: 1.25rem 0 0 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .input-group > :last-child {
-    border-radius: 0 .25rem .25rem 0;
+    border-radius: 0 1.25rem 1.25rem 0;
+    padding-right: 1.25rem;
 }
 
-.nav-site-bar {
+.nav-site {
+    
+}
+
+.nav-site-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+
+.nav-site-content {
     display: flex;
     flex-wrap: wrap;
 }
 
-.nav-site-bar > span {
-    font-size: 1.25rem;
-    font-weight: bold;
-    line-height: 2.5rem;
-    width: 100%;
-}
-
-.nav-site-bar > a {
+.nav-site-content > a {
     background: rgba(0 0 0 / .04);
     border-radius: 1.25rem;
     display: flex;
@@ -309,17 +319,17 @@ section {
     padding: .5rem;
 }
 
-.nav-site-bar > a:active {
+.nav-site-content > a:active {
     transform: scale(.9);
 }
 
-.nav-site-bar > a > img {
+.nav-site-content > a > img {
     border-radius: .75rem;
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.nav-site-bar > a > span {
+.nav-site-content > a > span {
     flex: auto;
     line-height: 1.5rem;
     text-align: center;
@@ -365,12 +375,19 @@ section {
 }
 
 .dark nav > button {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='gainsboro' viewBox='0 0 16 16'><path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z'/></svg>");
     border-color: hotpink;
 }
 
 .dark nav > button:hover {
     background-color: hotpink;
+}
+
+.dark nav > button:nth-of-type(1) {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='gainsboro' viewBox='0 0 16 16'><path d='M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z'/></svg>");
+}
+
+.dark nav > button:nth-of-type(2) {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='gainsboro' viewBox='0 0 16 16'><path d='M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z'/></svg>");
 }
 
 .dark option {
@@ -425,6 +442,124 @@ section {
     background: rgba(255 255 255 / .16);
 }
 
-.dark .nav-site-bar > a {
+.dark .nav-site-content > a {
     background: rgba(255 255 255 / .08);
+}
+
+/*新的网址导航样式*/
+section.nav-box {
+    display: grid;
+    padding: .5rem;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1440px) {
+    section.nav-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1080px) {
+    section.nav-box {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    section.nav-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 360px) {
+    section.nav-box {
+        grid-template-columns: auto;
+    }
+}
+
+.nav-box > .nav-site {
+    background: rgba(230 250 255 / 1);
+    border-radius: .5rem;
+    transition: background-color .5s;
+}
+
+.nav-box .nav-site-title {
+    background: powderblue;
+    border-radius: .5rem .5rem 0 0;
+    text-align: center;
+    transition: color .2s, background-color .5s;
+}
+
+.nav-box .nav-site-content {
+    display: inherit;
+    height: 20rem;
+    padding: 0 .5rem;
+    overflow-y: auto;
+}
+
+.nav-box .nav-site-content::-webkit-scrollbar {
+    width: 0;
+}
+
+.nav-box .nav-site-content:hover::-webkit-scrollbar {
+    width: .5rem;
+}
+
+/*滚动条滑块*/
+.nav-box .nav-site-content::-webkit-scrollbar-thumb {
+    background: salmon;
+    border-radius: .25rem;
+}
+
+/*滚动条里面轨道*/
+.nav-box .nav-site-content::-webkit-scrollbar-track {
+    background: rgba(225 225 225 / 1);
+    border-radius: .25rem;
+}
+
+/*滚动条的小边角*/
+/*.nav-box > .nav-site-content::-webkit-scrollbar-corner {*/
+/*    background: transparent;*/
+/*}*/
+
+.nav-box .nav-site-content > a {
+    background: initial;
+    border-radius: initial;
+    border-bottom: 1px dashed brown;
+    margin: initial;
+    width: initial;
+}
+
+.nav-box .nav-site-content > a:active {
+    transform: initial;
+}
+
+.dark .nav-box > .nav-site {
+    background: black;
+}
+
+.dark .nav-box .nav-site-title {
+    background: rgba(38 38 38 / 1);
+}
+
+.dark .nav-box .nav-site-content::-webkit-scrollbar-thumb {
+    background: rgba(64 64 64 / 1);
+}
+
+.dark .nav-box .nav-site-content::-webkit-scrollbar-track {
+    background: rgba(38 38 38 / 1)
+}
+
+.dark .nav-box .nav-site-content > a {
+    border-bottom: 1px solid rgba(38 38 38 / 1);
+}
+
+@keyframes a {
+    from {
+        transform: scale(.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
