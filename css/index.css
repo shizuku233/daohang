@@ -120,7 +120,7 @@ section {
     border-radius: 1.25rem;
     display: flex;
     flex-wrap: wrap;
-    margin: auto auto .5rem;
+    margin: auto;
     max-width: 720px;
     transition: .5s;
 }
@@ -258,41 +258,6 @@ section {
     height: 2.5rem;
     width: 2.5rem;
 }
-
-/*.input-group {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    max-width: 720px;*/
-/*    margin: auto;*/
-/*}*/
-
-/*.input-group > * {*/
-/*    background: rgba(0 0 0 / .04);*/
-/*    border: initial;*/
-/*    border-radius: initial;*/
-/*    line-height: 1.5rem;*/
-/*    padding: .5rem;*/
-/*    transition: box-shadow .2s, color .2s, background .5s;*/
-/*    white-space: nowrap;*/
-/*}*/
-
-/*.input-group > input, .input-group > select {*/
-/*    flex: auto;*/
-/*}*/
-
-/*.input-group > label {*/
-/*    background: rgba(0 0 0 / .12);*/
-/*}*/
-
-/*.input-group > :first-child {*/
-/*    border-radius: 1.25rem 0 0 1.25rem;*/
-/*    padding-left: 1.25rem;*/
-/*}*/
-
-/*.input-group > :last-child {*/
-/*    border-radius: 0 1.25rem 1.25rem 0;*/
-/*    padding-right: 1.25rem;*/
-/*}*/
 
 .nav-site {
     
@@ -432,15 +397,6 @@ section {
 .dark #search > button {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='gainsboro' viewBox='0 0 16 16'> <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/></svg>");
 }
-
-/*.dark .input-group > * {*/
-/*    color: gainsboro;*/
-/*    background: rgba(255 255 255 / .08);*/
-/*}*/
-
-/*.dark .input-group > label {*/
-/*    background: rgba(255 255 255 / .16);*/
-/*}*/
 
 .dark .nav-site-content > a {
     background: rgba(255 255 255 / .08);
