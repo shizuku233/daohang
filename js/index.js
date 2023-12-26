@@ -68,6 +68,7 @@ const NAVSITE = {
     ],
     "论坛": [
         {href: "https://2dfan.org/", image: "https://2dfan.org/favicon.ico", title: "2DFan"},
+        {href: "https://acgfun.top/", image: "https://acgfun.top/favicon.ico", title: "AcgFun"},
         {href: "https://www.anime-sharing.com/", image: "https://www.anime-sharing.com/styles/io/images/favicon.png", title: "Anime-Sharing"},
         {href: "https://bangumi.tv/", image: "https://bangumi.tv/img/favicon.ico", title: "Bangumi"},
         {href: "https://seiya-saiga.com/", image: "https://seiya-saiga.com/image/favicon.ico", title: "誠也の部屋"},
