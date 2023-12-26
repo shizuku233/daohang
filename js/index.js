@@ -116,7 +116,6 @@ const NAVSITE = {
     ],
     "商城": [
         {href: "https://store.epicgames.com/", image: "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico", title: "EPIC"},
-        {href: "https://www.dlsite.com/", image: "https://www.dlsite.com/images/web/common/favicon.ico", title: "DLsite"},
         {href: "https://jastusa.com/", image: "https://jastusa.com/fav.ico", title: "JAST"},
         {href: "https://www.jd.com/", image: "https://www.jd.com/favicon.ico", title: "京东"},
         {href: "https://www.taobao.com/", image: "https://www.taobao.com/favicon.ico", title: "淘宝"},
