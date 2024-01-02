@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://vndb.org/*
+// @match        https://bbs.drdian.net/yinxingfei_zzza-yinxingfei_zzza_hall.html
 // @match        https://bbs.kfpromax.com/kf_growup.php
 // @match        https://bbs.zdfx.net/*
 // @match        https://2dfan.org/*
@@ -345,3 +346,14 @@ if (origin === "https://vndb.org") {
 //         titleEle.appendChild(div)
 //     }
 // }
+
+// 终点 摇一摇
+if (origin === "https://bbs.drdian.net") {
+    grecaptcha.ready(function () {
+        grecaptcha.execute("6Lfl9bwZAAAAADZ5gAwWyb7U2UynEMHR52oS8d9V").then((token) => {
+            $.post("plugin.php?id=yinxingfei_zzza:yaoyao", {token: token}, (data) => {
+                console.log("状态：" + data.success + "，积分：" + data.jifen)
+            })
+        })
+    })
+}
