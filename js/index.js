@@ -59,7 +59,7 @@ const NAVSITE = {
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://dukou.io/", image: "https://dukou.io/logo.ico", title: "Dukou"},
         {href: "https://www.efcloud.bio/", image: "https://www.efcloud.bio/theme/Aurora/favicon.svg", title: "EFCloud"},
-        {href: "https://front.spaport.cc/", image: "images/icons/SpaPort.png", title: "SpaPort"},
+        {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
         {href: "https://www.runoob.com/", image: "https://static.runoob.com/images/favicon.ico", title: "菜鸟教程"},
