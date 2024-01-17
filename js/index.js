@@ -37,7 +37,7 @@ const NAVSITE = {
         {href: "https://pixysos.com/", image: "https://pixysos.com/static/images/favicon.png", title: "PixysOS"},
         {href: "https://dl.project404.xyz/", image: "https://dl.project404.xyz/images/favicon.svg", title: "Project 404"},
         {href: "https://projectarcana-aosp.netlify.app/", image: "https://projectarcana-aosp.netlify.app/logo-transparent.png", title: "Project Arcana"},
-        {href: "https://projectelixiros.com/", image: "https://projectelixiros.com/assets/images/elixir-newlogo.png", title: "Project Elixir"},
+        {href: "https://sourceforge.net/projects/project-elixir/files/", image: "https://a.fsdn.com/allura/p/project-elixir/icon?w=90", title: "Project Elixir"},
         {href: "https://sourceforge.net/projects/projectsakura/files/", image: "https://a.fsdn.com/allura/p/projectsakura/icon?w=90", title: "Project Sakura"},
         {href: "https://sourceforge.net/projects/superioros/files/", image: "https://a.fsdn.com/allura/p/superioros/icon?w=90", title: "Superior OS"},
         {href: "https://syberiaos.com/", image: "https://syberiaos.com/favicon.ico", title: "Syberia OS"},
