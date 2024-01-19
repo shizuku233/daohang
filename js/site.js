@@ -23,7 +23,7 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/derpfest/files/", image: "https://a.fsdn.com/allura/p/derpfest/icon?w=90", title: "DerpFest"},
         {href: "https://divestos.org/", image: "https://divestos.org/images/favicon.png", title: "DivestOS"},
         {href: "https://www.droidontime.com/", image: "https://www.droidontime.com/assets/images/icon.webp", title: "dotOS"},
-        {href: "https://evolution-x.org/", image: "https://evolution-x.org/static/img/logo.png", title: "Evolution X"},
+        {href: "https://sourceforge.net/projects/evolution-x/files/", image: "https://a.fsdn.com/allura/p/evolution-x/icon?w=90", title: "Evolution X"},
         {href: "https://projectfluid.org/", image: "https://projectfluid.org/fluid.svg", title: "fluid"},
         {href: "https://havoc-os.com/", image: "https://havoc-os.com/src/img/favicon.svg", title: "Havoc-OS"},
         {href: "https://kaleidoscope.ink/", image: "https://kaleidoscope.ink/images/favicon.png", title: "Kaleidoscope"},
