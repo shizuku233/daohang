@@ -63,7 +63,7 @@ const NAVSITE = {
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
-        {href: "https://www.runoob.com/", image: "https://static.runoob.com/images/favicon.ico", title: "菜鸟教程"},
+        {href: "https://www.runoob.com/", image: "https://static.jyshare.com/images/favicon.ico", title: "菜鸟教程"},
         {href: "https://www.jc2182.com/", image: "https://www.jc2182.com/wp-content/themes/wiki/images/favicon.ico", title: "蝴蝶教程"},
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
