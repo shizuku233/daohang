@@ -109,7 +109,7 @@ const NAVSITE = {
     "no-3": [
         {href: "https://www.423down.com/", image: "https://www.423down.com/wp-content/themes/D7/img/favicon.ico", title: "423Down"},
         {href: "https://apphot.cc/", image: "https://apphot.cc/wp-content/uploads/2020/10/cropped-apphot-1-32x32.png", title: "App热"},
-        {href: "https://greasyfork.org/", image: "https://greasyfork.org/vite/assets/blacklogo16-bc64b9f7.png", title: "Greasy Fork"},
+        {href: "https://greasyfork.org/", image: "https://greasyfork.org//vite/assets/blacklogo16-37ZGLlXh.png", title: "Greasy Fork"},
         {href: "https://www.ghxi.com/", image: "https://www.ghxi.com/favicon.ico", title: "果核剥壳"},
         {href: "https://next.itellyou.cn/", image: "https://next.itellyou.cn/favicon.ico", title: "ITELLYOU"},
         {href: "https://www.kelongwo.com/", image: "https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021071214094981-150x150.png", title: "克隆网"},
