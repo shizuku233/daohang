@@ -79,6 +79,7 @@ const NAVSITE = {
         {href: "https://bbs.kfpromax.com/", image: "https://bbs.kfpromax.com/favicon.ico", title: "绯月"},
         {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
+        {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
         {href: "https://www.lzacg.net/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
         {href: "https://blog.reimu.net/", image: "https://blog.reimu.net/wp-content/uploads/2016/02/cropped-logo-32x32.png", title: "灵梦御所"},
         {href: "https://www.hacg.lv/", image: "https://www.hacg.lv/favicon.ico", title: "琉璃神社"},
