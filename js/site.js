@@ -151,11 +151,13 @@ const NAVSITE = {
         {href: "https://www.123pan.com/", image: "https://www.123pan.com/static/favicon.ico", title: "123云盘"},
         {href: "https://www.aliyundrive.com/", image: "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico", title: "阿里云盘"},
         {href: "https://pan.baidu.com/", image: "https://nd-static.bdstatic.com/m-static/v20-main/favicon-main.ico", title: "百度网盘"},
+        {href: "https://pan.quark.cn/", image: "https://image.quark.cn/s/uae/g/3o/broccoli/resource/202304/c62b4840-e344-11ed-93c7-392f83c2aa26.png", title: "夸克网盘"},
         {href: "https://pc.woozooo.com/", image: "https://pc.woozooo.com/favicon.ico", title: "蓝奏云"},
         {href: "https://mega.io/", image: "https://mega.io/favicon.ico", title: "MEGA"},
         {href: "https://mypikpak.com/", image: "https://mypikpak.com/favicon-32x32.png", title: "PikPak"},
         {href: "https://www.quqi.com/", image: "https://www.quqi.com/favicon.ico", title: "曲奇云盘"},
         {href: "https://cloud.189.cn/", image: "https://cloud.189.cn/web/logo.ico", title: "天翼云盘"},
+        {href: "https://drive.uc.cn/", image: "https://drive.uc.cn/favicon.ico", title: "UC网盘"},
     ],
     "影音": [
         {href: "https://www.acfun.cn/", image: "https://cdn.aixifan.com/ico/favicon.ico", title: "AcFun"},
