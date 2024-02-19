@@ -90,6 +90,7 @@ const NAVSITE = {
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
         {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2022/12/网站图标.png", title: "穹之下"},
         {href: "https://post.qingjuacg.top/", image: "https://post.qingjuacg.top/img/fluid.png", title: "青桔网"},
+        {href: "https://cangku.moe/", image: "https://cangku.moe/favicon.ico", title: "绅士仓库"},
         {href: "https://www.aigalgame.com/", image: "images/icons/绅士天堂.ico", title: "绅士天堂"},
         {href: "https://www.shinnku.com/", image: "https://www.shinnku.com/favicon.ico", title: "失落小站"},
         {href: "https://www.tiangal.com/", image: "https://www.tiangal.com/wp-content/uploads/2022/04/2022042217411468.png", title: "天遊二次元"},
@@ -104,6 +105,7 @@ const NAVSITE = {
         // {href: "https://bbs.zdfx.net/", image: "https://bbs.zdfx.net/img/zdfx.svg", title: "终点"},
         {href: "https://bbs.drdian.net/", image: "https://bbs.drdian.net/img/zdfx.svg", title: "终点"},
         {href: "https://gkdworld.eu.org/", image: "https://gkdworld.eu.org/favicon.ico", title: "资源统筹局"},
+        {href: "https://zodgame.xyz/", image: "https://zodgame.xyz/favicon.ico", title: "ZodGame论坛"},
         {href: "https://wafuwafu.com/", image: "https://wafuwafu.com/wp-content/uploads/2022/09/kud_wafter_favicon.png", title: "わふわふ"},
     ],
     "no-3": [
