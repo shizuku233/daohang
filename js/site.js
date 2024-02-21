@@ -63,7 +63,7 @@ const NAVSITE = {
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
-        {href: "https://www.runoob.com/", image: "https://static.jyshare.com/images/favicon.ico", title: "菜鸟教程"},
+        {href: "https://www.runoob.com/", image: "images/icons/菜鸟教程.ico", title: "菜鸟教程"},
         {href: "https://www.jc2182.com/", image: "https://www.jc2182.com/wp-content/themes/wiki/images/favicon.ico", title: "蝴蝶教程"},
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
@@ -97,7 +97,6 @@ const NAVSITE = {
         {href: "https://www.tiangal.com/", image: "https://www.tiangal.com/wp-content/uploads/2022/04/2022042217411468.png", title: "天遊二次元"},
         {href: "https://www.touchgal.com/", image: "https://npm.elemecdn.com/touchgalstatic1@0.0.3/img/CnLIp.png", title: "TouchGAL"},
         {href: "https://vndb.org/", image: "https://vndb.org/favicon.ico", title: "VNDB"},
-        // {href: "https://t-satoru.top/", image: "https://i0.wp.com/t-satoru.top/wp-content/uploads/2022/10/cropped-photo_2021-11-18_11-34-06.jpg", title: "小鳥遊曉"},
         {href: "https://t-satoru.top/", image: "https://t-satoru.top/favicon.ico", title: "小鳥遊暁"},
         {href: "https://www.yngal.com/", image: "https://www.yngal.com/static/images/icon.jpg", title: "XXGalgame"},
         // {href: "https://ercygame.com/", image: "https://ercygame.com/wp-content/uploads/2021/07/cropped-srchttp___inews.gtimg_.com_newsapp_match_0_10723316324_0-1.jpgreferhttp___inews.gtimg_-1-32x32.jpg", title: "幽隐恋梦"},
@@ -106,7 +105,7 @@ const NAVSITE = {
         // {href: "https://bbs.zdfx.net/", image: "https://bbs.zdfx.net/img/zdfx.svg", title: "终点"},
         {href: "https://bbs.drdian.net/", image: "https://bbs.drdian.net/img/zdfx.svg", title: "终点"},
         {href: "https://gkdworld.eu.org/", image: "https://gkdworld.eu.org/favicon.ico", title: "资源统筹局"},
-        {href: "https://zodgame.xyz/", image: "https://zodgame.xyz/favicon.ico", title: "ZodGame论坛"},
+        {href: "https://zodgame.xyz/", image: "images/icons/ZodGame论坛.ico", title: "ZodGame论坛"},
         {href: "https://wafuwafu.com/", image: "https://wafuwafu.com/wp-content/uploads/2022/09/kud_wafter_favicon.png", title: "わふわふ"},
     ],
     "no-3": [
@@ -126,6 +125,7 @@ const NAVSITE = {
         {href: "https://forum.xda-developers.com/", image: "https://forum.xda-developers.com/data/assets/logo/favicon-32x32.png", title: "XDA"},
     ],
     "商城": [
+        {href: "https://www.dlsite.com/", image: "https://www.dlsite.com/images/web/common/favicon.ico", title: "DLsite"},
         {href: "https://store.epicgames.com/", image: "https://static-assets-prod.epicgames.com/epic-store/static/favicon.ico", title: "EPIC"},
         {href: "https://jastusa.com/", image: "https://jastusa.com/fav.ico", title: "JAST"},
         {href: "https://www.jd.com/", image: "https://www.jd.com/favicon.ico", title: "京东"},
@@ -178,7 +178,7 @@ const NAVSITE = {
         {href: "https://www.yhmgo.com/", image: "https://www.yhmgo.com//tpsf/yh_pic/favicon.ico", title: "樱花动漫"},
     ],
     "资讯": [
-        {href: "https://www.expreview.com/", image: "https://cj.expreview.com/favicon.ico", title: "超能网"},
+        {href: "https://www.expreview.com/", image: "https://www.expreview.com/favicon.ico", title: "超能网"},
         {href: "https://www.landiannews.com/", image: "https://static.lancdn.com/landian/v4.0.1/images/favicon.png", title: "蓝点网"},
     ]
 }
