@@ -78,8 +78,10 @@ const NAVSITE = {
         // {href: "https://erogamescape.dyndns.org/", image: "https://erogamescape.dyndns.org/favicon.ico", title: "ErogameScape"},
         {href: "https://bbs.kfpromax.com/", image: "https://bbs.kfpromax.com/favicon.ico", title: "绯月"},
         {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
+        {href: "https://galgamer.moe/", image: "https://galgamer.moe/favicon.ico", title: "Galgamer"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
+        {href: "https://www.kungal.com/", image: "https://www.kungal.com/favicon.ico", title: "鲲Galgame论坛"},
         {href: "https://www.lzacg.net/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
         {href: "https://blog.reimu.net/", image: "https://blog.reimu.net/wp-content/uploads/2016/02/cropped-logo-32x32.png", title: "灵梦御所"},
         {href: "https://www.hacg.lv/", image: "https://www.hacg.lv/favicon.ico", title: "琉璃神社"},
@@ -106,6 +108,7 @@ const NAVSITE = {
         {href: "https://bbs.drdian.net/", image: "https://bbs.drdian.net/img/zdfx.svg", title: "终点"},
         {href: "https://gkdworld.eu.org/", image: "https://gkdworld.eu.org/favicon.ico", title: "资源统筹局"},
         {href: "https://zodgame.xyz/", image: "images/icons/ZodGame论坛.ico", title: "ZodGame论坛"},
+        {href: "https://www.erogame.space/", image: "https://www.erogame.space/wp-content/uploads/2023/09/1694188211-611f695c2a6f1-bpfull.jpg", title: "ファウスト"},
         {href: "https://wafuwafu.com/", image: "https://wafuwafu.com/wp-content/uploads/2022/09/kud_wafter_favicon.png", title: "わふわふ"},
     ],
     "no-3": [
@@ -149,6 +152,9 @@ const NAVSITE = {
         {href: "https://nyaa.si/", image: "https://nyaa.si/static/favicon.png", title: "Nyaa"},
         {href: "https://sukebei.nyaa.si/", image: "https://sukebei.nyaa.si/static/favicon.png", title: "Sukebei"},
     ],
+    "图片": [
+        {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
+    ],
     "网盘": [
         {href: "https://www.123pan.com/", image: "https://www.123pan.com/static/favicon.ico", title: "123云盘"},
         {href: "https://www.aliyundrive.com/", image: "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico", title: "阿里云盘"},
@@ -170,7 +176,6 @@ const NAVSITE = {
         {href: "https://e-hentai.org/", image: "https://e-hentai.org/favicon.ico", title: "E-Hentai"},
         {href: "https://exhentai.org/", image: "https://exhentai.org/favicon.ico", title: "ExHentai"},
         {href: "https://www.mitang.tv/", image: "https://p.upyun.com/demo/tmp/VQdWNWSr.webp", title: "蜜糖动漫"},
-        {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
         {href: "https://www.quqim.net/", image: "https://www.quqim.net/tpsf/qd_pic/favicon.ico", title: "曲奇动漫"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
@@ -200,6 +205,7 @@ const FORM = {
         "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: "", image: "https://galge.fun/favicon.ico"},
         "Anime-Sharing": {action: "https://www.anime-sharing.com/search", name: "q", method: "", image: "https://www.anime-sharing.com/styles/io/images/favicon.png"},
         Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
+        Mikocon: {action: "https://bbs.mikocon.com/search.php", name: "srchtxt", method: "", image: "https://bbs.mikocon.com/favicon.ico"},
         MyGalgame: {action: "https://www.ttloli.com", name: "s", method: "", image: "https://www.ttloli.com/favicon.ico"},
         VNDB: {action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
     }
