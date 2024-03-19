@@ -100,6 +100,7 @@ const NAVSITE = {
         {href: "https://www.touchgal.com/", image: "https://npm.elemecdn.com/touchgalstatic1@0.0.3/img/CnLIp.png", title: "TouchGAL"},
         {href: "https://vndb.org/", image: "https://vndb.org/favicon.ico", title: "VNDB"},
         {href: "https://t-satoru.top/", image: "https://t-satoru.top/favicon.ico", title: "小鳥遊暁"},
+        {href: "https://xxacg.net/", image: "https://xxacg.net/wp-content/uploads/2021/03/cropped-game-1-32x32.png", title: "xxacg"},
         {href: "https://www.yngal.com/", image: "https://www.yngal.com/static/images/icon.jpg", title: "XXGalgame"},
         // {href: "https://ercygame.com/", image: "https://ercygame.com/wp-content/uploads/2021/07/cropped-srchttp___inews.gtimg_.com_newsapp_match_0_10723316324_0-1.jpgreferhttp___inews.gtimg_-1-32x32.jpg", title: "幽隐恋梦"},
         {href: "http://sagaoz.net/foolmaker/", image: "http://sagaoz.net/favicon.ico", title: "愚者の館"},
