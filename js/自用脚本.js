@@ -8,7 +8,7 @@
 // @match        https://bbs.drdian.net/yinxingfei_zzza-yinxingfei_zzza_hall.html
 // @match        https://bbs.kfpromax.com/kf_growup.php
 // @match        https://bbs.zdfx.net/*
-// @match        https://2dfan.org/*
+// @match        https://2dfan.com/*
 // @match        https://ggb.dlgal.com/*
 // @match        https://kouknymj-my.sharepoint.com/*
 // @match        https://seiya-saiga.com/*
@@ -34,7 +34,7 @@ let xhr = new XMLHttpRequest();
 console.log(origin + "\n" + href);
 
 // 2DFan去广告 + 攻略可复制
-if (origin === "https://2dfan.org") {
+if (origin === "https://2dfan.com") {
     let text = ""
     let topicContent = document.querySelector("#topic-content")
     if (topicContent) {
@@ -47,7 +47,7 @@ if (origin === "https://2dfan.org") {
             GM_setClipboard(text)
         })
     }
-    document.querySelector("#index_bg_box").remove()
+    // document.querySelector("#index_bg_box").remove()
     // 移除顶栏广告和右下角广告
     document.querySelectorAll(".banner").forEach((div) => {
         div.remove()
