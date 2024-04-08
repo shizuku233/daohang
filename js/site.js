@@ -59,7 +59,7 @@ const NAVSITE = {
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://dukou.io/", image: "https://dukou.io/logo.ico", title: "Dukou"},
-        {href: "https://www.efcloud.bio/", image: "https://www.efcloud.bio/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://www.efcloud1.com/", image: "https://www.efcloud1.com//theme/Aurora/favicon.svg", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
@@ -68,7 +68,7 @@ const NAVSITE = {
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
     "论坛": [
-        {href: "https://2dfan.org/", image: "https://2dfan.org/favicon.ico", title: "2DFan"},
+        {href: "https://2dfan.com/", image: "https://2dfan.com/favicon.ico", title: "2DFan"},
         {href: "https://acgfun.top/", image: "https://acgfun.top/favicon.ico", title: "AcgFun"},
         {href: "https://www.anime-sharing.com/", image: "https://www.anime-sharing.com/styles/io/images/favicon.png", title: "Anime-Sharing"},
         {href: "https://bangumi.tv/", image: "https://bangumi.tv/img/favicon.ico", title: "Bangumi"},
