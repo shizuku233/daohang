@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
+// @match        https://www.anime-sharing.com/*
 // @match        https://vndb.org/*
 // @match        https://bbs.drdian.net/yinxingfei_zzza-yinxingfei_zzza_hall.html
 // @match        https://bbs.kfpromax.com/kf_growup.php
@@ -75,6 +76,13 @@ if (origin === "https://2dfan.com") {
             }
         })
     }
+}
+
+// Anime-Sharing 去广告
+if (origin === "https://www.anime-sharing.com") {
+    document.querySelectorAll(".samItem").forEach((div) => {
+        div.remove()
+    })
 }
 
 // 誠也の部屋添加暗色模式
