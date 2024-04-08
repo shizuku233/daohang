@@ -252,7 +252,10 @@ if (origin === "https://www.blue-plus.net") {
 // Sukebei去广告
 if (origin === "https://sukebei.nyaa.si") {
     document.querySelector("#e71bf691-4eb4-453f-8f11-6f40280c18f6").remove();
-    document.querySelector("#ec01fd54-016b-41b4-bec9-b9b93f9b3b77").remove();
+    // document.querySelector("div.center").remove()
+    setTimeout(function () {
+        document.querySelector(".exo_wrapper").remove()
+    }, 2000)
 }
 
 // VNDB名称显示为日文
