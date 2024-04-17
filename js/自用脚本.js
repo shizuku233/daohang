@@ -10,13 +10,14 @@
 // @match        https://bbs.kfpromax.com/kf_growup.php
 // @match        https://bbs.zdfx.net/*
 // @match        https://2dfan.com/*
+// @match        https://lzacg.org/*
 // @match        https://ggb.dlgal.com/*
 // @match        https://kouknymj-my.sharepoint.com/*
 // @match        https://seiya-saiga.com/*
 // @match        https://sukebei.nyaa.si/*
+// @match        https://www.touchgal.org/*
 // @match        https://www.blue-plus.net/*
 // @match        https://www.ggbases.com/*
-// @match        https://www.lzacg.net/*
 // @match        https://www.sayhuahuo.xyz/dsu_paulsign-sign.html
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
@@ -211,7 +212,7 @@ if (origin === "https://www.sayhuahuo.xyz" && document.querySelector("#qiandao")
 }
 
 // 量子ACG去广告
-if (origin === "https://www.lzacg.net") {
+if (origin === "https://lzacg.org") {
     let divList = document.querySelectorAll(".widget_custom_html")
     for (let div of divList) {
         div.remove()
@@ -264,6 +265,26 @@ if (origin === "https://sukebei.nyaa.si") {
     setTimeout(function () {
         document.querySelector(".exo_wrapper").remove()
     }, 2000)
+}
+
+// TouchGAL去广告
+if (origin === "https://www.touchgal.org") {
+    let div = document.querySelector(".widget_media_image")
+    if (div) {
+        div.remove()
+    }
+    let a = document.querySelectorAll(".article-content > a")
+    if (a) {
+        for (let i of a) {
+            i.remove()
+        }
+    }
+    let br = document.querySelectorAll(".article-content > br")
+    if (br) {
+        for (let i of br) {
+            i.remove()
+        }
+    }
 }
 
 // VNDB名称显示为日文
