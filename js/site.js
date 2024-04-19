@@ -205,7 +205,7 @@ const FORM = {
         Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
     },
     "游戏": {
-        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: "", image: "https://galge.fun/favicon.ico"},
+        "2DFan": {action: "https://2dfan.com//subjects/search", name: "keyword", method: "", image: "https://2dfan.com/favicon.ico"},
         "Anime-Sharing": {action: "https://www.anime-sharing.com/search", name: "q", method: "", image: "https://www.anime-sharing.com/styles/io/images/favicon.png"},
         Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
         Mikocon: {action: "https://bbs.mikocon.com/search.php", name: "srchtxt", method: "", image: "https://bbs.mikocon.com/favicon.ico"},
