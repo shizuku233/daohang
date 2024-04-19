@@ -35,7 +35,7 @@ const NAVSITE = {
         {href: "https://get.pixelexperience.org/", image: "images/icons/pixelexperience.png", title: "pixelexperience"},
         {href: "https://ppui.site/", image: "https://ppui.site/assets/images/pixelpluslogo2.png", title: "PixelPlusUI"},
         // {href: "https://pixysos.com/", image: "https://pixysos.com/static/images/favicon.png", title: "PixysOS"},
-        {href: "https://dl.project404.xyz/", image: "https://dl.project404.xyz/images/favicon.svg", title: "Project 404"},
+        // {href: "https://dl.project404.xyz/", image: "https://dl.project404.xyz/images/favicon.svg", title: "Project 404"},
         {href: "https://projectarcana-aosp.netlify.app/", image: "https://projectarcana-aosp.netlify.app/logo-transparent.png", title: "Project Arcana"},
         {href: "https://sourceforge.net/projects/projectblaze/files/", image: "https://a.fsdn.com/allura/p/projectblaze/icon?w=90", title: "Project Blaze"},
         {href: "https://sourceforge.net/projects/project-elixir/files/", image: "https://a.fsdn.com/allura/p/project-elixir/icon?w=90", title: "Project Elixir"},
