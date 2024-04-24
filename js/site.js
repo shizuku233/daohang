@@ -94,7 +94,7 @@ const NAVSITE = {
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
         {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2022/12/网站图标.png", title: "穹之下"},
         // {href: "https://post.qingjuacg.top/", image: "https://post.qingjuacg.top/favicon.ico", title: "青桔网"},
-        {href: "https://hexo.acgus.top/", image: "https://hexo.acgus.top/favicon.ico", title: "青桔网"},
+        {href: "https://www.qingju.org/", image: "https://www.qingju.org/favicon.ico", title: "青桔网"},
         {href: "https://cangku.moe/", image: "https://cangku.moe/favicon.ico", title: "绅士仓库"},
         {href: "https://www.aigalgame.com/", image: "images/icons/绅士天堂.ico", title: "绅士天堂"},
         {href: "https://www.shinnku.com/", image: "https://www.shinnku.com/favicon.ico", title: "失落小站"},
