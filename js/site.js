@@ -5,7 +5,6 @@ const NAVSITE = {
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
         {href: "https://acgnav.cn/", image: "https://acgnav.cn/assets/images/favicon.png", title: "导航姬"},
-        {href: "https://www.acg123.co/", image: "https://www.acg123.co/favicon.ico", title: "二刺螈导航"},
         {href: "https://www.moe-box.com/", image: "http://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://myacg.online/", image: "https://img.zjgsuzjx.top/img/images/2021/05/31/a7da6f8d4a1ff0c8a8a87094d198d368.th.jpg", title: "MyACG"},
         {href: "https://v2fd.com/", image: "https://v2fd.com/favicon-32x32.png", title: "V2FD"},
