@@ -10,6 +10,7 @@
 // @match        https://bbs.kfpromax.com/kf_growup.php
 // @match        https://bbs.zdfx.net/*
 // @match        https://2dfan.com/*
+// @match        https://galge.top/*
 // @match        https://lzacg.org/*
 // @match        https://ggb.dlgal.com/*
 // @match        https://kouknymj-my.sharepoint.com/*
@@ -36,7 +37,7 @@ let xhr = new XMLHttpRequest();
 console.log(origin + "\n" + href);
 
 // 2DFan去广告 + 攻略可复制
-if (origin === "https://2dfan.com") {
+if (origin === "https://2dfan.com" || origin === "https://galge.top") {
     let text = ""
     let topicContent = document.querySelector("#topic-content")
     if (topicContent) {
@@ -48,6 +49,11 @@ if (origin === "https://2dfan.com") {
             console.log(text)
             GM_setClipboard(text)
         })
+    }
+    // 移除Steam推广
+    let a = document.querySelector("#index_bg_box")
+    if (a) {
+        a.remove()
     }
     // document.querySelector("#index_bg_box").remove()
     // 移除顶栏广告和右下角广告
