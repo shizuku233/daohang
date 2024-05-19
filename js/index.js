@@ -9,15 +9,15 @@ function setClock() {
 
 setClock()
 
-// function openGameUrl() {
-//     let site = document.querySelector("#site")
-//     site = site.options[site.selectedIndex].value
-//     let alpha = document.querySelector("#alpha")
-//     alpha = alpha.options[alpha.selectedIndex].value
-//     // let title = document.querySelector("#title").value
-//     // window.open(site + alpha + "/" + title + "/")
-//     window.open(site + alpha + "/")
-// }
+function openGameUrl() {
+    let site = document.querySelector("#site")
+    site = site.options[site.selectedIndex].value
+    let alpha = document.querySelector("#alpha")
+    alpha = alpha.options[alpha.selectedIndex].value
+    // let title = document.querySelector("#title").value
+    // window.open(site + alpha + "/" + title + "/")
+    window.open(site + alpha + "/")
+}
 
 let search = document.querySelector("#search")
 let action
