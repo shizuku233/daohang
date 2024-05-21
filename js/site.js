@@ -12,6 +12,7 @@ const NAVSITE = {
     ],
     "搞机": [
         {href: "https://dwnld.aicp-rom.com/", image: "https://dwnld.aicp-rom.com/imgs/favicons/favicon.ico", title: "AICP"},
+        {href: "https://sourceforge.net/projects/alphadroid-project/files/", image: "https://a.fsdn.com/allura/p/alphadroid-project/icon?w=90", title: "AlphaDroid"},
         {href: "https://sourceforge.net/projects/ancientrom/files/", image: "https://a.fsdn.com/allura/p/ancientrom/icon?w=90", title: "AncientOS"},
         {href: "https://www.arrowos.net/", image: "https://www.arrowos.net/img/logo.png", title: "ArrowOS"},
         {href: "https://sourceforge.net/projects/project-awaken/files/", image: "https://a.fsdn.com/allura/p/project-awaken/icon", title: "Awaken OS"},
