@@ -61,7 +61,7 @@ const NAVSITE = {
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://dukou.io/", image: "https://dukou.io/logo.ico", title: "Dukou"},
-        {href: "https://www.efcloud1.com/", image: "https://www.efcloud1.com//theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://user.efcloud1.com/", image: "https://user.efcloud1.com/theme/Aurora/favicon.svg", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
