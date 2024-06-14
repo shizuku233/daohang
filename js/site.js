@@ -45,7 +45,6 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/superioros/files/", image: "https://a.fsdn.com/allura/p/superioros/icon?w=90", title: "Superior OS"},
         {href: "https://syberiaos.com/", image: "https://syberiaos.com/favicon.ico", title: "Syberia OS"},
         {href: "https://tequilaos.org/download", image: "https://tequilaos.org/tequila_logo.svg", title: "tequilaOS"},
-        {href: "https://project-xtended.org/", image: "https://project-xtended.org/img/favicon.ico", title: "Xtended"},
     ],
     "no-1": [
         {href: "https://orangefox.download/", image: "https://orangefox.download/icons/favicon.ico", title: "OrangeFox"},
@@ -126,7 +125,7 @@ const NAVSITE = {
         {href: "https://forum.mobilism.org/", image: "https://forum.mobilism.org/favicon.ico", title: "Mobilism"},
         {href: "https://www.puresys.net/", image: "https://www.puresys.net/favicon.ico", title: "Puresys"},
         {href: "https://myqqjd.com/", image: "https://myqqjd.com/wp-content/logo/favicon.ico", title: "芊芊精典"},
-        {href: "https://rsload.net/", image: "https://rsload.net/favicon.ico", title: "rsload"},
+        {href: "https://rsload.net/", image: "https://rsload.net/favicon.png", title: "rsload"},
         {href: "https://itrmb.com/", image: "https://itrmb.com/view/img/favicon.ico", title: "数字人民币"},
         {href: "https://www.52pojie.cn/", image: "https://www.52pojie.cn/favicon.ico", title: "吾爱破解"},
         {href: "https://www.whg6.com/", image: "https://www.whg6.com/favicon.ico", title: "无痕哥"},
