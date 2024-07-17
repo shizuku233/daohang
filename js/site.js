@@ -80,6 +80,7 @@ const NAVSITE = {
         // {href: "https://erogamescape.dyndns.org/", image: "https://erogamescape.dyndns.org/favicon.ico", title: "ErogameScape"},
         {href: "https://bbs.kfpromax.com/", image: "https://bbs.kfpromax.com/favicon.ico", title: "绯月"},
         {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
+        {href: "https://www.sayafx.top/", image: "https://www.sayafx.top/favicon.ico", title: "Galgame月谣"},
         {href: "https://galgamer.moe/", image: "https://galgamer.moe/favicon.ico", title: "Galgamer"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
