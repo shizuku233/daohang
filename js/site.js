@@ -117,7 +117,7 @@ const NAVSITE = {
     "no-3": [
         {href: "https://www.423down.com/", image: "https://www.423down.com/wp-content/themes/D7/img/favicon.ico", title: "423Down"},
         {href: "https://apphot.cc/", image: "https://apphot.cc/wp-content/uploads/2020/10/cropped-apphot-1-32x32.png", title: "App热"},
-        {href: "https://greasyfork.org/", image: "https://greasyfork.org//vite/assets/blacklogo16-37ZGLlXh.png", title: "Greasy Fork"},
+        {href: "https://greasyfork.org/", image: "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png", title: "Greasy Fork"},
         {href: "https://www.ghxi.com/", image: "https://www.ghxi.com/favicon.ico", title: "果核剥壳"},
         {href: "https://next.itellyou.cn/", image: "https://next.itellyou.cn/favicon.ico", title: "ITELLYOU"},
         // {href: "https://www.kelongwo.com/", image: "https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021071214094981-150x150.png", title: "克隆网"},
@@ -161,9 +161,9 @@ const NAVSITE = {
     ],
     "网盘": [
         {href: "https://www.123pan.com/", image: "https://www.123pan.com/static/favicon.ico", title: "123云盘"},
-        {href: "https://www.aliyundrive.com/", image: "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico", title: "阿里云盘"},
+        {href: "https://www.alipan.com/", image: "https://img.alicdn.com/imgextra/i1/O1CN01JDQCi21Dc8EfbRwvF_!!6000000000236-73-tps-64-64.ico", title: "阿里云盘"},
         {href: "https://pan.baidu.com/", image: "https://nd-static.bdstatic.com/m-static/v20-main/favicon-main.ico", title: "百度网盘"},
-        {href: "https://pan.quark.cn/", image: "https://image.quark.cn/s/uae/g/3o/broccoli/resource/202304/c62b4840-e344-11ed-93c7-392f83c2aa26.png", title: "夸克网盘"},
+        // {href: "https://pan.quark.cn/", image: "https://image.quark.cn/s/uae/g/3o/broccoli/resource/202304/c62b4840-e344-11ed-93c7-392f83c2aa26.png", title: "夸克网盘"},
         {href: "https://pc.woozooo.com/", image: "https://pc.woozooo.com/favicon.ico", title: "蓝奏云"},
         {href: "https://mega.io/", image: "https://mega.io/favicon.ico", title: "MEGA"},
         {href: "https://mypikpak.com/", image: "https://mypikpak.com/favicon-32x32.png", title: "PikPak"},
@@ -182,7 +182,6 @@ const NAVSITE = {
         {href: "https://www.mitang.tv/", image: "https://p.upyun.com/demo/tmp/VQdWNWSr.webp", title: "蜜糖动漫"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
-        {href: "http://www.yhdmba.org/", image: "images/icons/樱花动漫.ico", title: "樱花动漫"},
         {href: "https://yhdm.one/", image: "https://yhdm.one/static/favicon.ico", title: "樱花动漫"},
     ],
     "资讯": [
