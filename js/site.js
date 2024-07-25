@@ -60,8 +60,8 @@ const NAVSITE = {
     ],
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
-        {href: "https://dukou.io/", image: "https://dukou.io/logo.ico", title: "Dukou"},
-        {href: "https://user.efcloud1.com/", image: "https://user.efcloud1.com/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "Dukou"},
+        {href: "https://www.efcloud2.cc/", image: "https://www.efcloud2.cc/theme/Aurora/favicon.svg", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
@@ -70,7 +70,8 @@ const NAVSITE = {
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
     "论坛": [
-        {href: "https://2dfan.com/", image: "https://2dfan.com/favicon.ico", title: "2DFan"},
+        // {href: "https://2dfan.com/", image: "https://2dfan.com/favicon.ico", title: "2DFan"},
+        {href: "https://galge.top/", image: "https://galge.top/favicon.ico", title: "2DFan"},
         {href: "https://acgfun.moe/", image: "https://acgfun.moe/favicon.ico", title: "AcgFun"},
         {href: "https://www.anime-sharing.com/", image: "https://www.anime-sharing.com/styles/io/images/favicon.png", title: "Anime-Sharing"},
         {href: "https://bangumi.tv/", image: "https://bangumi.tv/img/favicon.ico", title: "Bangumi"},
@@ -206,7 +207,7 @@ const FORM = {
         Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
     },
     "游戏": {
-        "2DFan": {action: "https://2dfan.com//subjects/search", name: "keyword", method: "", image: "https://2dfan.com/favicon.ico"},
+        "2DFan": {action: "https://galge.top/subjects/search", name: "keyword", method: "", image: "https://galge.top/favicon.ico"},
         "Anime-Sharing": {action: "https://www.anime-sharing.com/search", name: "q", method: "", image: "https://www.anime-sharing.com/styles/io/images/favicon.png"},
         Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
         Mikocon: {action: "https://bbs.mikocon.com/search.php", name: "srchtxt", method: "", image: "https://bbs.mikocon.com/favicon.ico"},
