@@ -11,6 +11,11 @@ const NAVSITE = {
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
     ],
+    "分享": [
+        {href: "https://1ov3.top/", image: "https://p0.meituan.net/csc/ccf68f7a71d7072acf076f4b95945ebc3129.jpg", title: "Puppet Studio"},
+        {href: "https://alist-public.imoutoheaven.org/", image: "https://p.sda1.dev/17/82180eb975915afdc9556d7b43bea3f1/1000029552.jpg", title: "YAAS"},
+        {href: "https://zi0.cc/", image: "https://img.mjj.today/2023/01/23/2b6331a29bf32d2af96a2537e10a5ee8.webp", title: "梓澪の妙妙屋"},
+    ],
     "搞机": [
         {href: "https://dwnld.aicp-rom.com/", image: "https://dwnld.aicp-rom.com/imgs/favicons/favicon.ico", title: "AICP"},
         {href: "https://sourceforge.net/projects/alphadroid-project/files/", image: "https://a.fsdn.com/allura/p/alphadroid-project/icon?w=90", title: "AlphaDroid"},
