@@ -13,11 +13,11 @@
       document.documentElement.classList.toggle("dark")
     }
 
-    let themeMedia = window.matchMedia("(prefers-color-scheme: dark)")
-    if (themeMedia.matches) {
+    let checkTheme = window.matchMedia("(prefers-color-scheme: dark)")
+    if (checkTheme.matches) {
       changeTheme()
     }
-    themeMedia.addEventListener("change", function (e) {
+    checkTheme.addEventListener("change", (e) => {
       if (e.matches) {
         document.documentElement.classList.add("dark")
       } else {
