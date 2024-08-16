@@ -35,6 +35,7 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/infinity-x/files/", image: "https://a.fsdn.com/allura/p/infinity-x/icon?w=90", title: "Infinity-X"},
         {href: "https://kaleidoscope.ink/", image: "https://kaleidoscope.ink/images/favicon.png", title: "Kaleidoscope"},
         {href: "https://download.lineageos.org/", image: "https://download.lineageos.org/favicon.ico", title: "LineageOS"},
+        {href: "https://get.libremobileos.com/", image: "https://get.libremobileos.com/favicon.ico", title: "LibreMobileOS"},
         {href: "https://sourceforge.net/projects/nameless-aosp/files/kebab/", image: "https://a.fsdn.com/allura/p/nameless-aosp/icon?w=90", title: "Nameless"},
         {href: "https://nusantararom.org/", image: "https://nusantararom.org/wp-content/uploads/2024/06/favicon.ico", title: "NusantaraROM"},
         {href: "https://paranoidandroid.co/", image: "https://paranoidandroid.co/favicon-32x32.png", title: "Paranoid"},
