@@ -100,7 +100,7 @@ const NAVSITE = {
         {href: "https://bbs.mihoyo.com/", image: "https://img-static.mihoyo.com/favicon.ico", title: "米游社"},
         {href: "https://www.ttloli.com/", image: "https://www.ttloli.com/favicon.ico", title: "MyGalgame"},
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
-        {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2022/12/网站图标.png", title: "穹之下"},
+        {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2024/08/sora图标.png", title: "穹之下"},
         {href: "https://post.qingju.org/", image: "https://post.qingju.org/favicon.ico", title: "青桔网"},
         {href: "https://cangku.moe/", image: "https://cangku.moe/favicon.ico", title: "绅士仓库"},
         {href: "https://www.gogalgame.com/", image: "https://www.gogalgame.com/wp-content/themes/lolimeow2/assets/images/favicon.ico", title: "绅仕天堂"},
