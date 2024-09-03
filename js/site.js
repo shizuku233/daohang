@@ -1,6 +1,6 @@
 const NAVSITE = {
     "导航": [
-        {href: "https://www.acgbus.com/", image: "https://www.acgbus.com/favicon.ico", title: "ACG巴士"},
+        // {href: "https://www.acgbus.com/", image: "https://www.acgbus.com/favicon.ico", title: "ACG巴士"},
         {href: "https://www.acgbox.link/", image: "https://www.acgbox.link/wp-content/uploads/logo/86742914_p0.png", title: "ACG盒子"},
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
