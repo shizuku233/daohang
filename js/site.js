@@ -67,7 +67,7 @@ const NAVSITE = {
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "Dukou"},
-        {href: "https://www.efcloud3.com/", image: "https://www.efcloud.vip/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://www.efcloud3.com/", image: "https://www.efcloud3.com/theme/Aurora/favicon.svg", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
@@ -87,7 +87,7 @@ const NAVSITE = {
         // {href: "https://erogamescape.dyndns.org/", image: "https://erogamescape.dyndns.org/favicon.ico", title: "ErogameScape"},
         {href: "https://bbs.kfpromax.com/", image: "https://bbs.kfpromax.com/favicon.ico", title: "绯月"},
         {href: "https://www.hikarinagi.com/", image: "https://img-static.hikarinagi.com/uploads/2024/05/67b4be0aafe740f792a225efbeebb46a.ico", title: "Hikarinagi"},
-        {href: "https://www.sayhuahuo.xyz/", image: "https://www.sayhuahuo.xyz/favicon.ico", title: "花火学园"},
+        {href: "https://www.sayhuahuo.net/", image: "https://www.sayhuahuo.net/favicon.ico", title: "花火学园"},
         {href: "https://galgamer.moe/", image: "https://galgamer.moe/favicon.ico", title: "Galgamer"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
@@ -153,7 +153,7 @@ const NAVSITE = {
         {href: "https://tieba.baidu.com/", image: "https://tb3.bdstatic.com/public/icon/favicon-v2.ico", title: "百度贴吧"},
         // {href: "https://twitter.com/", image: "https://abs.twimg.com/favicons/twitter.2.ico", title: "Twitter"},
         {href: "https://weibo.com/", image: "https://weibo.com/favicon.ico", title: "微博"},
-        {href: "https://x.com/", image: "https://abs.twimg.com/favicons/twitter-pip.3.ico", title: "X"},
+        {href: "https://x.com/", image: "https://abs.twimg.com/favicons/twitter.3.ico", title: "X"},
         {href: "https://www.zhihu.com/", image: "https://static.zhihu.com/heifetz/favicon.ico", title: "知乎"},
     ],
     "搜索": [
