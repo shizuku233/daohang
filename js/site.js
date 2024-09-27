@@ -64,10 +64,13 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/nikgapps/files/Releases/", image: "https://a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg", title: "NikGApps"},
         {href: "https://opengapps.org/", image: "https://opengapps.org/images/android-icon-144x144.png", title: "Open GApps"},
     ],
+    "工具": [
+        {href: "https://web.archive.org/", image: "https://web-static.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
+    ],
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "Dukou"},
-        {href: "https://www.efcloud3.com/", image: "https://www.efcloud3.com/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://www.efc1.cc/", image: "https://www.efc1.cc/theme/Aurora/favicon.svg", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
