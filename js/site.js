@@ -6,7 +6,7 @@ const NAVSITE = {
         {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
         {href: "https://acgnav.cn/", image: "https://acgnav.cn/assets/images/favicon.png", title: "导航姬"},
         {href: "https://www.moe-box.com/", image: "http://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
-        {href: "https://myacg.online/", image: "https://img.zjgsuzjx.top/img/images/2021/05/31/a7da6f8d4a1ff0c8a8a87094d198d368.th.jpg", title: "MyACG"},
+        {href: "https://myacg.pro/", image: "https://img.zjgsuzjx.top/img/images/2021/05/31/a7da6f8d4a1ff0c8a8a87094d198d368.th.jpg", title: "MyACG"},
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
@@ -70,7 +70,7 @@ const NAVSITE = {
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
         {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "Dukou"},
-        {href: "https://www.efc1.cc/", image: "https://www.efc1.cc/theme/Aurora/favicon.svg", title: "EFCloud"},
+        {href: "https://www.efc1.cc/", image: "https://www.efc1.cc/favicon.ico", title: "EFCloud"},
         {href: "https://front.spaport.top/", image: "images/icons/SpaPort.png", title: "SpaPort"},
     ],
     "教程": [
@@ -125,7 +125,7 @@ const NAVSITE = {
         {href: "https://gkdworld.eu.org/", image: "https://gkdworld.eu.org/favicon.ico", title: "资源统筹局"},
         {href: "https://zodgame.xyz/", image: "images/icons/ZodGame论坛.ico", title: "ZodGame论坛"},
         {href: "https://www.erogame.space/", image: "https://www.erogame.space/wp-content/uploads/2023/09/1694188211-611f695c2a6f1-bpfull.jpg", title: "ファウスト"},
-        {href: "https://wafuwafu.com/", image: "https://wafuwafu.com/wp-content/uploads/2022/09/kud_wafter_favicon.png", title: "わふわふ"},
+        {href: "https://wafuwafu.com/", image: "https://wafuwafu.com/wp-content/uploads/2024/10/kud_favicon.ico", title: "わふわふ"},
     ],
     "no-3": [
         {href: "https://www.423down.com/", image: "https://www.423down.com/wp-content/themes/D7/img/favicon.ico", title: "423Down"},
