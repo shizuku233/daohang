@@ -41,6 +41,7 @@ const NAVSITE = {
         {href: "https://paranoidandroid.co/", image: "https://paranoidandroid.co/favicon-32x32.png", title: "Paranoid"},
         {href: "https://sourceforge.net/projects/pixelextended/files/", image: "https://a.fsdn.com/allura/p/pixelextended/icon?w=90", title: "Pixel Extended"},
         {href: "https://get.pixelexperience.org/", image: "images/icons/pixelexperience.png", title: "PixelExperience"},
+        {href: "https://get.pixelexperience.org/", image: "https://get.pixelexperience.org/favicon-32x32.png", title: "Home - PixelExperience"},
         {href: "https://ppui.site/", image: "https://ppui.site/assets/images/pixelpluslogo2.png", title: "PixelPlusUI"},
         // {href: "https://pixysos.com/", image: "https://pixysos.com/static/images/favicon.png", title: "PixysOS"},
         // {href: "https://dl.project404.xyz/", image: "https://dl.project404.xyz/images/favicon.svg", title: "Project 404"},
