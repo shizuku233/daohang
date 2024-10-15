@@ -65,7 +65,7 @@ const NAVSITE = {
         {href: "https://opengapps.org/", image: "https://opengapps.org/images/android-icon-144x144.png", title: "Open GApps"},
     ],
     "工具": [
-        {href: "https://web.archive.org/", image: "https://web-static.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
+        {href: "https://web.archive.org/", image: "https://web.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
     ],
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
