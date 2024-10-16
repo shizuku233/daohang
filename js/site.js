@@ -65,6 +65,7 @@ const NAVSITE = {
         {href: "https://opengapps.org/", image: "https://opengapps.org/images/android-icon-144x144.png", title: "Open GApps"},
     ],
     "工具": [
+        {href: "https://www.ventusky.com/", image: "https://cdnstatic.ventusky.com/images_v2/favicon.ico", title: "Ventusky"},
         {href: "https://web.archive.org/", image: "https://web.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
     ],
     "机场": [
@@ -206,7 +207,6 @@ const NAVSITE = {
         {href: "https://dilidili.io/", image: "https://dilidili.io/favicon.ico", title: "嘀哩嘀哩"},
         {href: "https://e-hentai.org/", image: "https://e-hentai.org/favicon.ico", title: "E-Hentai"},
         {href: "https://exhentai.org/", image: "https://exhentai.org/favicon.ico", title: "ExHentai"},
-        {href: "https://www.mitang.tv/", image: "https://p.upyun.com/demo/tmp/VQdWNWSr.webp", title: "蜜糖动漫"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
         // {href: "http://www.yhdmba.org/", image: "images/icons/樱花动漫.ico", title: "樱花动漫"},
