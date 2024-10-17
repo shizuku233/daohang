@@ -60,7 +60,7 @@ const NAVSITE = {
     ],
     "no-2": [
         {href: "https://github.com/BiTGApps/BiTGApps-Release/releases/", image: "https://github.githubassets.com/favicons/favicon.svg", title: "BiTGApps"},
-        {href: "https://sourceforge.net/projects/flamegapps/files/arm64/", image: "https://a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg", title: "FlameGApps"},
+        {href: "https://sourceforge.net/projects/flamegapps/files/arm64/", image: "https://a.fsdn.com/allura/p/flamegapps/icon?w=90", title: "FlameGApps"},
         {href: "https://sourceforge.net/projects/litegapps/files/", image: "https://a.fsdn.com/allura/p/litegapps/icon?w=90", title: "LiteGapps"},
         {href: "https://sourceforge.net/projects/nikgapps/files/Releases/", image: "https://a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg", title: "NikGApps"},
         {href: "https://sourceforge.net/projects/opengapps/files/", image: "https://a.fsdn.com/allura/p/opengapps/icon?w=90", title: "OpenGApps"},
