@@ -7,31 +7,14 @@
   <base target="_blank">
   <link rel="icon" href="images/icon.png">
   <link rel="stylesheet" href="css/2.css">
+  <script src="js/theme.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    function changeTheme() {
-      document.documentElement.classList.toggle("dark")
-    }
-
-    let checkTheme = window.matchMedia("(prefers-color-scheme: dark)")
-    if (checkTheme.matches) {
-      changeTheme()
-    }
-    checkTheme.addEventListener("change", (e) => {
-      if (e.matches) {
-        document.documentElement.classList.add("dark")
-      } else {
-        document.documentElement.classList.remove("dark")
-      }
-    })
-  </script>
 </head>
 <body>
 <nav>
   <a href="index.html" target="_self">Page 1</a>
   <a href="2.html" target="_self" class="active">Page 2</a>
   <a href="3.html" target="_self">Page 3</a>
-  <a href="4.html" target="_self">Page 4</a>
   <a href="https://shizuku233.github.io/OneDriveIndex/">OD 1</a>
   <a href="od.html">OD 2</a>
   <button onclick="changeNavStyle()"></button>
