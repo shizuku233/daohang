@@ -1,115 +1,61 @@
+function setSite() {
+    const SITE = {
+        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: ""},
+        百度: {action: "https://www.baidu.com/s", name: "wd", method: ""},
+        Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post"},
+        Google: {action: "https://www.google.com/search", name: "q", method: ""},
+        MyGalgame: {action: "https://www.okloli.com", name: "s", method: ""},
+        VNDB: {action: "https://vndb.org/v", name: "sq", method: ""},
+    }
+    var s = document.querySelector("#s")
+    var site = s.options[s.selectedIndex].value
+    s.nextElementSibling.setAttribute("name", SITE[site].name)
+    s.nextElementSibling.setAttribute("method", SITE[site].method)
+    s.parentElement.setAttribute("action", SITE[site].action)
+}
+
 function openurl() {
-    let site = document.querySelector("#site")
+    var site = document.querySelector("#site")
     site = site.options[site.selectedIndex].value
-    let alpha = document.querySelector("#alpha")
+    var alpha = document.querySelector("#alpha")
     alpha = alpha.options[alpha.selectedIndex].value
-    let title = document.querySelector("#title").value
-    let url = site + alpha + "/" + title + "/"
+    var title = document.querySelector("#title").value
+    var url = site + alpha + "/" + title + "/"
     window.open(url)
 }
 
-const FORMSET = {
-    搜索: {
-        百度: {action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
-        必应: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
-        Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
-        搜狗: {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"}
-    },
-    磁力: {
-        Nyaa: {action: "https://nyaa.si/", name: "q", method: "", image: "https://nyaa.si/static/favicon.png"},
-        Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
-    },
-    游戏: {
-        "2DFan": {action: "https://galge.fun/subjects/search", name: "keyword", method: "", image: "https://galge.fun/favicon.ico"},
-        Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
-        MyGalgame: {action: "https://www.okloli.com", name: "s", method: "", image: "https://www.okloli.com/favicon.ico"},
-        VNDB: {action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
-    }
-}
+// for (let category in NAVSITE) {
+//     let nav_site = document.createElement("div")
+//     let nav_site_title = document.createElement("div")
+//     nav_site_title.setAttribute("class", "nav_site_title")
+//     nav_site_title.innerHTML = category
+//     nav_site.setAttribute("class", "nav_site")
+//     nav_site.appendChild(nav_site_title)
+//     document.querySelector("body > div > div:nth-child(6)").appendChild(nav_site)
+//     for (let site_bar of NAVSITE[category]) {
+//         let nav_site_bar = document.createElement("div")
+//         nav_site_bar.setAttribute("class", "nav_site_bar")
+//         nav_site.appendChild(nav_site_bar)
+//         for (let item of site_bar) {
+//             nav_site_bar.innerHTML += "<a href='" + item.href + "'><img src='" + item.image + "'><span>" + item.title + "</span></a>"
+//         }
+//     }
+// }
 
-let search = document.querySelector("#search")
-let action
-let dropdownMenu = ""
-for (let category in FORMSET) {
-    let div = "<div><span>" + category + "</span>"
-    for (let site in FORMSET[category]) {
-        div += "<div><img src='" + FORMSET[category][site].image + "'><span>" + site + "</span></div>"
+let div = document.querySelector("body > div > div:nth-child(6)")
+for (let category in NAVSITE) {
+    let nav_site = document.createElement("div")
+    let nav_site_bar = document.createElement("div")
+    nav_site.setAttribute("class", "nav_site")
+    nav_site_bar.setAttribute("class", "nav_site_bar")
+    let nav_site_title = "<div class=\"nav_site_title\">" + category + "</div>"
+    if (category.match(/no-\d/)) {
+        nav_site_title = ""
     }
-    dropdownMenu += div + "</div>"
+    for (let site of NAVSITE[category]) {
+        nav_site_bar.innerHTML += "<a href='" + site.href + "' class=\"nav_site\"><img src='" + site.image + "'><span>" + site.title + "</span></a>"
+    }
+    nav_site.innerHTML = nav_site_title
+    nav_site.appendChild(nav_site_bar)
+    div.appendChild(nav_site)
 }
-search.querySelector(".dropdown-menu").innerHTML = dropdownMenu
-search.querySelectorAll(".dropdown-menu > div").forEach(function (div) {
-    let category = div.querySelector("span").textContent
-    div.querySelectorAll("div").forEach(function (div) {
-        div.addEventListener("click", function () {
-            let name = div.querySelector("span").textContent
-            search.setAttribute("action", FORMSET[category][name].action)
-            search.setAttribute("method", FORMSET[category][name].method)
-            search.querySelector("div > img").src = FORMSET[category][name].image
-            search.querySelector("input").name = FORMSET[category][name].name
-            action = search.getAttribute("action")
-        })
-    })
-})
-
-function setHotKeyWordList(hotKeyWordList) {
-    let div = ""
-    for (let hotKeyWord of hotKeyWordList) {
-        div += "<li>" + hotKeyWord + "</li>"
-        search.querySelector(".suggestion > div").innerHTML = div
-    }
-    search.querySelectorAll(".suggestion > div > li").forEach(function (li) {
-        li.addEventListener("click", function () {
-            input.value = li.textContent
-            search.submit()
-        })
-    })
-}
-
-let input = search.querySelector("input")
-input.addEventListener("input", function () {
-    let keyword = input.value
-    if (!keyword) {
-        keyword = " "
-        search.querySelector(".suggestion > div").innerHTML = ""
-    }
-    if (action === "https://www.google.com/search") {
-        $.ajax({
-            type: "GET",
-            url: "https://suggestqueries.google.com/complete/search?client=firefox&callback=iowenHot",
-            async: true,
-            data: {q: keyword},
-            dataType: "jsonp",
-            jsonp: "callback",
-            success: function (result) {
-                setHotKeyWordList(result[1])
-            },
-            error: function (result) {
-                console.log(result)
-            }
-        })
-    } else {
-        $.ajax({
-            type: "GET",
-            url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
-            async: true,
-            data: {wd: keyword},
-            dataType: "jsonp",
-            jsonp: "cb",
-            success: function (result) {
-                setHotKeyWordList(result["s"])
-            },
-            error: function (result) {
-                console.log(result)
-            }
-        })
-    }
-})
-input.addEventListener("blur", function () {
-    setTimeout(function () {
-        search.querySelector(".suggestion > div").style.display = "none"
-    }, 200)
-})
-input.addEventListener("focus", function () {
-    search.querySelector(".suggestion > div").style.display = "block"
-})
