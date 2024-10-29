@@ -446,10 +446,6 @@ section {
     background: rgba(255 255 255 / .08);
 }
 
-.dark .nav-site-content > a {
-    background: rgba(255 255 255 / .08);
-}
-
 /*新的网址导航样式*/
 section.nav-box {
     display: grid;
