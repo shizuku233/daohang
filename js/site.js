@@ -74,7 +74,7 @@ const NAVSITE = {
         {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "Dukou"},
         {href: "https://www.efc1.net/", image: "https://www.efc1.net/favicon.ico", title: "EFCloud"},
         {href: "https://console.henet.uk/", image: "images/icons/globe.svg", title: "Helium Network"},
-        {href: "https://ikuuu.pw/", image: "https://ikuuu.pw/favicon.ico", title: "IKUUU VPN"},
+        {href: "https://ikuuu.one/", image: "https://ikuuu.one/favicon.ico", title: "IKUUU VPN"},
         // {href: "https://front.spaport.top/", image: "images/icons/globe.svg", title: "SpaPort"},
         {href: "https://suying999.net/", image: "https://suying999.net/favicon.ico", title: "速鹰666"},
         {href: "https://portal.taronet.uk/", image: "images/icons/globe.svg", title: "TaroNet"},
