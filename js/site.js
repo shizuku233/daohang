@@ -106,7 +106,6 @@ const NAVSITE = {
         {href: "https://www.sayafx.top/", image: "https://www.sayafx.top/favicon.ico", title: "Galgame月谣"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.galdl.com/", image: "https://www.galdl.com/favicon.ico", title: "GALXP"},
-        {href: "https://galccg.com/", image: "https://galccg.com/wp-content/uploads/2024/07/75555046_p0_square1200.jpg", title: "GAL研究部"},
         {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
         {href: "https://www.kungal.com/", image: "https://www.kungal.com/favicon.ico", title: "鲲Galgame论坛"},
         {href: "https://lzacg.org/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
