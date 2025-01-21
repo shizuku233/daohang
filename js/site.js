@@ -78,6 +78,7 @@ const NAVSITE = {
         // {href: "https://front.spaport.top/", image: "images/icons/globe.svg", title: "SpaPort"},
         {href: "https://suying999.net/", image: "https://suying999.net/favicon.ico", title: "速鹰666"},
         {href: "https://portal.taronet.uk/", image: "images/icons/globe.svg", title: "TaroNet"},
+        {href: "https://xsus2025.cc/", image: "https://xsus2025.cc/theme/aurora-liudana/favicon.svg", title: "XSUS"},
         {href: "https://xunlian.site/", image: "images/icons/globe.svg", title: "迅联"},
         {href: "https://养老机场.com/", image: "images/icons/globe.svg", title: "养老机场"},
     ],
