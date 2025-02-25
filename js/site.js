@@ -116,7 +116,7 @@ const NAVSITE = {
         {href: "https://blog.reimu.net/", image: "https://blog.reimu.net/wp-content/uploads/2016/02/cropped-logo-32x32.png", title: "灵梦御所"},
         {href: "https://www.hacg.icu/", image: "https://www.hacg.icu/favicon.ico", title: "琉璃神社"},
         {href: "https://www.acgjc.com/", image: "https://www.acgjc.com/favicon.ico", title: "漫音社"},
-        {href: "https://www.moe-acg.com/", image: "https://www.moe-acg.com/favicon.ico", title: "萌幻之乡"},
+        {href: "https://www.mhh1.com/", image: "https://www.mhh1.com/favicon.ico", title: "萌幻之乡"},
         {href: "https://bbs.mikocon.com/", image: "https://bbs.mikocon.com/favicon.ico", title: "Mikocon"},
         {href: "https://bbs.mihoyo.com/", image: "https://img-static.mihoyo.com/favicon.ico", title: "米游社"},
         {href: "https://xiuren.cyou/", image: "https://xiuren.cyou/wp-content/uploads/2024/06/ANIME-PICTURES.NET_-_733103-4800x3600-virtualyoutuber-aogirikoukougameclub-otodamatamako-maeshimashi-single-lookingatviewer-1.jpg", title: "莫邪"},
