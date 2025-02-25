@@ -37,6 +37,7 @@ const NAVSITE = {
         {href: "https://kaleidoscope.ink/", image: "https://kaleidoscope.ink/images/favicon.png", title: "Kaleidoscope"},
         {href: "https://download.lineageos.org/", image: "https://download.lineageos.org/favicon.ico", title: "LineageOS"},
         {href: "https://get.libremobileos.com/", image: "https://get.libremobileos.com/favicon.ico", title: "LibreMobileOS"},
+        {href: "https://sourceforge.net/projects/mokee/files/", image: "https://a.fsdn.com/allura/p/mokee/icon?w=90", title: "MoKee"},
         {href: "https://sourceforge.net/projects/nameless-aosp/files/kebab/", image: "https://a.fsdn.com/allura/p/nameless-aosp/icon?w=90", title: "Nameless"},
         {href: "https://nusantararom.org/", image: "https://nusantararom.org/wp-content/uploads/2024/06/favicon.ico", title: "NusantaraROM"},
         {href: "https://paranoidandroid.co/", image: "https://paranoidandroid.co/favicon-32x32.png", title: "Paranoid"},
@@ -109,7 +110,7 @@ const NAVSITE = {
         {href: "https://www.sayafx.top/", image: "https://www.sayafx.top/favicon.ico", title: "Galgame月谣"},
         {href: "https://gallibrary.pw/", image: "https://gallibrary.pw/favicon.ico", title: "GAL图书馆"},
         {href: "https://www.galdl.com/", image: "https://www.galdl.com/favicon.ico", title: "GALXP"},
-        {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
+        // {href: "https://www.clfans.club/", image: "https://www.clfans.club/wp-content/uploads/2022/10/277693ee57201208.jpg", title: "光坂小镇"},
         {href: "https://www.moyu.moe/", image: "https://www.moyu.moe/favicon.ico", title: "鲲 Galgame 补丁"},
         {href: "https://www.kungal.com/", image: "https://www.kungal.com/favicon.ico", title: "鲲 Galgame 论坛"},
         {href: "https://lzacg.org/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
@@ -123,7 +124,7 @@ const NAVSITE = {
         {href: "https://www.ttloli.com/", image: "https://www.ttloli.com/favicon.ico", title: "MyGalgame"},
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
         {href: "https://acgs.one/", image: "https://acgs.one/favicon.ico", title: "绮梦ACG"},
-        {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2024/08/sora图标.png", title: "穹之下"},
+        // {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2024/08/sora图标.png", title: "穹之下"},
         {href: "https://post.qingju.org/", image: "https://post.qingju.org/favicon.ico", title: "青桔网"},
         {href: "https://cangku.moe/", image: "https://cangku.moe/favicon.ico", title: "绅士仓库"},
         {href: "https://www.gogalgame.com/", image: "https://www.gogalgame.com/wp-content/themes/lolimeow2/assets/images/favicon.ico", title: "绅仕天堂"},
@@ -151,7 +152,7 @@ const NAVSITE = {
         {href: "https://www.ghxi.com/", image: "https://www.ghxi.com/favicon.ico", title: "果核剥壳"},
         {href: "https://next.itellyou.cn/", image: "https://next.itellyou.cn/favicon.ico", title: "ITELLYOU"},
         // {href: "https://www.kelongwo.com/", image: "https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021071214094981-150x150.png", title: "克隆网"},
-        {href: "https://www.uy5.net/", image: "https://vip.123pan.cn/1815052847/kelongwo/uploads/2021/07/2021071214094981.png", title: "克隆窝"},
+        {href: "https://www.uy5.net/", image: "https://img.kelongwo.uk/wp-content/uploads/2021/07/2021071214094981.png", title: "克隆窝"},
         {href: "https://www.sixyin.com/", image: "https://www.sixyin.com/wp-content/uploads/2020/07/1595643570-favicon.png", title: "六音"},
         {href: "https://forum.mobilism.org/", image: "https://forum.mobilism.org/favicon.ico", title: "Mobilism"},
         {href: "https://www.puresys.net/", image: "https://www.puresys.net/favicon.ico", title: "Puresys"},
@@ -159,7 +160,7 @@ const NAVSITE = {
         {href: "https://rsload.net/", image: "https://rsload.net/favicon.png", title: "rsload"},
         {href: "https://itrmb.com/", image: "https://itrmb.com/view/img/favicon.ico", title: "数字人民币"},
         {href: "https://www.52pojie.cn/", image: "https://www.52pojie.cn/favicon.ico", title: "吾爱破解"},
-        {href: "https://www.whg6.com/", image: "https://www.whg6.com/favicon.ico", title: "无痕哥"},
+        // {href: "https://www.whg6.com/", image: "https://www.whg6.com/favicon.ico", title: "无痕哥"},
         {href: "https://forum.xda-developers.com/", image: "https://forum.xda-developers.com/data/assets/logo/favicon-32x32.png", title: "XDA"},
     ],
     "商城": [
@@ -182,6 +183,7 @@ const NAVSITE = {
         {href: "https://fsoufsou.com/", image: "https://static.hetaousercontent.com/static/assets/favicon.ico", title: "F搜"},
         {href: "https://www.google.com/", image: "https://www.google.com/favicon.ico", title: "Google"},
         {href: "https://www.sogou.com/", image: "https://www.sogou.com/images/logo/new/favicon.ico", title: "搜狗搜索"},
+        {href: "https://yandex.com/", image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png", title: "Yandex"},
     ],
     "no-4": [
         {href: "https://www.ggbases.com/", image: "https://www.ggbases.com/favicon.ico", title: "GGBases"},
@@ -228,7 +230,8 @@ const FORM = {
         Bing: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
         F搜: {action: "https://fsoufsou.com/search", name: "q", method: "", image: "https://static.hetaousercontent.com/static/assets/favicon.ico"},
         Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
-        "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"}
+        "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"},
+        Yandex: {action: "https://yandex.com/search/", name: "text", method: "",  image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png"}
     },
     "磁力": {
         GGBases: {action: "https://www.ggbases.com/search.so", name: "title", method: "", image: "https://www.ggbases.com/favicon.ico"},
