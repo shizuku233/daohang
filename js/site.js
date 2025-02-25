@@ -180,7 +180,7 @@ const NAVSITE = {
     "搜索": [
         {href: "https://www.baidu.com/", image: "https://www.baidu.com/favicon.ico", title: "百度"},
         {href: "https://www.bing.com/", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico", title: "Bing"},
-        {href: "https://fsoufsou.com/", image: "https://static.hetaousercontent.com/static/assets/favicon.ico", title: "F搜"},
+        // {href: "https://fsoufsou.com/", image: "https://static.hetaousercontent.com/static/assets/favicon.ico", title: "F搜"},
         {href: "https://www.google.com/", image: "https://www.google.com/favicon.ico", title: "Google"},
         {href: "https://www.sogou.com/", image: "https://www.sogou.com/images/logo/new/favicon.ico", title: "搜狗搜索"},
         {href: "https://yandex.com/", image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png", title: "Yandex"},
@@ -228,7 +228,7 @@ const FORM = {
     "搜索": {
         "百度": {action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
         Bing: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
-        F搜: {action: "https://fsoufsou.com/search", name: "q", method: "", image: "https://static.hetaousercontent.com/static/assets/favicon.ico"},
+        // F搜: {action: "https://fsoufsou.com/search", name: "q", method: "", image: "https://static.hetaousercontent.com/static/assets/favicon.ico"},
         Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
         "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"},
         Yandex: {action: "https://yandex.com/search/", name: "text", method: "",  image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png"}
