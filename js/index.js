@@ -66,7 +66,22 @@ let input = search.querySelector("input")
 input.addEventListener("input", () => {
     let keyword = input.value
     if (keyword) {
-        if (action === "https://www.google.com/search") {
+        if (action === "https://yandex.com/search/") {
+            $.ajax({
+                type: "GET",
+                url: "https://yandex.com/suggest/suggest-ya.cgi?v=4",
+                async: true,
+                data: {part: keyword},
+                dataType: "jsonp",
+                jsonp: "callback",
+                success: function (result) {
+                    setSuggestionList(result[1])
+                },
+                error: function (result) {
+                    console.log(result)
+                }
+            })
+        } else if (action === "https://www.google.com/search") {
             $.ajax({
                 type: "GET",
                 url: "https://suggestqueries.google.com/complete/search?client=firefox&callback=iowenHot",
