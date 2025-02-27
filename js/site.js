@@ -154,6 +154,7 @@ const NAVSITE = {
         // {href: "https://www.kelongwo.com/", image: "https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021071214094981-150x150.png", title: "克隆网"},
         {href: "https://www.uy5.net/", image: "https://img.kelongwo.uk/wp-content/uploads/2021/07/2021071214094981.png", title: "克隆窝"},
         {href: "https://www.sixyin.com/", image: "https://www.sixyin.com/wp-content/uploads/2020/07/1595643570-favicon.png", title: "六音"},
+        {href: "https://www.gndown.com/", image: "https://www.gndown.com/favicon.ico", title: "绿软小站"},
         {href: "https://forum.mobilism.org/", image: "https://forum.mobilism.org/favicon.ico", title: "Mobilism"},
         {href: "https://www.puresys.net/", image: "https://www.puresys.net/favicon.ico", title: "Puresys"},
         {href: "https://myqqjd.com/", image: "https://myqqjd.com/wp-content/logo/favicon.ico", title: "芊芊精典"},
