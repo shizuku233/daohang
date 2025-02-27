@@ -125,7 +125,7 @@ const NAVSITE = {
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
         {href: "https://acgs.one/", image: "https://acgs.one/favicon.ico", title: "绮梦ACG"},
         // {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2024/08/sora图标.png", title: "穹之下"},
-        {href: "https://post.qingju.org/", image: "https://post.qingju.org/favicon.ico", title: "青桔网"},
+        {href: "https://post.qingju.org/", image: "https://www.qingju.org/wp-content/uploads/2025/02/caacc2096120250217173731.png", title: "青桔网"},
         {href: "https://cangku.moe/", image: "https://cangku.moe/favicon.ico", title: "绅士仓库"},
         {href: "https://www.gogalgame.com/", image: "https://www.gogalgame.com/wp-content/themes/lolimeow2/assets/images/favicon.ico", title: "绅仕天堂"},
         {href: "https://syzx.me/", image: "https://syzx.me/wp-content/uploads/2023/06/2630287-20220401145558430-257850202.png", title: "神隐之乡"},
