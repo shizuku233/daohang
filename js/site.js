@@ -175,6 +175,8 @@ const NAVSITE = {
     ],
     "社交": [
         {href: "https://tieba.baidu.com/", image: "https://tb3.bdstatic.com/public/icon/favicon-v2.ico", title: "百度贴吧"},
+        {href: "https://web.telegram.org/", image: "https://web.telegram.org/k/assets/img/favicon.ico", title: "Telegram Web"},
+        // {href: "https://web.telegram.org/", image: "https://web.telegram.org/favicon.ico", title: "Telegram Web"},
         // {href: "https://twitter.com/", image: "https://abs.twimg.com/favicons/twitter.2.ico", title: "Twitter"},
         {href: "https://weibo.com/", image: "https://weibo.com/favicon.ico", title: "微博"},
         {href: "https://x.com/", image: "https://abs.twimg.com/favicons/twitter.3.ico", title: "X"},
