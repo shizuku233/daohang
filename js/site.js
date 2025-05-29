@@ -131,7 +131,7 @@ const NAVSITE = {
         {href: "https://www.gogalgame.com/", image: "https://www.gogalgame.com/wp-content/themes/lolimeow2/assets/images/favicon.ico", title: "绅仕天堂"},
         {href: "https://syzx.me/", image: "https://syzx.me/wp-content/uploads/2023/06/2630287-20220401145558430-257850202.png", title: "神隐之乡"},
         {href: "https://www.tiangal.com/", image: "https://www.tiangal.com/wp-content/uploads/2022/04/2022042217411468.png", title: "天遊二次元"},
-        {href: "https://www.touchgal.org/", image: "https://npm.elemecdn.com/touchgalstatic1@0.0.3/img/CnLIp.png", title: "TouchGAL"},
+        {href: "https://www.touchgal.io/", image: "https://www.touchgal.io/favicon.ico", title: "TouchGal"},
         {href: "https://vndb.org/", image: "https://vndb.org/favicon.ico", title: "VNDB"},
         {href: "https://t-satoru.top/", image: "https://t-satoru.top/favicon.ico", title: "小鳥遊暁"},
         {href: "https://xxacg.net/", image: "https://xxacg.net/wp-content/uploads/2021/03/cropped-game-1-32x32.png", title: "xxacg"},
