@@ -40,7 +40,7 @@ const NAVSITE = {
         {href: "https://get.libremobileos.com/", image: "https://get.libremobileos.com/favicon.ico", title: "LibreMobileOS"},
         {href: "https://sourceforge.net/projects/mokee/files/", image: "https://a.fsdn.com/allura/p/mokee/icon?w=90", title: "MoKee"},
         {href: "https://sourceforge.net/projects/nameless-aosp/files/kebab/", image: "https://a.fsdn.com/allura/p/nameless-aosp/icon?w=90", title: "Nameless"},
-       {href: "https://sourceforge.net/projects/nameless-clo/files/kebab/", image: "https://a.fsdn.com/allura/p/nameless-clo/icon?w=90", title: "Nameless-CLO"},
+        {href: "https://sourceforge.net/projects/nameless-clo/files/kebab/", image: "https://a.fsdn.com/allura/p/nameless-clo/icon?w=90", title: "Nameless-CLO"},
         {href: "https://nusantararom.org/", image: "https://nusantararom.org/wp-content/uploads/2024/06/favicon.ico", title: "NusantaraROM"},
         {href: "https://paranoidandroid.co/", image: "https://paranoidandroid.co/favicon-32x32.png", title: "Paranoid"},
         {href: "https://sourceforge.net/projects/pixelextended/files/", image: "https://a.fsdn.com/allura/p/pixelextended/icon?w=90", title: "Pixel Extended"},
@@ -58,7 +58,7 @@ const NAVSITE = {
         {href: "https://tequilaos.org/download", image: "https://tequilaos.org/tequila_logo.svg", title: "tequilaOS"},
     ],
     "no-1": [
-        {href: "https://orangefox.download/", image: "https://orangefox.download/icons/favicon.ico", title: "OrangeFox"},
+        {href: "https://orangefox.download/", image: "https://orangefox.download/fox_icon.png", title: "OrangeFox"},
         {href: "https://skyhawkrecovery.github.io/", image: "https://skyhawkrecovery.github.io/img/favICO.png", title: "SHRP"},
         {href: "https://twrp.me/", image: "https://twrp.me/favicon.ico", title: "TWRP"},
     ],
