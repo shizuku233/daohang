@@ -5,7 +5,7 @@ const NAVSITE = {
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
         // {href: "https://acgnav.cn/", image: "https://acgnav.cn/assets/images/favicon.png", title: "导航姬"},
-        {href: "https://www.moe-box.com/", image: "http://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
+        {href: "https://www.moebox.ink/", image: "https://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://myacg.pro/", image: "https://img.zjgsuzjx.top/img/images/2021/05/31/a7da6f8d4a1ff0c8a8a87094d198d368.th.jpg", title: "MyACG"},
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
@@ -184,7 +184,6 @@ const NAVSITE = {
     "搜索": [
         {href: "https://www.baidu.com/", image: "https://www.baidu.com/favicon.ico", title: "百度"},
         {href: "https://www.bing.com/", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico", title: "Bing"},
-        // {href: "https://fsoufsou.com/", image: "https://static.hetaousercontent.com/static/assets/favicon.ico", title: "F搜"},
         {href: "https://www.google.com/", image: "https://www.google.com/favicon.ico", title: "Google"},
         {href: "https://www.sogou.com/", image: "https://www.sogou.com/images/logo/new/favicon.ico", title: "搜狗搜索"},
         {href: "https://yandex.com/", image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png", title: "Yandex"},
