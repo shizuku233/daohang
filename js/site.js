@@ -84,7 +84,6 @@ const NAVSITE = {
         {href: "https://suying999.net/", image: "https://suying999.net/favicon.ico", title: "速鹰666"},
         {href: "https://portal.taronet.uk/", image: "images/icons/globe.svg", title: "TaroNet"},
         {href: "https://xsus2025.cc/", image: "https://xsus2025.cc/theme/aurora-liudana/favicon.svg", title: "XSUS"},
-        {href: "https://xunlian.site/", image: "images/icons/globe.svg", title: "迅联"},
         {href: "https://养老机场.com/", image: "images/icons/globe.svg", title: "养老机场"},
     ],
     "教程": [
@@ -232,7 +231,6 @@ const FORM = {
     "搜索": {
         "百度": {action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
         Bing: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
-        // F搜: {action: "https://fsoufsou.com/search", name: "q", method: "", image: "https://static.hetaousercontent.com/static/assets/favicon.ico"},
         Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
         "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"},
         Yandex: {action: "https://yandex.com/search/", name: "text", method: "",  image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png"}
