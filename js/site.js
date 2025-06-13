@@ -69,6 +69,7 @@ const NAVSITE = {
     ],
     "工具": [
         {href: "https://www.deepseek.com/", image: "https://www.deepseek.com/favicon.ico", title: "DeepSeek"},
+        {href: "https://github.com/", image: "https://github.githubassets.com/favicons/favicon.png", title: "GitHub"},
         {href: "https://www.ventusky.com/", image: "https://cdnstatic.ventusky.com/images_v2/favicon.ico", title: "Ventusky"},
         {href: "https://web.archive.org/", image: "https://web.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
     ],
