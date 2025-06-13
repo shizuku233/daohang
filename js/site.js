@@ -10,7 +10,6 @@ const NAVSITE = {
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
     ],
     "分享": [
-        // {href: "https://1ov3.top/", image: "https://p0.meituan.net/csc/ccf68f7a71d7072acf076f4b95945ebc3129.jpg", title: "Puppet Studio"},
         {href: "https://alist-public.imoutoheaven.org/", image: "https://p.sda1.dev/17/82180eb975915afdc9556d7b43bea3f1/1000029552.jpg", title: "YAAS"},
         {href: "https://zi0.cc/", image: "https://img.mjj.today/2023/01/23/2b6331a29bf32d2af96a2537e10a5ee8.webp", title: "梓澪の妙妙屋"},
     ],
@@ -21,7 +20,6 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/arrow-os/files/", image: "https://a.fsdn.com/allura/p/arrow-os/icon?w=90", title: "Arrow OS"},
         {href: "https://sourceforge.net/projects/project-awaken/files/", image: "https://a.fsdn.com/allura/p/project-awaken/icon", title: "Awaken OS"},
         {href: "https://get.carbonrom.org/", image: "https://get.carbonrom.org/assets/favicon/favicon.ico", title: "CarbonROM"},
-        // {href: "https://sourceforge.net/projects/cherish-os/files/device/", image: "https://cherishos.com/assets/img/cherish.svg", title: "CherishOS"},
         {href: "https://sourceforge.net/projects/cherish-os/files/device/", image: "https://a.fsdn.com/allura/p/cherish-os/icon?w=90", title: "CherishOS"},
         {href: "https://sourceforge.net/projects/coltos/files/", image: "https://a.fsdn.com/allura/p/coltos/icon?w=90", title: "ColtOS"},
         {href: "https://sourceforge.net/projects/conqueros/files/", image: "https://a.fsdn.com/allura/p/conqueros/icon?w=90", title: "ConquerOS"},
@@ -75,7 +73,6 @@ const NAVSITE = {
     ],
     "机场": [
         {href: "https://1.akcaaaa.com/", image: "https://1.akcaaaa.com/favicon.ico", title: "Akkcloud"},
-        // {href: "https://www.efcloud3.cc/", image: "https://www.efc1.net/favicon.ico", title: "EFCloud"},
         {href: "https://flzt.top/", image: "https://flzt.top/logo.ico", title: "FLZT"},
         {href: "https://console.henet.uk/", image: "images/icons/globe.svg", title: "Helium Network"},
         {href: "https://ikuuu.one/", image: "https://ikuuu.one/favicon.ico", title: "IKUUU VPN"},
@@ -150,7 +147,6 @@ const NAVSITE = {
         {href: "https://greasyfork.org/", image: "https://greasyfork.org/vite/assets/blacklogo16-DftkYuVe.png", title: "Greasy Fork"},
         {href: "https://www.ghxi.com/", image: "https://www.ghxi.com/favicon.ico", title: "果核剥壳"},
         {href: "https://next.itellyou.cn/", image: "https://next.itellyou.cn/favicon.ico", title: "ITELLYOU"},
-        // {href: "https://www.kelongwo.com/", image: "https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021071214094981-150x150.png", title: "克隆网"},
         {href: "https://www.uy5.net/", image: "https://img.kelongwo.uk/wp-content/uploads/2021/07/2021071214094981.png", title: "克隆窝"},
         {href: "https://www.sixyin.com/", image: "https://www.sixyin.com/wp-content/uploads/2020/07/1595643570-favicon.png", title: "六音"},
         {href: "https://www.gndown.com/", image: "https://www.gndown.com/favicon.ico", title: "绿软小站"},
@@ -217,7 +213,6 @@ const NAVSITE = {
         {href: "https://www.seedhub.cc/", image: "https://ps.aside.top/static/img/favicon.ico", title: "SeedHub"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
-        // {href: "http://www.yhdmba.org/", image: "images/icons/樱花动漫.ico", title: "樱花动漫"},
         {href: "https://yhdm.one/", image: "https://yhdm.one/static/favicon.ico", title: "樱花动漫"},
     ],
     "资讯": [
