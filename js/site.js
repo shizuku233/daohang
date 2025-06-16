@@ -133,6 +133,7 @@ const NAVSITE = {
         {href: "https://xxacg.net/", image: "https://xxacg.net/wp-content/uploads/2021/03/cropped-game-1-32x32.png", title: "xxacg"},
         // {href: "https://ercygame.com/", image: "https://ercygame.com/wp-content/uploads/2021/07/cropped-srchttp___inews.gtimg_.com_newsapp_match_0_10723316324_0-1.jpgreferhttp___inews.gtimg_-1-32x32.jpg", title: "幽隐恋梦"},
         {href: "http://sagaoz.net/", image: "http://sagaoz.net/favicon.ico", title: "愚者の館"},
+        {href: "https://www.ai2.moe/", image: "https://www.ai2.moe/uploads/monthly_2023_06/logo.png", title: "御爱同萌"},
         {href: "https://www.ymgal.games/", image: "https://www.ymgal.games/favicon.ico", title: "月幕Galgame"},
         // {href: "https://bbs.zdfx.net/", image: "https://bbs.zdfx.net/img/zdfx.svg", title: "终点"},
         {href: "https://www.shinnku.com/", image: "https://www.shinnku.com/favicon.ico", title: "真红小站"},
