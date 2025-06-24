@@ -269,7 +269,18 @@ if (origin === "https://sukebei.nyaa.si") {
     document.querySelector("#e71bf691-4eb4-453f-8f11-6f40280c18f6").remove();
     // document.querySelector("div.center").remove()
     setTimeout(function () {
-        document.querySelector(".exo_wrapper").remove()
+        let ad1 = document.querySelector(".exo_wrapper")
+        if (ad1) {
+            ad1.remove()
+        }
+        let ad2 = document.querySelector("#ec01fd54-016b-41b4-bec9-b9b93f9b3b77")
+        if (ad2) {
+            ad2.remove()
+        }
+        let ad3 = document.querySelector(".ts-im-container")
+        if (ad3) {
+            ad3.remove()
+        }
     }, 2000)
 }
 
