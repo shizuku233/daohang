@@ -114,6 +114,7 @@ const NAVSITE = {
         {href: "https://lzacg.org/", image: "images/icons/量子ACG.jpeg", title: "量子ACG"},
         {href: "https://blog.reimu.net/", image: "https://blog.reimu.net/wp-content/uploads/2016/02/cropped-logo-32x32.png", title: "灵梦御所"},
         {href: "https://www.hacg.icu/", image: "https://www.hacg.icu/favicon.ico", title: "琉璃神社"},
+        {href: "https://www.lycorisgal.top/", image: "https://vip.123pan.cn/1814146125/ymjew503t0m000d7w32xp315df3sv5utDIYPAdexAqevAGx1Aqav.png", title: "LyCorisGAL"},
         {href: "https://www.acgjc.com/", image: "https://www.acgjc.com/favicon.ico", title: "漫音社"},
         {href: "https://www.mhh1.com/", image: "https://www.mhh1.com/favicon.ico", title: "萌幻之乡"},
         {href: "https://bbs.mikocon.com/", image: "https://bbs.mikocon.com/favicon.ico", title: "Mikocon"},
@@ -121,6 +122,8 @@ const NAVSITE = {
         {href: "https://xiuren.cyou/", image: "https://xiuren.cyou/wp-content/uploads/2024/06/ANIME-PICTURES.NET_-_733103-4800x3600-virtualyoutuber-aogirikoukougameclub-otodamatamako-maeshimashi-single-lookingatviewer-1.jpg", title: "莫邪"},
         {href: "https://www.ttloli.com/", image: "https://www.ttloli.com/favicon.ico", title: "MyGalgame"},
         {href: "https://www.blue-plus.net/", image: "https://www.blue-plus.net/favicon.ico", title: "南+"},
+        {href: "https://www.nekogal.com/", image: "https://www.nekogal.com/wp-content/uploads/2023/11/favneko.png", title: "NekoGAL"},
+        {href: "https://res.nyne.dev/", image: "https://res.nyne.dev/favicon.ico", title: "Nysoure"},
         {href: "https://acgs.one/", image: "https://acgs.one/favicon.ico", title: "绮梦ACG"},
         // {href: "https://www.soraacg.com/", image: "https://www.soraacg.com/wp-content/uploads/2024/08/sora图标.png", title: "穹之下"},
         {href: "https://post.qingju.org/", image: "https://www.qingju.org/wp-content/uploads/2025/02/caacc2096120250217173731.png", title: "青桔网"},
@@ -190,6 +193,7 @@ const NAVSITE = {
         {href: "https://sukebei.nyaa.si/", image: "https://sukebei.nyaa.si/static/favicon.png", title: "Sukebei"},
     ],
     "图片": [
+        {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
     ],
     "网盘": [
