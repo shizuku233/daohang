@@ -195,6 +195,7 @@ const NAVSITE = {
     "图片": [
         {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
+        {href: "https://www.someacg.top/", image: "https://www.someacg.top/favicon.png", title: "SomeACG"},
     ],
     "网盘": [
         {href: "https://www.123pan.com/", image: "https://www.123pan.com/static/favicon.ico", title: "123云盘"},
