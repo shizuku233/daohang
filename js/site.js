@@ -7,7 +7,7 @@ const NAVSITE = {
         {href: "https://www.moebox.ink/", image: "https://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
-        {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
+        // {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
     ],
     "分享": [
         {href: "https://alist-public.imoutoheaven.org/", image: "https://p.sda1.dev/17/82180eb975915afdc9556d7b43bea3f1/1000029552.jpg", title: "YAAS"},
@@ -205,7 +205,7 @@ const NAVSITE = {
         {href: "https://pc.woozooo.com/", image: "https://pc.woozooo.com/favicon.ico", title: "蓝奏云"},
         {href: "https://mega.io/", image: "https://mega.io/favicon.ico", title: "MEGA"},
         {href: "https://mypikpak.com/", image: "https://mypikpak.com/favicon-32x32.png", title: "PikPak"},
-        {href: "https://www.quqi.com/", image: "https://www.quqi.com/favicon.ico", title: "曲奇云盘"},
+        // {href: "https://www.quqi.com/", image: "https://www.quqi.com/favicon.ico", title: "曲奇云盘"},
         {href: "https://cloud.189.cn/", image: "https://cloud.189.cn/web/logo.ico", title: "天翼云盘"},
         {href: "https://drive.uc.cn/", image: "https://drive.uc.cn/favicon.ico", title: "UC网盘"},
     ],
