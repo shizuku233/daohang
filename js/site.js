@@ -193,9 +193,12 @@ const NAVSITE = {
         {href: "https://sukebei.nyaa.si/", image: "https://sukebei.nyaa.si/static/favicon.png", title: "Sukebei"},
     ],
     "图片": [
+        {href: "https://coserlab.io/", image: "https://coserlab.io/wp-includes/images/w-logo-blue-white-bg.png", title: "Coser Lab"},
+        {href: "https://www.cos5.com/", image: "images/icons/globe.svg", title: "COS屋"},
         {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
         {href: "https://www.someacg.top/", image: "https://www.someacg.top/favicon.png", title: "SomeACG"},
+        {href: "https://yande.re/", image: "https://yande.re/favicon.ico", title: "yande.re"},
     ],
     "网盘": [
         {href: "https://www.123pan.com/", image: "https://www.123pan.com/static/favicon.ico", title: "123云盘"},
