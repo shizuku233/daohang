@@ -221,6 +221,7 @@ const NAVSITE = {
         {href: "https://dilidili.io/", image: "https://dilidili.io/favicon.ico", title: "嘀哩嘀哩"},
         {href: "https://e-hentai.org/", image: "https://e-hentai.org/favicon.ico", title: "E-Hentai"},
         {href: "https://exhentai.org/", image: "https://exhentai.org/favicon.ico", title: "ExHentai"},
+        {href: "https://anime.girigirilove.com/", image: "https://anime.girigirilove.com/upload/site/20231121-1/fdd2694db66628a9deadd86e50aedd43.png", title: "girigiri愛動漫"},
         {href: "https://www.seedhub.cc/", image: "https://ps.aside.top/static/img/favicon.ico", title: "SeedHub"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
