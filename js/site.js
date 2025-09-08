@@ -1,14 +1,19 @@
 const NAVSITE = {
     "导航": [
         // {href: "https://www.acgbus.com/", image: "https://www.acgbus.com/favicon.ico", title: "ACG巴士"},
+        {href: "https://www.acgdh.cc/", image: "https://www.acgdh.cc/wp-content/uploads/2023/04/cropped-彩色-炫彩盒子-1.png", title: "ACG导航"},
         {href: "https://www.acgbox.link/", image: "https://www.acgbox.link/wp-content/uploads/logo/86742914_p0.png", title: "ACG盒子"},
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
+        {href: "https://srsg.moe/", image: "https://srsg.moe/wp-content/uploads/2021/05/favicon-1.ico", title: "白鹭学园"},
         {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
+        {href: "https://yodhcn.pages.dev/", image: "https://testingcf.jsdelivr.net/gh/yodhcn/img/img/Allure.png", title: "电解熔融氧化铝"},
         {href: "https://www.moebox.ink/", image: "https://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://theporndude.com/", image: "https://theporndude.com/favicon.ico", title: "Porn Dude"},
+        {href: "https://ntr.best/", image: "https://ntr.best/favicon.ico", title: "湿法炼铜"},
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
+        {href: "https://www.all3.cc/", image: "https://www.all3.cc/wp-content/uploads/2022/04/favicon.png", title: "樱之空导航"},
     ],
     "分享": [
         {href: "https://alist-public.imoutoheaven.org/", image: "https://p.sda1.dev/17/82180eb975915afdc9556d7b43bea3f1/1000029552.jpg", title: "YAAS"},
@@ -199,6 +204,7 @@ const NAVSITE = {
         {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
         {href: "https://www.someacg.top/", image: "https://www.someacg.top/favicon.png", title: "SomeACG"},
+        {href: "https://xyooo.top/", image: "https://acgimg.top/images/2025/07/04/ji2.png", title: "❄️雪月映画❄️"},
         {href: "https://yande.re/", image: "https://yande.re/favicon.ico", title: "yande.re"},
     ],
     "网盘": [
