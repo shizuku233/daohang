@@ -91,6 +91,7 @@ const NAVSITE = {
     "教程": [
         {href: "https://www.runoob.com/", image: "images/icons/菜鸟教程.ico", title: "菜鸟教程"},
         {href: "https://www.jc2182.com/", image: "https://www.jc2182.com/wp-content/themes/wiki/images/favicon.ico", title: "蝴蝶教程"},
+        {href: "https://www.w3cschool.cn", image: "https://7n.w3cschool.cn/statics/images/favicon.ico", title: "w3cschool"},
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
     "论坛": [
