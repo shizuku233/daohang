@@ -201,6 +201,7 @@ const NAVSITE = {
     ],
     "图片": [
         {href: "https://coserlab.io/", image: "https://coserlab.io/wp-includes/images/w-logo-blue-white-bg.png", title: "Coser Lab"},
+        {href: "https://www.coser.wang/", image: "https://www.coser.wang/favicon.ico", title: "Coser社区"},
         {href: "https://www.cos5.com/", image: "images/icons/globe.svg", title: "COS屋"},
         {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
@@ -229,6 +230,7 @@ const NAVSITE = {
         {href: "https://e-hentai.org/", image: "https://e-hentai.org/favicon.ico", title: "E-Hentai"},
         {href: "https://exhentai.org/", image: "https://exhentai.org/favicon.ico", title: "ExHentai"},
         {href: "https://anime.girigirilove.com/", image: "https://anime.girigirilove.com/upload/site/20231121-1/fdd2694db66628a9deadd86e50aedd43.png", title: "girigiri愛動漫"},
+        {href: "https://hanime1.me/", image: "https://vdownload.hembed.com/image/icon/tab_logo.png?secure=EJYLwnrDlidVi_wFp3DaGw==,4867726124", title: "Hanime"},
         {href: "https://www.seedhub.cc/", image: "https://ps.aside.top/static/img/favicon.ico", title: "SeedHub"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
