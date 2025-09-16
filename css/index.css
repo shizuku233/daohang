@@ -3,7 +3,7 @@
 }
 
 :root {
-    font-family: system-ui;
+    font-family: sans-serif;
 }
 
 body {
@@ -107,7 +107,7 @@ header, section {
 }
 
 section {
-    padding: .5rem;
+    padding: .25rem;
 }
 
 #clock {
@@ -305,7 +305,8 @@ section {
     font-weight: bold;
     /*margin: .25rem;*/
     line-height: 2.5rem;
-    text-align: center;
+    padding: 0 .25rem;
+    /*text-align: center;*/
 }
 
 .nav-site-content {
