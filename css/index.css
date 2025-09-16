@@ -299,10 +299,13 @@ section {
 }
 
 .nav-site-title {
+    /*background: rgba(0 0 0 / .04);*/
+    /*border-radius: 1.25rem;*/
     font-size: 1.25rem;
     font-weight: bold;
-    /*text-align: center;*/
+    /*margin: .25rem;*/
     line-height: 2.5rem;
+    text-align: center;
 }
 
 .nav-site-content {
