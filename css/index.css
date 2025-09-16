@@ -308,7 +308,7 @@ section {
 .nav-site-content {
     display: grid;
     /*grid-gap: .5rem;*/
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
 }
 
 /*.nav-site-content {*/
@@ -320,7 +320,7 @@ section {
     background: rgba(0 0 0 / .04);
     border-radius: 1.25rem;
     display: flex;
-    width: auto;
+    /*width: auto;*/
     height: 2.5rem;
     margin: .25rem;
     padding: .5rem;
