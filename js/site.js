@@ -91,6 +91,7 @@ const NAVSITE = {
     "教程": [
         {href: "https://www.runoob.com/", image: "images/icons/菜鸟教程.ico", title: "菜鸟教程"},
         {href: "https://www.jc2182.com/", image: "https://www.jc2182.com/wp-content/themes/wiki/images/favicon.ico", title: "蝴蝶教程"},
+        {href: "https://developer.mozilla.org/", image: "https://developer.mozilla.org/favicon.ico", title: "MDN"},
         {href: "https://www.w3cschool.cn", image: "https://7n.w3cschool.cn/statics/images/favicon.ico", title: "w3cschool"},
         {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
@@ -200,6 +201,7 @@ const NAVSITE = {
         {href: "https://sukebei.nyaa.si/", image: "https://sukebei.nyaa.si/static/favicon.png", title: "Sukebei"},
     ],
     "图片": [
+        {href: "https://www.4khd.com/", image: "https://www.4khd.com/wp-content/uploads/2023/02/4khd-1-150x150.png", title: "4KHD"},
         {href: "https://coserlab.io/", image: "https://coserlab.io/wp-includes/images/w-logo-blue-white-bg.png", title: "Coser Lab"},
         {href: "https://www.coser.wang/", image: "https://www.coser.wang/favicon.ico", title: "Coser社区"},
         {href: "https://www.cos5.com/", image: "images/icons/globe.svg", title: "COS屋"},
