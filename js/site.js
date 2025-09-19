@@ -206,6 +206,7 @@ const NAVSITE = {
         {href: "https://www.coser.wang/", image: "https://www.coser.wang/favicon.ico", title: "Coser社区"},
         {href: "https://www.cos5.com/", image: "images/icons/globe.svg", title: "COS屋"},
         {href: "https://cosz.com/", image: "https://cosz.com/favicon.ico", title: "CosZ"},
+        {href: "https://www.06se.com/", image: "https://www.06se.com/favicon.ico", title: "六色网"},
         {href: "https://www.moely.link/", image: "https://www.moely.link/assets/img/favicon.png", title: "萌哩"},
         {href: "https://www.pixiv.net/", image: "https://www.pixiv.net/favicon.ico", title: "Pixiv"},
         {href: "https://www.someacg.top/", image: "https://www.someacg.top/favicon.png", title: "SomeACG"},
