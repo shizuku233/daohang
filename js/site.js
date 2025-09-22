@@ -247,24 +247,24 @@ const NAVSITE = {
 }
 
 const FORM = {
-    "搜索": {
-        "百度": {action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
-        Bing: {action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
-        Google: {action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
-        "搜狗": {action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"},
-        Yandex: {action: "https://yandex.com/search/", name: "text", method: "",  image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png"}
-    },
-    "磁力": {
-        GGBases: {action: "https://www.ggbases.com/search.so", name: "title", method: "", image: "https://www.ggbases.com/favicon.ico"},
-        Nyaa: {action: "https://nyaa.si/", name: "q", method: "", image: "https://nyaa.si/static/favicon.png"},
-        Sukebei: {action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
-    },
-    "游戏": {
-        "2DFan": {action: "https://galge.top/subjects/search", name: "keyword", method: "", image: "https://galge.top/favicon.ico"},
-        "Anime-Sharing": {action: "https://www.anime-sharing.com/search", name: "q", method: "", image: "https://www.anime-sharing.com/styles/io/images/favicon.png"},
-        Bangumi: {action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
-        Mikocon: {action: "https://bbs.mikocon.com/search.php", name: "srchtxt", method: "", image: "https://bbs.mikocon.com/favicon.ico"},
-        MyGalgame: {action: "https://www.ttloli.com", name: "s", method: "", image: "https://www.ttloli.com/favicon.ico"},
-        VNDB: {action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
-    }
+    "搜索": [
+        {title: "百度", action: "https://www.baidu.com/s", name: "wd", method: "", image: "https://www.baidu.com/favicon.ico"},
+        {title: "Bing", action: "https://www.bing.com/search", name: "q", method: "", image: "https://www.bing.com/sa/simg/favicon-trans-bg-blue-mg.ico"},
+        {title: "Google", action: "https://www.google.com/search", name: "q", method: "", image: "https://www.google.com/favicon.ico"},
+        {title: "搜狗", action: "https://www.sogou.com/web", name: "query", method: "", image: "https://www.sogou.com/images/logo/new/favicon.ico"},
+        {title:"Yandex", action: "https://yandex.com/search/", name: "text", method: "", image: "https://yastatic.net/s3/home-static/_/nova/FaxTmrhW.png"}
+    ],
+    "磁力": [
+        {title: "GGBases", action: "https://www.ggbases.com/search.so", name: "title", method: "", image: "https://www.ggbases.com/favicon.ico"},
+        {title: "Nyaa", action: "https://nyaa.si/", name: "q", method: "", image: "https://nyaa.si/static/favicon.png"},
+        {title: "Sukebei", action: "https://sukebei.nyaa.si/", name: "q", method: "", image: "https://sukebei.nyaa.si/static/favicon.png"},
+    ],
+    "游戏": [
+        {title: "2DFan", action: "https://galge.top/subjects/search", name: "keyword", method: "", image: "https://galge.top/favicon.ico"},
+        {title: "Anime-Sharing", action: "https://www.anime-sharing.com/search", name: "q", method: "", image: "https://www.anime-sharing.com/styles/io/images/favicon.png"},
+        {title: "Bangumi", action: "https://bangumi.tv/subject_search", name: "search_text", method: "post", image: "https://bangumi.tv/img/favicon.ico"},
+        {title: "Mikocon", action: "https://bbs.mikocon.com/search.php", name: "srchtxt", method: "", image: "https://bbs.mikocon.com/favicon.ico"},
+        {title: "MyGalgame", action: "https://www.ttloli.com", name: "s", method: "", image: "https://www.ttloli.com/favicon.ico"},
+        {title: "VNDB", action: "https://vndb.org/v", name: "sq", method: "", image: "https://vndb.org/favicon.ico"},
+    ]
 }
