@@ -21,43 +21,45 @@ function openGameUrl() {
 
 let search = document.querySelector("#search")
 let action
-let dropdownMenu = ""
+let dropdownMenu = document.querySelector(".dropdown-menu")
 for (let category in FORM) {
-    let div = "<div><span>" + category + "</span>"
-    for (let site in FORM[category]) {
-        div += "<div><img src='" + FORM[category][site].image + "'><span>" + site + "</span></div>"
-    }
-    dropdownMenu += div + "</div>"
-}
-search.querySelector(".dropdown-menu").innerHTML = dropdownMenu
-search.querySelectorAll(".dropdown-menu > div").forEach(function (div) {
-    let category = div.querySelector("span").textContent
-    div.querySelectorAll("div").forEach(function (div) {
-        div.addEventListener("click", function () {
-            let name = div.querySelector("span").textContent
-            search.setAttribute("action", FORM[category][name].action)
-            search.setAttribute("method", FORM[category][name].method)
-            search.querySelector("div > img").src = FORM[category][name].image
-            search.querySelector("input").name = FORM[category][name].name
-            action = search.getAttribute("action")
+    let div1 = document.createElement("div")
+    div1.innerHTML += `<span>${category}</span>`
+    FORM[category].forEach((site) => {
+        let div2 = document.createElement("div")
+        div2.innerHTML = `
+            <img src="${site.image}">
+            <span>${site.title}</span>
+        `
+        div2.addEventListener("click", () => {
+            search.setAttribute("action", site.action)
+            search.setAttribute("method", site.method)
+            search.querySelector("div > img").src = site.image
+            search.querySelector("input").name = site.name
+            action = site.action
         })
+        div1.append(div2)
     })
-})
+    dropdownMenu.append(div1)
+}
 
-function setSuggestionList(suggestionList) {
-    let div = ""
-    for (let suggestion of suggestionList) {
-        div += "<li>" + "<span>" + suggestion + "</span><span></span>" + "</li>"
-        search.querySelector(".suggestion > div").innerHTML = div
-    }
-    search.querySelectorAll(".suggestion > div > li").forEach(li => {
-        li.children[0].addEventListener("click", () => {
-            input.value = li.textContent
+function setSuggestionList(suggestions) {
+    let div = search.querySelector(".suggestion > div")
+    div.innerHTML = ""
+    suggestions.forEach((suggestion) => {
+        let li = document.createElement("li")
+        let span1 = document.createElement("span")
+        let span2 = document.createElement("span")
+        span1.textContent = suggestion
+        span1.addEventListener("click", () => {
+            input.value = suggestion
             search.submit()
         })
-        li.children[1].addEventListener("click", () => {
-            window.open("https://fanyi.baidu.com/#en/zh/" + li.textContent)
+        span2.addEventListener("click", () => {
+            window.open(`https://fanyi.baidu.com/#en/zh/${suggestion}`)
         })
+        li.append(span1, span2)
+        div.append(li)
     })
     $(".suggestion > div").slideDown()
 }
@@ -74,10 +76,10 @@ input.addEventListener("input", () => {
                 data: {part: keyword},
                 dataType: "jsonp",
                 jsonp: "callback",
-                success: function (result) {
+                success: (result) => {
                     setSuggestionList(result[1])
                 },
-                error: function (result) {
+                error: (result) => {
                     console.log(result)
                 }
             })
@@ -89,10 +91,10 @@ input.addEventListener("input", () => {
                 data: {q: keyword},
                 dataType: "jsonp",
                 jsonp: "callback",
-                success: function (result) {
+                success: (result) => {
                     setSuggestionList(result[1])
                 },
-                error: function (result) {
+                error: (result) => {
                     console.log(result)
                 }
             })
@@ -104,10 +106,10 @@ input.addEventListener("input", () => {
                 data: {wd: keyword},
                 dataType: "jsonp",
                 jsonp: "cb",
-                success: function (result) {
+                success: (result) => {
                     setSuggestionList(result["s"])
                 },
-                error: function (result) {
+                error: (result) => {
                     console.log(result)
                 }
             })
@@ -162,7 +164,7 @@ function creatNav1() {
         if (category.match(/no-\d/)) {
             navSiteTitle = ""
         }
-        NAVSITE[category].forEach(site => {
+        NAVSITE[category].forEach((site) => {
             navSiteContent.innerHTML += `
                 <a href="${site.href}">
                     <img src="${site.image}">
@@ -170,8 +172,7 @@ function creatNav1() {
                 </a>
             `
         })
-        navSiteBar.append(navSiteTitle)
-        navSiteBar.append(navSiteContent)
+        navSiteBar.append(navSiteTitle, navSiteContent)
         section.appendChild(navSiteBar)
     }
 }
