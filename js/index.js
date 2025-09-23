@@ -43,6 +43,10 @@ for (let category in FORM) {
     dropdownMenu.append(div1)
 }
 
+search.querySelector(".dropdown").addEventListener("click", () => {
+    dropdownMenu.classList.toggle("open")
+})
+
 function setSuggestionList(suggestions) {
     let div = search.querySelector(".suggestion > div")
     div.innerHTML = ""
