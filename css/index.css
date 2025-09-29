@@ -153,7 +153,7 @@ section {
     opacity: 0;
     padding: .25rem;
     position: absolute;
-    transform: scaleY(0) translateY(-100%);
+    transform: translateY(-1rem);
     transition: .5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     visibility: hidden;
     z-index: 1;
@@ -161,7 +161,7 @@ section {
 
 #search .dropdown-menu.open {
     opacity: 1;
-    transform: scaleY(1) translateY(0);
+    transform: translateY(0);
     visibility: visible;
 }
 
