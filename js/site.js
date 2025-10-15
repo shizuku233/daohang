@@ -40,6 +40,7 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/derpfest/files/", image: "https://a.fsdn.com/allura/p/derpfest/icon?w=90", title: "DerpFest"},
         // {href: "https://divestos.org/", image: "https://divestos.org/images/favicon.png", title: "DivestOS"},
         {href: "https://www.droidontime.com/", image: "https://www.droidontime.com/assets/images/icon.webp", title: "dotOS"},
+        {href: "https://evolution-x.org/", image: "https://evolution-x.org/favicon.ico", title: "Evolution X"},
         {href: "https://sourceforge.net/projects/evolution-x/files/", image: "https://a.fsdn.com/allura/p/evolution-x/icon?w=90", title: "Evolution X"},
         {href: "https://projectfluid.org/", image: "https://projectfluid.org/fluid.svg", title: "fluid"},
         {href: "https://havoc-os.com/", image: "https://havoc-os.com/src/img/favicon.svg", title: "Havoc-OS"},
@@ -63,6 +64,7 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/projectmatrixx/files/", image: "https://a.fsdn.com/allura/p/projectmatrixx/icon?w=90", title: "Project Matrixx"},
         {href: "https://sourceforge.net/projects/projectsakura/files/", image: "https://a.fsdn.com/allura/p/projectsakura/icon?w=90", title: "Project Sakura"},
         {href: "https://sourceforge.net/projects/superioros/files/", image: "https://a.fsdn.com/allura/p/superioros/icon?w=90", title: "Superior OS"},
+        {href: "https://sourceforge.net/projects/watchdogs/files/", image: "https://a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg", title: "Watchdogs"}
         // {href: "https://syberiaos.com/", image: "https://syberiaos.com/favicon.ico", title: "Syberia OS"},
         // {href: "https://tequilaos.org/download", image: "https://tequilaos.org/tequila_logo.svg", title: "tequilaOS"},
     ],
