@@ -241,7 +241,7 @@ const NAVSITE = {
     ],
     "影音": [
         {href: "https://www.acfun.cn/", image: "https://cdn.aixifan.com/ico/favicon.ico", title: "AcFun"},
-        {href: "https://www.agedm.org/", image: "https://www.agedm.org/favicon.ico", title: "AGE动漫"},
+        {href: "https://www.agedm.io/", image: "https://www.agedm.io/favicon.ico", title: "AGE动漫"},
         {href: "https://www.asmr.one/", image: "https://www.asmr.one/statics/icons/favicon.ico", title: "ASMR Online"},
         {href: "https://www.bilibili.com/", image: "https://www.bilibili.com/favicon.ico", title: "哔哩哔哩"},
         {href: "https://dilidili.io/", image: "https://dilidili.io/favicon.ico", title: "嘀哩嘀哩"},
