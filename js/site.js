@@ -83,6 +83,7 @@ const NAVSITE = {
         {href: "https://sourceforge.net/projects/opengapps/files/", image: "https://a.fsdn.com/allura/p/opengapps/icon?w=90", title: "OpenGApps"},
     ],
     "工具": [
+        {href: "https://www.toolhelper.cn/", image: "https://www.toolhelper.cn/favicon.ico", title: "锤子在线工具网"},
         {href: "https://www.deepseek.com/", image: "https://www.deepseek.com/favicon.ico", title: "DeepSeek"},
         {href: "https://github.com/", image: "https://github.githubassets.com/favicons/favicon.png", title: "GitHub"},
         {href: "https://www.ventusky.com/", image: "https://cdnstatic.ventusky.com/images_v2/favicon.ico", title: "Ventusky"},
