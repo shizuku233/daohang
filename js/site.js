@@ -6,6 +6,7 @@ const NAVSITE = {
         {href: "https://www.acgdh.cc/", image: "https://www.acgdh.cc/wp-content/uploads/2023/04/cropped-彩色-炫彩盒子-1.png", title: "ACG导航"},
         {href: "https://acgdhw.com/", image: "https://acgdhw.com/wp-content/uploads/2022/03/logo.png", title: "ACG导航网"},
         {href: "https://www.acgbox.link/", image: "https://www.acgbox.link/wp-content/uploads/logo/86742914_p0.png", title: "ACG盒子"},
+        {href: "https://www.acgfans.me/", image: "https://www.acgfans.me/favicon.ico", title: "AcgnHub"},
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://srsg.moe/", image: "https://srsg.moe/wp-content/uploads/2021/05/favicon-1.ico", title: "白鹭学园"},
         {href: "https://fuli.day/", image: "https://fuli.day/static/icon/favicon.ico", title: "超级福利导航"},
