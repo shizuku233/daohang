@@ -87,6 +87,7 @@ const NAVSITE = {
         {href: "https://www.toolhelper.cn/", image: "https://www.toolhelper.cn/favicon.ico", title: "锤子在线工具网"},
         {href: "https://www.deepseek.com/", image: "https://www.deepseek.com/favicon.ico", title: "DeepSeek"},
         {href: "https://github.com/", image: "https://github.githubassets.com/favicons/favicon.png", title: "GitHub"},
+        {href: "https://gemini.google.com/", image: "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg", title: "Google Gemini"},
         {href: "https://www.ventusky.com/", image: "https://cdnstatic.ventusky.com/images_v2/favicon.ico", title: "Ventusky"},
         {href: "https://web.archive.org/", image: "https://web.archive.org/_static/images/archive.ico", title: "Wayback Machine"},
     ],
