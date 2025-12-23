@@ -18,7 +18,7 @@ const NAVSITE = {
         {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
         {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
         {href: "https://moecy.org/", image: "https://moecy.org/wp-content/uploads/2023/02/cropped-%E5%BE%AE%E4%BF%A1-32x32.jpg", title: "萌次元导航"},
-        {href: "https://www.moebox.ink/", image: "https://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
+        {href: "https://www.moebox.ink/", image: "https://www.moebox.ink/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://theporndude.com/", image: "https://theporndude.com/favicon.ico", title: "Porn Dude"},
         {href: "https://ntr.best/", image: "https://ntr.best/favicon.ico", title: "湿法炼铜"},
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
