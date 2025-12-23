@@ -14,6 +14,9 @@ const NAVSITE = {
         {href: "https://acgmiao.net/", image: "https://acgmiao.net/wp-content/uploads/2024/10/image_WH_32x32px.jpg", title: "次元猫导航"},
         {href: "https://yodhcn.pages.dev/", image: "https://testingcf.jsdelivr.net/gh/yodhcn/img/img/Allure.png", title: "电解熔融氧化铝"},
         {href: "https://huaxinba.com/", image: "https://huaxinba.com/favicon.ico", title: "花心吧"},
+        {href: "https://nav.newzone.top/", image: "https://nav.newzone.top/wp-content/logo/navfavicon.svg", title: "开源工具导航"},
+        {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
+        {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
         {href: "https://moecy.org/", image: "https://moecy.org/wp-content/uploads/2023/02/cropped-%E5%BE%AE%E4%BF%A1-32x32.jpg", title: "萌次元导航"},
         {href: "https://www.moebox.ink/", image: "https://www.moe-box.com/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
         {href: "https://theporndude.com/", image: "https://theporndude.com/favicon.ico", title: "Porn Dude"},
@@ -23,6 +26,7 @@ const NAVSITE = {
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
         {href: "https://www.all3.cc/", image: "https://www.all3.cc/wp-content/uploads/2022/04/favicon.png", title: "樱之空导航"},
+        {href: "https://hao.uisdc.com/", image: "https://www.uisdc.com/favicon.ico", title: "优设导航"},
     ],
     "分享": [
         {href: "https://alist-public.imoutoheaven.org/", image: "https://p.sda1.dev/17/82180eb975915afdc9556d7b43bea3f1/1000029552.jpg", title: "YAAS"},
