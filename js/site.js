@@ -111,7 +111,7 @@ const NAVSITE = {
         // {href: "https://www.jc2182.com/", image: "https://www.jc2182.com/wp-content/themes/wiki/images/favicon.ico", title: "蝴蝶教程"},
         {href: "https://developer.mozilla.org/", image: "https://developer.mozilla.org/favicon.ico", title: "MDN"},
         {href: "https://www.w3cschool.cn", image: "https://7n.w3cschool.cn/statics/images/favicon.ico", title: "w3cschool"},
-        // {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
+        {href: "https://www.w3school.com.cn/", image: "https://www.w3school.com.cn/ui2019/logo-32-red.png", title: "W3School"},
     ],
     "论坛": [
         // {href: "https://2dfan.com/", image: "https://2dfan.com/favicon.ico", title: "2DFan"},
