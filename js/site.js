@@ -24,6 +24,7 @@ const NAVSITE = {
         {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
+        {href: "https://iitang.com/", image: "https://iitang.com/wp-content/uploads/2024/10/1729737698-资源-2.png", title: "一糖导航"},
         {href: "https://www.all3.cc/", image: "https://www.all3.cc/wp-content/uploads/2022/04/favicon.png", title: "樱之空导航"},
         {href: "https://hao.uisdc.com/", image: "https://www.uisdc.com/favicon.ico", title: "优设导航"},
     ],
