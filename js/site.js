@@ -26,6 +26,7 @@ const NAVSITE = {
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
         {href: "https://iitang.com/", image: "https://iitang.com/wp-content/uploads/2024/10/1729737698-资源-2.png", title: "一糖导航"},
         {href: "https://www.all3.cc/", image: "https://www.all3.cc/wp-content/uploads/2022/04/favicon.png", title: "樱之空导航"},
+        {href: "https://www.tvtv1.cc/", image: "https://cdn.tvtv.cc/cdnjs/favicon.ico", title: "影视森林导航"},
         {href: "https://hao.uisdc.com/", image: "https://www.uisdc.com/favicon.ico", title: "优设导航"},
     ],
     "分享": [
