@@ -267,6 +267,7 @@ const NAVSITE = {
         // {href: "https://hentai.tv/", image: "https://hentai.tv/wp-content/uploads/2023/09/cropped-cropped-cropped-favicon11-32x32.png", title: "Hentai.tv"},
         // {href: "https://hentaimama.io/", image: "https://hentaimama.io/wp-content/uploads/2022/01/favicon-2.ico", title: "HentaiMama"},
         // {href: "https://hentaiworld.tv/", image: "https://hentaiworldtv.b-cdn.net/wp-content/uploads/2020/04/cropped-1586514450834-32x32.png", title: "HentaiWorld"},
+        {href: "https://www.lmm85.com/", image: "https://www.lmm85.com/template/jable/statics/icon/favicon.ico", title: "路漫漫"},
         {href: "https://www.seedhub.cc/", image: "https://ps.aside.top/static/img/favicon.ico", title: "SeedHub"},
         {href: "https://music.163.com/", image: "https://s1.music.126.net/style/favicon.ico", title: "网易云音乐"},
         {href: "https://www.5dm.link/", image: "https://www.5dm.link/favicon.ico", title: "五弹幕"},
