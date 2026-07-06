@@ -194,6 +194,7 @@ const NAVSITE = {
         {href: "https://www.52pojie.cn/", image: "https://www.52pojie.cn/favicon.ico", title: "吾爱破解"},
         // {href: "https://www.whg6.com/", image: "https://www.whg6.com/favicon.ico", title: "无痕哥"},
         {href: "https://forum.xda-developers.com/", image: "https://forum.xda-developers.com/data/assets/logo/favicon-32x32.png", title: "XDA"},
+        {href: "https://www.rdonly.com/", image: "https://www.rdonly.com/favicon.ico", title: "只读"},
     ],
     "商城": [
         {href: "https://www.dlsite.com/", image: "https://www.dlsite.com/images/web/common/favicon.ico", title: "DLsite"},
