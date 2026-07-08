@@ -14,6 +14,7 @@ const NAVSITE = {
         {href: "https://acgmiao.net/", image: "https://acgmiao.net/wp-content/uploads/2024/10/image_WH_32x32px.jpg", title: "次元猫导航"},
         {href: "https://yodhcn.pages.dev/", image: "https://testingcf.jsdelivr.net/gh/yodhcn/img/img/Allure.png", title: "电解熔融氧化铝"},
         {href: "https://huaxinba.com/", image: "https://huaxinba.com/favicon.ico", title: "花心吧"},
+        {href: "https://jiafangbb.com/tv", image: "https://jiafangbb.com/wp-content/uploads/2025/09/1758609857-jflogo.png", title: "甲方影视导航"},
         {href: "https://nav.newzone.top/", image: "https://nav.newzone.top/wp-content/logo/navfavicon.svg", title: "开源工具导航"},
         {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
         {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
