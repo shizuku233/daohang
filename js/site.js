@@ -9,7 +9,7 @@ const NAVSITE = {
         {href: "https://www.acgfans.me/", image: "https://www.acgfans.me/favicon.ico", title: "AcgnHub"},
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://srsg.moe/", image: "https://srsg.moe/wp-content/uploads/2021/05/favicon-1.ico", title: "白鹭学园"},
-        {href: "https://fuli.day/", image: "https://fuli.day/static/super/icon/favicon.ico", title: "超级福利导航"},
+        {href: "https://ekmorn-fuli-day.superfuli.shop/", image: "https://ekmorn-fuli-day.superfuli.shop/static/super/icon/favicon.ico", title: "超级福利导航"},
         // {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
         {href: "https://acgmiao.net/", image: "https://acgmiao.net/wp-content/uploads/2024/10/image_WH_32x32px.jpg", title: "次元猫导航"},
         {href: "https://yodhcn.pages.dev/", image: "https://testingcf.jsdelivr.net/gh/yodhcn/img/img/Allure.png", title: "电解熔融氧化铝"},
