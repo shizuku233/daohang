@@ -1,8 +1,6 @@
 const NAVSITE = {
     "导航": [
-        // {href: "https://www.acgbus.com/", image: "https://www.acgbus.com/favicon.ico", title: "ACG巴士"},
         {href: "https://acgcha.com/", image: "https://acgcha.com/favicon.ico", title: "ACG茶"},
-        {href: "https://www.acgcydh.com/", image: "https://www.acgcydh.com/wp-content/uploads/2025/03/1742395340-pop-font2.png", title: "ACG次元导航"},
         {href: "https://www.acgdh.cc/", image: "https://www.acgdh.cc/wp-content/uploads/2023/04/cropped-彩色-炫彩盒子-1.png", title: "ACG导航"},
         {href: "https://acgdhw.cc/", image: "https://www.acgdhw.cc/media/images/202606/favicon.ico", title: "ACG导航网"},
         {href: "https://www.acgbox.link/", image: "https://www.acgbox.link/wp-content/uploads/logo/86742914_p0.png", title: "ACG盒子"},
@@ -10,7 +8,6 @@ const NAVSITE = {
         {href: "https://www.miaoaaa.com/", image: "https://www.miaoaaa.com/logo/favicon.png", title: "ACG喵导航"},
         {href: "https://srsg.moe/", image: "https://srsg.moe/wp-content/uploads/2021/05/favicon-1.ico", title: "白鹭学园"},
         {href: "https://ekmorn-fuli-day.superfuli.shop/", image: "https://ekmorn-fuli-day.superfuli.shop/static/super/icon/favicon.ico", title: "超级福利导航"},
-        // {href: "https://acg123.top/", image: "https://acg123.top/wp-content/uploads/2022/02/favicon.ico", title: "次元导航"},
         {href: "https://acgmiao.net/", image: "https://acgmiao.net/wp-content/uploads/2024/10/image_WH_32x32px.jpg", title: "次元猫导航"},
         {href: "https://yodhcn.pages.dev/", image: "https://testingcf.jsdelivr.net/gh/yodhcn/img/img/Allure.png", title: "电解熔融氧化铝"},
         {href: "https://huaxinba.com/", image: "https://huaxinba.com/favicon.ico", title: "花心吧"},
@@ -20,15 +17,13 @@ const NAVSITE = {
         {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
         {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
         {href: "https://www.moebox.ink/", image: "https://www.moebox.ink/wp-content/uploads/2022/02/翼萌导航.webp", title: "Moebox"},
-        {href: "https://dh.maccms.cc/", image: "https://maccms.cc/view/img/favicon.ico", title: "苹果cms导航"},
         {href: "https://theporndude.com/", image: "https://theporndude.com/favicon.ico", title: "Porn Dude"},
         {href: "https://ntr.best/", image: "https://ntr.best/favicon.ico", title: "湿法炼铜"},
-        // {href: "https://www.v2fd.com/", image: "https://www.v2fd.com/static/logo.svg", title: "V2FD"},
         {href: "https://www.likebookmark.com/", image: "https://www.likebookmark.com/favicon.ico", title: "喜欢书签"},
         {href: "https://webjike.com/", image: "https://webjike.com/favicon.png", title: "小呆导航"},
         {href: "https://iitang.com/", image: "https://iitang.com/wp-content/uploads/2024/10/1729737698-资源-2.png", title: "一糖导航"},
         {href: "https://www.all3.cc/", image: "https://www.all3.cc/wp-content/uploads/2022/04/favicon.png", title: "樱之空导航"},
-        {href: "https://www.tvtv1.cc/", image: "https://cdn.tvtv.cc/cdnjs/favicon.ico", title: "影视森林导航"},
+        {href: "https://yinghezhinan.com/", image: "https://yinghezhinan.com/statics/images/favicon.webp", title: "硬核指南"},
         {href: "https://hao.uisdc.com/", image: "https://www.uisdc.com/favicon.ico", title: "优设导航"},
     ],
     "分享": [
