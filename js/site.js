@@ -13,6 +13,7 @@ const NAVSITE = {
         {href: "https://huaxinba.com/", image: "https://huaxinba.com/favicon.ico", title: "花心吧"},
         {href: "https://i8k.tv/", image: "https://i8k.tv/icon.png?icon.646bb930.png", title: "i8K影视导航"},
         {href: "https://jiafangbb.com/tv", image: "https://jiafangbb.com/wp-content/uploads/2025/09/1758609857-jflogo.png", title: "甲方影视导航"},
+        {href: "https://www.juwandh.com/", image: "https://www.juwandh.com/favicon.ico", title: "聚玩导航"},
         {href: "https://nav.newzone.top/", image: "https://nav.newzone.top/wp-content/logo/navfavicon.svg", title: "开源工具导航"},
         {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
         {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
@@ -189,6 +190,7 @@ const NAVSITE = {
         {href: "https://www.52pojie.cn/", image: "https://www.52pojie.cn/favicon.ico", title: "吾爱破解"},
         // {href: "https://www.whg6.com/", image: "https://www.whg6.com/favicon.ico", title: "无痕哥"},
         {href: "https://forum.xda-developers.com/", image: "https://forum.xda-developers.com/data/assets/logo/favicon-32x32.png", title: "XDA"},
+        {href: "https://www.yxzhi.com/", image: "https://www.yxzhi.com/wp-content/uploads/2023/06/favicon.png", title: "鸭先知"},
         {href: "https://www.rdonly.com/", image: "https://www.rdonly.com/favicon.ico", title: "只读"},
     ],
     "商城": [
