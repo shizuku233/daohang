@@ -13,6 +13,7 @@ const NAVSITE = {
         {href: "https://i8k.tv/", image: "https://i8k.tv/icon.png?icon.646bb930.png", title: "i8K影视导航"},
         {href: "https://jiafangbb.com/tv", image: "https://jiafangbb.com/wp-content/uploads/2025/09/1758609857-jflogo.png", title: "甲方影视导航"},
         {href: "https://www.juwandh.com/", image: "https://www.juwandh.com/favicon.ico", title: "聚玩导航"},
+        {href: "https://www.juwo.cc/", image: "https://www.juwo.cc/static/xsite/favicon.ico", title: "聚我导航"},
         {href: "https://nav.newzone.top/", image: "https://nav.newzone.top/wp-content/logo/navfavicon.svg", title: "开源工具导航"},
         {href: "https://www.007la.com/", image: "https://www.007la.com/wp-content/themes/favicon.png", title: "凌凌柒啦导航"},
         {href: "https://ailongmiao.com/", image: "https://media.ailongmiao.com/uploads/2021/09/favicon.png", title: "龙喵网"},
